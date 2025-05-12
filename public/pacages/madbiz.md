@@ -36,7 +36,6 @@
 | Kampo by Chef Júlio Pereira                    | Michelin Restaurant                        | Funchal                     |
 | Akua by Chef Júlio Pereira                     | Michelin Restaurant                        | Funchal                     |
 | Yuki by Chef Júlio Pereira                     | Michelin Restaurant                        | Funchal                     |
-| Loft - Brunch & Cocktails (multi-location)     | Brunch Bar                                 | Funchal                     |
 | Ciao Pizzeria                                  | Pizzeria                                   | Funchal                     |
 | Indian Palace                                  | Indian Restaurant                          | Funchal                     |
 | Re-Canto Food Experiences                      | Food Experience                            | São Gonçalo                 |
@@ -116,6 +115,15 @@
 
 ---
 
+### 🧑‍💻 Coworking & Work Cafés
+
+| Name                                       | Type                                   | City    |
+| ------------------------------------------ | -------------------------------------- | ------- |
+| Cowork Funchal                             | Coworking Space / Offices / Events     | Funchal |
+| Loft - Brunch & Cocktails (multi-location) | Brunch Bar / Laptop-friendly Coffee Spot | Funchal |
+
+---
+
 ### 🏗️ Construction, Tech & Services
 
 | Name                             | Type                   | City             |
@@ -158,7 +166,7 @@
 | --------------------- | ------------------------- | ------- |
 | EPIC Madeira          | Canyoning/Adventure Tours | Funchal |
 | Full Experience       | Canyoning & Adventure Jeep Tours| Funchal |
-| Hit The Road Madeira  | Tours & rentacar            | Funchal |
+| Hit The Road Madeira  | 4x4 Tours   | Funchal |
 | Let's Buggy    4x4 buggy rentals       | Off-road Adventures       | Calheta |
 | Oceanodroma           | Bird & Whale Watching     | Machico |
 | Taxi - Ricardo Vieira | Taxi                      | Funchal |

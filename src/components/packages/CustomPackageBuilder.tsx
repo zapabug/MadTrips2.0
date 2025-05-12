@@ -114,25 +114,35 @@ export function CustomPackageBuilder() {
     alert(`Selections submitted (check console). Estimated Price: ${totalPrice.toFixed(5)} BTC`);
   };
 
+  // Styling constants based on "sunset warm" theme on top of gradient bg
+  const builderBg = "bg-warm-sand"; // Main background for the builder component itself
+  const primaryText = "text-deep-amber"; // Primary text within the builder
+  const secondaryText = "text-amber-700"; // Slightly darker amber for secondary details (using Tailwind's default amber)
+  const titleText = "text-bitcoin"; // Bitcoin orange for titles
+  const accentColor = "text-bitcoin focus:ring-bitcoin"; // Accent for inputs
+  const buttonBg = "bg-bitcoin hover:bg-bitcoin/90"; // Bitcoin button
+  const itemBg = "bg-white hover:bg-orange-50"; // Background for individual options (radio/checkbox labels)
+  const itemBorder = "border-soft-peach"; // Border for items
 
   return (
-    <div className="bg-white/90 dark:bg-gray-800/90 p-6 sm:p-8 rounded-lg shadow-xl space-y-8">
+    // Apply warm background, rounded corners, shadow to lift it off the page gradient
+    <div className={`${builderBg} bg-opacity-95 p-6 sm:p-8 rounded-xl shadow-lg space-y-8 ${primaryText}`}>
 
       {/* Duration Selection */}
       <fieldset className="space-y-3">
-        <legend className="text-lg font-semibold text-ocean dark:text-white mb-3">Choose Your Trip Duration</legend>
+        <legend className={`text-lg font-semibold ${titleText} mb-3`}>Choose Your Trip Duration</legend>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {durationOptions.map((option) => (
-            <label key={option.id} className="flex items-center p-3 bg-gray-50 dark:bg-gray-700 rounded-md border border-gray-200 dark:border-gray-600 cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors">
+            <label key={option.id} className={`flex items-center p-3 rounded-md border ${itemBorder} ${itemBg} cursor-pointer transition-colors`}>
               <input
                 type="radio"
                 name="duration"
                 value={option.id}
                 checked={selectedDurationId === option.id}
                 onChange={(e) => setSelectedDurationId(e.target.value)}
-                className="h-4 w-4 text-ocean focus:ring-ocean border-gray-300 dark:border-gray-500 dark:bg-gray-600 dark:focus:ring-offset-gray-800"
+                className={`h-4 w-4 ${accentColor} border-deep-amber focus:ring-offset-warm-sand`}
               />
-              <span className="ml-3 text-sm font-medium text-gray-800 dark:text-gray-200">{option.name}</span>
+              <span className={`ml-3 text-sm font-medium ${primaryText}`}>{option.name}</span>
             </label>
           ))}
         </div>
@@ -140,22 +150,22 @@ export function CustomPackageBuilder() {
 
       {/* Accommodation Selection */}
       <fieldset className="space-y-3">
-        <legend className="text-lg font-semibold text-ocean dark:text-white mb-3">Choose Accommodation</legend>
+        <legend className={`text-lg font-semibold ${titleText} mb-3`}>Choose Accommodation</legend>
          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
           {accommodationOptions.map((option) => (
-            <label key={option.id} className="flex items-center p-3 bg-gray-50 dark:bg-gray-700 rounded-md border border-gray-200 dark:border-gray-600 cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors">
+            <label key={option.id} className={`flex items-center p-3 rounded-md border ${itemBorder} ${itemBg} cursor-pointer transition-colors`}>
               <input
                 type="radio"
                 name="accommodation"
                 value={option.id}
                 checked={selectedAccommodationId === option.id}
                 onChange={(e) => setSelectedAccommodationId(e.target.value)}
-                className="h-4 w-4 text-ocean focus:ring-ocean border-gray-300 dark:border-gray-500 dark:bg-gray-600 dark:focus:ring-offset-gray-800"
+                className={`h-4 w-4 ${accentColor} border-deep-amber focus:ring-offset-warm-sand`}
               />
               <div className="ml-3">
-                 <span className="block text-sm font-medium text-gray-800 dark:text-gray-200">{option.name}</span>
+                 <span className={`block text-sm font-medium ${primaryText}`}>{option.name}</span>
                  {option.pricePerNight > 0 && (
-                    <span className="block text-xs text-gray-600 dark:text-gray-400">({option.pricePerNight.toFixed(3)} BTC/night)</span>
+                    <span className={`block text-xs ${secondaryText}`}>({option.pricePerNight.toFixed(3)} BTC/night)</span>
                  )}
               </div>
             </label>
@@ -165,29 +175,31 @@ export function CustomPackageBuilder() {
 
       {/* Activity Selection */}
       <fieldset>
-        <legend className="text-lg font-semibold text-ocean dark:text-white mb-5">Select Activities</legend>
+        <legend className={`text-lg font-semibold ${titleText} mb-5`}>Select Activities</legend>
         <div className="space-y-6">
           {activityCategories.map((category) => (
-            <div key={category.id} className={`p-4 rounded-lg border ${category.color.replace('bg-', 'border-')} bg-opacity-20 dark:bg-opacity-30`}>
-              <h3 className={`text-md font-semibold mb-3 ${category.color.replace('bg-', 'text-').replace('-100', '-800')} dark:${category.color.replace('bg-', 'text-').replace('-100', '-200')}`}>
+            // Use subtle borders to group activities within the warm background
+            <div key={category.id} className={`p-4 rounded-lg border ${itemBorder} bg-white/50 space-y-3`}> 
+              <h3 className={`text-md font-semibold ${titleText} mb-2`}>
                 {category.name}
               </h3>
               <div className="space-y-3">
                 {category.activities.map((activity) => (
-                  <label key={activity.id} className="flex items-start p-3 bg-white/70 dark:bg-gray-700/50 rounded-md border border-gray-200 dark:border-gray-600 cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-600 transition-colors">
+                  <label key={activity.id} className={`flex items-start p-3 rounded-md border ${itemBorder} ${itemBg} cursor-pointer transition-colors`}>
                     <input
                       type="checkbox"
                       value={activity.id}
                       checked={selectedActivityIds.includes(activity.id)}
                       onChange={() => handleActivityToggle(activity.id)}
-                       className="mt-1 h-4 w-4 text-ocean focus:ring-ocean border-gray-300 dark:border-gray-500 rounded dark:bg-gray-600 dark:focus:ring-offset-gray-800"
+                      className={`mt-1 h-4 w-4 ${accentColor} border-deep-amber rounded focus:ring-offset-warm-sand`}
                     />
                     <div className="ml-3 flex-1">
-                      <span className="block text-sm font-medium text-gray-900 dark:text-gray-100">{activity.name}</span>
-                      <span className="block text-xs text-gray-600 dark:text-gray-400 italic">{activity.duration}</span>
-                      <p className="mt-1 text-xs text-gray-500 dark:text-gray-300">{activity.description}</p>
+                      <span className={`block text-sm font-medium ${primaryText}`}>{activity.name}</span>
+                      <span className={`block text-xs ${secondaryText} italic`}>{activity.duration}</span>
+                      <p className={`mt-1 text-xs ${secondaryText}`}>{activity.description}</p>
                     </div>
-                     <span className="ml-4 text-sm font-semibold text-gray-800 dark:text-gray-200 whitespace-nowrap">{activity.price.toFixed(3)} BTC</span>
+                     {/* Price in Bitcoin Orange */}
+                     <span className={`ml-4 text-sm font-semibold ${titleText} whitespace-nowrap`}>{activity.price.toFixed(3)} BTC</span>
                   </label>
                 ))}
               </div>
@@ -197,12 +209,12 @@ export function CustomPackageBuilder() {
       </fieldset>
 
       {/* Total Price Display */}
-      <div className="pt-6 border-t border-sand/30 dark:border-gray-600">
+      <div className={`pt-6 border-t ${itemBorder}`}> 
         <div className="flex justify-between items-center">
-          <span className="text-xl font-bold text-ocean dark:text-white">Estimated Total Price:</span>
-          <span className="text-xl font-bold text-bitcoin dark:text-bitcoin/90">{totalPrice.toFixed(5)} BTC</span>
+          <span className={`text-xl font-bold ${titleText}`}>Estimated Total Price:</span>
+          <span className={`text-xl font-bold ${titleText}`}>{totalPrice.toFixed(5)} BTC</span>
         </div>
-         <p className="text-xs text-gray-600 dark:text-gray-400 mt-2">
+         <p className={`text-xs ${secondaryText} mt-2`}>
            Final price may vary based on availability and specific arrangements. This is an estimate for planning purposes.
          </p>
       </div>
@@ -211,12 +223,12 @@ export function CustomPackageBuilder() {
       <div className="text-center mt-8">
         <button
           onClick={handleSubmit}
-          className="inline-flex items-center justify-center rounded-md border border-transparent bg-bitcoin px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-bitcoin/90 focus:outline-none focus:ring-2 focus:ring-bitcoin focus:ring-offset-2 dark:focus:ring-offset-gray-800 transition-colors disabled:opacity-50"
-          disabled={!selectedDuration || !selectedAccommodation} // Basic validation
+          className={`inline-flex items-center justify-center rounded-md border border-transparent ${buttonBg} px-6 py-3 text-base font-medium text-white shadow-sm focus:outline-none focus:ring-2 focus:ring-bitcoin focus:ring-offset-2 focus:ring-offset-warm-sand transition-colors disabled:opacity-50`}
+          disabled={!selectedDuration || !selectedAccommodation} 
         >
           Review Selections & Request Quote
         </button>
-         <p className="text-xs text-gray-500 dark:text-gray-400 mt-3">
+         <p className={`text-xs ${secondaryText} mt-3`}>
            Submitting this form sends your preferences to our team for detailed planning and a final quote.
          </p>
       </div>

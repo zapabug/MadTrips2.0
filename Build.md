@@ -139,3 +139,39 @@ Next Steps:
 - Implement Cart/Checkout/Booking functionality if required.
 - Integrate Nostr context/authentication for commenting and interaction.
 
+## LLD 5: Current Date (Reflects recent UI/UX changes and component restructuring)
+
+Key Updates:
+- **Custom Package Builder & Page Separation**:
+  - `CustomPackageBuilder` component (`src/components/packages/CustomPackageBuilder.tsx`) implemented with interactive UI for duration, accommodation, and activity selection, including dynamic price calculation.
+  - Dedicated page `src/pages/CustomPackagePage.tsx` created for the builder, separating it from the main packages listing.
+  - Styling for the `CustomPackageBuilder` and `CustomPackagePage` introduction refined to a "sunset vacation" theme (warm backgrounds, bitcoin orange titles, amber text) to evoke an inviting feel, designed to sit on the existing `ocean-to-forest` page gradient.
+
+- **`PackagesPage.tsx` Restructuring**:
+  - Added a main page title: "Discover Madeira's Packages & Places".
+  - Removed the integrated `CustomPackageBuilder`.
+  - Created `src/components/BusinessCard.tsx` for a horizontal display of business details (name, type, city).
+  - Created `src/components/KidFriendlyCard.tsx` for a simpler, grid-friendly display (name, type).
+  - Repurposed space to feature new sections:
+    - "Bitcoin Essentials & Family Fun": Uses `KidFriendlyCard` in a grid, incorporating kid-friendly places and Bitcoin ATM/P2P services (data manually curated from `madbiz.md`).
+    - "Honorable Mentions": Updated with a subtitle ("Always ask: 'Can I pay in Bitcoin?'") and descriptive text. Placeholder for future business listings.
+
+- **`madbiz.md` (Business Listings Curation)**:
+  - Added a new section: `### 🧑‍💻 Coworking & Work Cafés`.
+  - Added "Cowork Funchal" (Type: Coworking Space / Offices / Events) to this new section.
+  - Moved "Loft - Brunch & Cocktails (multi-location)" (Type updated to: Brunch Bar / Laptop-friendly Coffee Spot) to this new section.
+  - Ensured "COIN4CASH" is correctly listed under `### ₿ Bitcoin ATMs & P2P`.
+  - Note: "Madeira Island Tours" was discussed and temporarily added, but user's subsequent file changes indicate it was removed.
+
+- **Brand Colors & Tailwind**: 
+  - New "Accent Blues & Purples" color palette added to `docs/brandColors.md`.
+  - Guidance provided for integrating these into `tailwind.config.js`.
+
+- **Code Maintenance**: 
+  - Resolved linter errors in `PackagesPage.tsx` related to unused imports/variables.
+
+Next Steps:
+- Populate "Honorable Mentions" section with data in `PackagesPage.tsx`.
+- Consider dynamic data fetching for business listings in `PackagesPage.tsx` from `madbiz.md` (or its JSON counterpart) instead of manual arrays.
+- Continue with Nostr integration for comments and business "claiming" features as per LLD 5 in `Planning.md`.
+
