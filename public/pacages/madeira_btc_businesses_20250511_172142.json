@@ -1,0 +1,2322 @@
+[
+  {
+    "name": "Restaurante Trigal",
+    "type": "restaurant",
+    "address": {
+      "street": "Rua dos Aranhas",
+      "housenumber": "65",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-042"
+    },
+    "contact": {
+      "phone": "",
+      "website": "www.alojamentolocaltrigal.pt"
+    },
+    "opening_hours": "Mo-Fr 11:00-23:00",
+    "coordinates": [
+      -16.9134,
+      32.6487113
+    ]
+  },
+  {
+    "name": "Café Fortaleza - Coffee and Snacks",
+    "type": "cafe",
+    "address": {
+      "street": "Beco do Amaro",
+      "housenumber": "39",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-037"
+    },
+    "contact": {
+      "phone": "(+351) 291 623 631",
+      "website": "https://www.cafefortaleza.pt/"
+    },
+    "opening_hours": "Mo-Su 10:00-20:00",
+    "coordinates": [
+      -16.9167636,
+      32.651076
+    ]
+  },
+  {
+    "name": "Gentleman1415",
+    "type": "hairdresser",
+    "address": {
+      "street": "Rua da Casa Branca",
+      "housenumber": "53",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-113"
+    },
+    "contact": {
+      "phone": "(+351) 291 614 248",
+      "website": ""
+    },
+    "opening_hours": "",
+    "coordinates": [
+      -16.9290111,
+      32.6398959
+    ]
+  },
+  {
+    "name": "Sunshine Pub & Grill",
+    "type": "restaurant",
+    "address": {
+      "street": "Estrada Regional 222",
+      "housenumber": "",
+      "city": "fajã da ovelha",
+      "region": "",
+      "postcode": "9370-367"
+    },
+    "contact": {
+      "phone": "(+351) 924 974 266",
+      "website": "https://sunshine.pub/"
+    },
+    "opening_hours": "Mo-Su 12:00-22:30",
+    "coordinates": [
+      -17.2271258,
+      32.7793539
+    ]
+  },
+  {
+    "name": "Ameu.gosto - Natural Wines & Food",
+    "type": "wine",
+    "address": {
+      "street": "Rua Major Reis Gomes",
+      "housenumber": "2C",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-038"
+    },
+    "contact": {
+      "phone": "(+351) 967 383 251",
+      "website": "https://www.instagram.com/ameu.gosto/"
+    },
+    "opening_hours": "Tu-Sa 17:00-22:30",
+    "coordinates": [
+      -16.9133101,
+      32.647931
+    ]
+  },
+  {
+    "name": "Afonso Camacho - Construction Materials",
+    "type": "hardware",
+    "address": {
+      "street": "Rua do Brasil",
+      "housenumber": "90",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-134"
+    },
+    "contact": {
+      "phone": "(+351) 962 722 477",
+      "website": "https://afonsocamacho.pt"
+    },
+    "opening_hours": "Mo-Sa 09:30-19:30",
+    "coordinates": [
+      -16.9393962,
+      32.6479274
+    ]
+  },
+  {
+    "name": "The Vanscape Gastrobar",
+    "type": "restaurant",
+    "address": {
+      "street": "Rua emperatriz dona Amélia loja n*110",
+      "housenumber": "N°110",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-018"
+    },
+    "contact": {
+      "phone": "(+351) 925 185 245",
+      "website": "https://www.instagram.com/vanscapegastrobar/"
+    },
+    "opening_hours": "Mo-Sa 11:00-24:00, Fr-Sa 11:00-02:00",
+    "coordinates": [
+      -16.9201966,
+      32.6431265
+    ]
+  },
+  {
+    "name": "Coolzoone Madeira - Health and Wellness Center",
+    "type": "clinic",
+    "address": {
+      "street": "Rua Imperatriz Dona Amélia",
+      "housenumber": "138",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-018"
+    },
+    "contact": {
+      "phone": "(+351) 937 962 938",
+      "website": "https://cryo-center-madeira.com"
+    },
+    "opening_hours": "Mo-Su 10:00-20:00",
+    "coordinates": [
+      -16.9207207,
+      32.6430412
+    ]
+  },
+  {
+    "name": "Nomade Restaurante",
+    "type": "restaurant",
+    "address": {
+      "street": "Rua Imperatriz Dona Amélia",
+      "housenumber": "108",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-018"
+    },
+    "contact": {
+      "phone": "(+351) 915 498 449",
+      "website": ""
+    },
+    "opening_hours": "Mo-Su 09:30-24:00",
+    "coordinates": [
+      -16.9200917,
+      32.6431443
+    ]
+  },
+  {
+    "name": "Challenge Fantasy - Eurocopy",
+    "type": "stationery",
+    "address": {
+      "street": "Rua do Bom Jesus",
+      "housenumber": "0",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9050-028"
+    },
+    "contact": {
+      "phone": "(+351) 930 443 685",
+      "website": ""
+    },
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "coordinates": [
+      -16.907482,
+      32.6508313
+    ]
+  },
+  {
+    "name": "Queijaria da Avó - Açores Cheese Shop",
+    "type": "cheese",
+    "address": {
+      "street": "Rua da Queimada de Cima",
+      "housenumber": "59",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-077"
+    },
+    "contact": {
+      "phone": "(+351) 960 207 729",
+      "website": "https://www.instagram.com/queijariadaavo"
+    },
+    "opening_hours": "Mo-Fr 10:30-19:30, Sa 10:00-14:00",
+    "coordinates": [
+      -16.9080859,
+      32.6491926
+    ]
+  },
+  {
+    "name": "Restaurante Central Grill - Steakhouse",
+    "type": "restaurant",
+    "address": {
+      "street": "Rua da Levada dos Barreiros",
+      "housenumber": "86",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-161"
+    },
+    "contact": {
+      "phone": "(+351) 291 934 344",
+      "website": "https://restaurantecentralgrill.com"
+    },
+    "opening_hours": "Mo-Su 12:30-24:00",
+    "coordinates": [
+      -16.9297446,
+      32.646419
+    ]
+  },
+  {
+    "name": "Archipelago Investments",
+    "type": "Unknown",
+    "address": {
+      "street": "Rua das Virtudes",
+      "housenumber": "45",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-645"
+    },
+    "contact": {
+      "phone": "",
+      "website": "https://archipelago.investments"
+    },
+    "opening_hours": "Mo-Fr 09:00-18:00",
+    "coordinates": [
+      -16.9297634,
+      32.6462926
+    ]
+  },
+  {
+    "name": "Manta - Agência de Comunicação",
+    "type": "Unknown",
+    "address": {
+      "street": "Rua das Virtudes",
+      "housenumber": "46",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-645"
+    },
+    "contact": {
+      "phone": "+351 962 824 040",
+      "website": "https://wearemanta.com"
+    },
+    "opening_hours": "Mo-Fr 09:00-18:00",
+    "coordinates": [
+      -16.9298054,
+      32.6463638
+    ]
+  },
+  {
+    "name": "Robert Mauser",
+    "type": "electronics",
+    "address": {
+      "street": "Caminho do Pilar",
+      "housenumber": "Loja 3",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-136"
+    },
+    "contact": {
+      "phone": "(+351) 291 006 539",
+      "website": "https://mauser.pt/"
+    },
+    "opening_hours": "Mo-Fr 09:00-17:00",
+    "coordinates": [
+      -16.9312339,
+      32.6546891
+    ]
+  },
+  {
+    "name": "An Island Apart - Holiday Rentals",
+    "type": "Unknown",
+    "address": {
+      "street": "Rua das Virtudes",
+      "housenumber": "47",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-645"
+    },
+    "contact": {
+      "phone": "(+351‭) 925 444 444‬",
+      "website": "https://anislandapart.com"
+    },
+    "opening_hours": "Mo-Fr 09:00-18:00",
+    "coordinates": [
+      -16.9298534,
+      32.6465249
+    ]
+  },
+  {
+    "name": "Luxury Charter Madeira - Private Yacht Rental",
+    "type": "Unknown",
+    "address": {
+      "street": "",
+      "housenumber": "",
+      "city": "",
+      "region": "",
+      "postcode": ""
+    },
+    "contact": {
+      "phone": "(+351) 291 280 600",
+      "website": "https://luxurychartermadeira.pt"
+    },
+    "opening_hours": "",
+    "coordinates": [
+      -16.7120953,
+      32.7414975
+    ]
+  },
+  {
+    "name": "Design Centre Nini Andrade Silva - Bar Restaurant",
+    "type": "restaurant",
+    "address": {
+      "street": "Estrada da Pontinha",
+      "housenumber": "",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-726"
+    },
+    "contact": {
+      "phone": "",
+      "website": ""
+    },
+    "opening_hours": "Tu-Su 11:00-23:00",
+    "coordinates": [
+      -16.9153738,
+      32.6412392
+    ]
+  },
+  {
+    "name": "Loja Coral Funchal - Flagship Store",
+    "type": "pub",
+    "address": {
+      "street": "Rua Alferes Veiga Pestana",
+      "housenumber": "",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9050-054"
+    },
+    "contact": {
+      "phone": "(+351) 291 222 345",
+      "website": "https://www.lojacoral.pt"
+    },
+    "opening_hours": "Mo-Sa 09:00-20:00",
+    "coordinates": [
+      -16.9042614,
+      32.6523248
+    ]
+  },
+  {
+    "name": "Farmácia Luso-Britânica - Pharmacy",
+    "type": "pharmacy",
+    "address": {
+      "street": "Rua 5 de Outubro",
+      "housenumber": "81",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-079"
+    },
+    "contact": {
+      "phone": "",
+      "website": "http://facebook.com/farmacialusobritanica"
+    },
+    "opening_hours": "Mo-Fr 08:30-20:00; Sa 09:00-13:00",
+    "coordinates": [
+      -16.9091588,
+      32.6515952
+    ]
+  },
+  {
+    "name": "Hatha Yoga",
+    "type": "Unknown",
+    "address": {
+      "street": "Jardim Público da Ajuda",
+      "housenumber": "",
+      "city": "funchal",
+      "region": "",
+      "postcode": ""
+    },
+    "contact": {
+      "phone": "+351 913 000 048",
+      "website": "https://roel-heremans.com/"
+    },
+    "opening_hours": "Su 11:00-12:00",
+    "coordinates": [
+      -16.9428055,
+      32.6384605
+    ]
+  },
+  {
+    "name": "AM PM - Wine & Coffee Shop",
+    "type": "cafe",
+    "address": {
+      "street": "Rua De Leichlingen",
+      "housenumber": "12",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-003"
+    },
+    "contact": {
+      "phone": "(+351) 916 122 738",
+      "website": "https://www.facebook.com/AMPMLifeisSimple"
+    },
+    "opening_hours": "Mo-Fr 08:00-19:00  Sa 08:00-1400",
+    "coordinates": [
+      -16.9341346,
+      32.637619
+    ]
+  },
+  {
+    "name": "IPRO Clinic - Dental Clinic",
+    "type": "dentist",
+    "address": {
+      "street": "Rua de João de Deus",
+      "housenumber": "12 B",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9050-027"
+    },
+    "contact": {
+      "phone": "(+351) 291 232 972",
+      "website": "https://iproclinic.com"
+    },
+    "opening_hours": "Mo-Sa 09:00-20:00",
+    "coordinates": [
+      -16.9052312,
+      32.6513049
+    ]
+  },
+  {
+    "name": "Mais Clinic - Medical Clinic",
+    "type": "clinic",
+    "address": {
+      "street": "Rua de João de Deus",
+      "housenumber": "12",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9050-027"
+    },
+    "contact": {
+      "phone": "(+351) 291 232 972",
+      "website": "https://www.maisclinic.com"
+    },
+    "opening_hours": "Mo-Sa 09:00-20:00",
+    "coordinates": [
+      -16.9049074,
+      32.6512861
+    ]
+  },
+  {
+    "name": "EPIC Madeira",
+    "type": "travel_agency",
+    "address": {
+      "street": "Estrada Luso-Brasileira",
+      "housenumber": "36",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9050-548"
+    },
+    "contact": {
+      "phone": "(+351) 933 668 228",
+      "website": "https://www.epicmadeira.com/"
+    },
+    "opening_hours": "Mo-Su 09:00-17:00",
+    "coordinates": [
+      -16.9027713,
+      32.6694824
+    ]
+  },
+  {
+    "name": "Tranvía Food",
+    "type": "restaurant",
+    "address": {
+      "street": "Rua Direita",
+      "housenumber": "35",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9050-450"
+    },
+    "contact": {
+      "phone": "(+351) 935 039 546",
+      "website": ""
+    },
+    "opening_hours": "Mo-Sa 12:00-22:00",
+    "coordinates": [
+      -16.9057241,
+      32.648811
+    ]
+  },
+  {
+    "name": "O Maltez - Food & Drinks",
+    "type": "bar",
+    "address": {
+      "street": "Estrada Monumental",
+      "housenumber": "8",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-098"
+    },
+    "contact": {
+      "phone": "",
+      "website": ""
+    },
+    "opening_hours": "Mo-Su 07:00-21:00",
+    "coordinates": [
+      -16.9239986,
+      32.6432297
+    ]
+  },
+  {
+    "name": "O Laranjinha - Bistro & Grill",
+    "type": "restaurant",
+    "address": {
+      "street": "Estrada Avelino Pinto",
+      "housenumber": "",
+      "city": "canico",
+      "region": "",
+      "postcode": "9125-067"
+    },
+    "contact": {
+      "phone": "(+351) 967 761 115",
+      "website": "https://laranjinhabistro.com"
+    },
+    "opening_hours": "Mo-Su 12:30-22:30",
+    "coordinates": [
+      -16.8276776,
+      32.6465604
+    ]
+  },
+  {
+    "name": "Farmácia Popular - Pharmacy",
+    "type": "pharmacy",
+    "address": {
+      "street": "Estrada João Gonçalves Zarco",
+      "housenumber": "92",
+      "city": "câmara de lobos",
+      "region": "",
+      "postcode": "9300-164"
+    },
+    "contact": {
+      "phone": "(+351) 291 942 114",
+      "website": "https://www.farmaciasportuguesas.pt"
+    },
+    "opening_hours": "Mo-Sa 09:00-22:00",
+    "coordinates": [
+      -16.9738574,
+      32.6481749
+    ]
+  },
+  {
+    "name": "Farmácia Lobos Mar - Pharmacy",
+    "type": "pharmacy",
+    "address": {
+      "street": "Estrada de Santa Clara",
+      "housenumber": "60",
+      "city": "câmara de lobos",
+      "region": "",
+      "postcode": "9300-161"
+    },
+    "contact": {
+      "phone": "(+351) 291 944 463",
+      "website": "https://www.farmaciasportuguesas.pt"
+    },
+    "opening_hours": "Mo-Su 09:00-22:00",
+    "coordinates": [
+      -16.981464,
+      32.651493
+    ]
+  },
+  {
+    "name": "Traços Formosos - Construction Company",
+    "type": "Unknown",
+    "address": {
+      "street": "Estrada Santo António da Serra",
+      "housenumber": "",
+      "city": "santa cruz",
+      "region": "",
+      "postcode": "9100-186"
+    },
+    "contact": {
+      "phone": "(+351) 913 469 600",
+      "website": ""
+    },
+    "opening_hours": "Mo-Fr 09:00-17:00",
+    "coordinates": [
+      -16.7846428,
+      32.7021089
+    ]
+  },
+  {
+    "name": "Atlantic Restaurant",
+    "type": "restaurant",
+    "address": {
+      "street": "Estrada Monumental",
+      "housenumber": "179",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-100"
+    },
+    "contact": {
+      "phone": "(+351) 291 761 703",
+      "website": "https://www.facebook.com/AtlanticRestaurante"
+    },
+    "opening_hours": "Mo-Su 12:00-22:00",
+    "coordinates": [
+      -16.9289719,
+      32.6372777
+    ]
+  },
+  {
+    "name": "Full experience",
+    "type": "Unknown",
+    "address": {
+      "street": "Rua Conde Carvalhal",
+      "housenumber": "289",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9060-054"
+    },
+    "contact": {
+      "phone": "+351 913 469879",
+      "website": "https://fullexperience.pt/"
+    },
+    "opening_hours": "",
+    "coordinates": [
+      -16.8762772,
+      32.6483429
+    ]
+  },
+  {
+    "name": "Chafariz Farma - Pharmacy",
+    "type": "pharmacy",
+    "address": {
+      "street": "",
+      "housenumber": "14",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-070"
+    },
+    "contact": {
+      "phone": "(+351) 291 203 930",
+      "website": "https://www.farmaciasegura.pt/pt/chafariz-farma"
+    },
+    "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-13:00",
+    "coordinates": [
+      -16.9079298,
+      32.6489756
+    ]
+  },
+  {
+    "name": "Afonso Camacho - Construction Materials",
+    "type": "hardware",
+    "address": {
+      "street": "Caminho da Igreja",
+      "housenumber": "40",
+      "city": "caniço",
+      "region": "",
+      "postcode": "9125-132"
+    },
+    "contact": {
+      "phone": "(+351) 291 213 215",
+      "website": "https://afonsocamacho.pt"
+    },
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "coordinates": [
+      -16.8589931,
+      32.659295
+    ]
+  },
+  {
+    "name": "Le Bistrot Jacarandá - Restaurant",
+    "type": "restaurant",
+    "address": {
+      "street": "Avenida do Infante",
+      "housenumber": "28F",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-015"
+    },
+    "contact": {
+      "phone": "(+351) 291 644 270",
+      "website": "https://www.facebook.com/bistrotmadeira"
+    },
+    "opening_hours": "Mo-Su 12:00-23:00, Sa Closed",
+    "coordinates": [
+      -16.9173787,
+      32.6451247
+    ]
+  },
+  {
+    "name": "Joker - Cafe & Pub",
+    "type": "bar",
+    "address": {
+      "street": "Avenida do Infante",
+      "housenumber": "28B",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-015"
+    },
+    "contact": {
+      "phone": "(+351) 291 644 270",
+      "website": "https://www.facebook.com/jokerfunchal"
+    },
+    "opening_hours": "Mo-Su 08:00-22:00",
+    "coordinates": [
+      -16.9172486,
+      32.6451991
+    ]
+  },
+  {
+    "name": "Theo’s by Chef Júlio Pereira",
+    "type": "cafe",
+    "address": {
+      "street": "Avenida Zarco",
+      "housenumber": "2A",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-069"
+    },
+    "contact": {
+      "phone": "(+351) 939 698 979",
+      "website": "https://theos.pt"
+    },
+    "opening_hours": "Mo-Su 12:30-23:00",
+    "coordinates": [
+      -16.909432,
+      32.6473895
+    ]
+  },
+  {
+    "name": "Palheiro Golf",
+    "type": "Unknown",
+    "address": {
+      "street": "Rua do Balancal",
+      "housenumber": "29",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9060-414"
+    },
+    "contact": {
+      "phone": "",
+      "website": "https://www.palheirogolf.com/"
+    },
+    "opening_hours": "Mo-Su 07:30-18:30",
+    "coordinates": [
+      -16.8721797,
+      32.6531204
+    ]
+  },
+  {
+    "name": "Kalani Electronics",
+    "type": "electronics",
+    "address": {
+      "street": "Avenida Arriaga",
+      "housenumber": "33/47",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-061"
+    },
+    "contact": {
+      "phone": "(+351) 966 140 259",
+      "website": "https://maps.app.goo.gl/qY9dHoKeqVNjaKAD6"
+    },
+    "opening_hours": "Mo-Su 11:00-19:30",
+    "coordinates": [
+      -16.9108464,
+      32.6469924
+    ]
+  },
+  {
+    "name": "Unilateral Lda - Electronic Technology",
+    "type": "trade",
+    "address": {
+      "street": "Caminho da Cancela",
+      "housenumber": "6",
+      "city": "caniço",
+      "region": "",
+      "postcode": "9125-169"
+    },
+    "contact": {
+      "phone": "(+351) 291 707 660",
+      "website": "http://www.unilateral.com.pt"
+    },
+    "opening_hours": "Mo-Fr 08:30-18:00",
+    "coordinates": [
+      -16.8584967,
+      32.6469505
+    ]
+  },
+  {
+    "name": "Sicaprep Lda - Electrical and Telecommunications",
+    "type": "electrical",
+    "address": {
+      "street": "Caminho da Cancela",
+      "housenumber": "",
+      "city": "caniço",
+      "region": "",
+      "postcode": "9125-169"
+    },
+    "contact": {
+      "phone": "(+351) 291 707 670",
+      "website": "https://www.sicaprep.pt"
+    },
+    "opening_hours": "Mo-Fr 08:30-18:00",
+    "coordinates": [
+      -16.8583894,
+      32.6469189
+    ]
+  },
+  {
+    "name": "Salsa Madeira - Dance Classes",
+    "type": "Unknown",
+    "address": {
+      "street": "Santa Catarina Park",
+      "housenumber": "",
+      "city": "funchal",
+      "region": "",
+      "postcode": ""
+    },
+    "contact": {
+      "phone": "(+351) 964 685 693",
+      "website": "https://salsa-madeira.com/"
+    },
+    "opening_hours": "",
+    "coordinates": [
+      -16.9136205,
+      32.645442
+    ]
+  },
+  {
+    "name": "Hospedaria Pôr do Sol – Bed & Breakfast",
+    "type": "Unknown",
+    "address": {
+      "street": "Calçada Cabouquiera",
+      "housenumber": "48",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-171"
+    },
+    "contact": {
+      "phone": "(+351) 968 662 543",
+      "website": "https://www.booking.com/Share-2vytpU"
+    },
+    "opening_hours": "",
+    "coordinates": [
+      -16.9181341,
+      32.6479407
+    ]
+  },
+  {
+    "name": "MCS - Madeira Corporate Services",
+    "type": "Unknown",
+    "address": {
+      "street": "Avenida do Infante",
+      "housenumber": "8",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-015"
+    },
+    "contact": {
+      "phone": "(+351) 291 202 400",
+      "website": "https://mcs.pt"
+    },
+    "opening_hours": "Mo-Fr 09:00-18:00",
+    "coordinates": [
+      -16.9140136,
+      32.6464387
+    ]
+  },
+  {
+    "name": "Resolve Já - Specialized Interior Cleaning",
+    "type": "Unknown",
+    "address": {
+      "street": "Rua do Carmo",
+      "housenumber": "38",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9050-019"
+    },
+    "contact": {
+      "phone": "800 500 125",
+      "website": "https://resolveja.pt"
+    },
+    "opening_hours": "Mo-Sa 09:00-19:00",
+    "coordinates": [
+      -16.9052083,
+      32.6502564
+    ]
+  },
+  {
+    "name": "Let's Buggy - Off Road Adventures ATVs & Side by Side",
+    "type": "travel_agency",
+    "address": {
+      "street": "Porto de Recreio da Calheta, Av. D. Manuel I",
+      "housenumber": "",
+      "city": "calheta",
+      "region": "",
+      "postcode": "9370-133"
+    },
+    "contact": {
+      "phone": "(+351) 925 771 341",
+      "website": "https://www.letsbuggy.pt"
+    },
+    "opening_hours": "Mo-Su 09:00-19:00",
+    "coordinates": [
+      -17.1700544,
+      32.7176271
+    ]
+  },
+  {
+    "name": "Casa Velha Do Palheiro - Relais & Châteaux",
+    "type": "Unknown",
+    "address": {
+      "street": "Rua da Estalagem",
+      "housenumber": "23",
+      "city": "são gonçalo",
+      "region": "",
+      "postcode": "9060-415"
+    },
+    "contact": {
+      "phone": "(+351) 291 790 350",
+      "website": "https://casa-velha.com"
+    },
+    "opening_hours": "",
+    "coordinates": [
+      -16.8671904,
+      32.6582136
+    ]
+  },
+  {
+    "name": "Taxi - Ricardo Vieira",
+    "type": "taxi",
+    "address": {
+      "street": "Avenida da Madalena",
+      "housenumber": "120",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9020-402"
+    },
+    "contact": {
+      "phone": "(+351) 925 299 801",
+      "website": ""
+    },
+    "opening_hours": "Mo-Fr 10:00-18:00, Sunday 10:00-18:00",
+    "coordinates": [
+      -16.9308967,
+      32.6607159
+    ]
+  },
+  {
+    "name": "Loft Brunch & Cocktails [na.zona velha]",
+    "type": "restaurant",
+    "address": {
+      "street": "Rua de Dom Carlos I",
+      "housenumber": "",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9060-397"
+    },
+    "contact": {
+      "phone": "(+351) 291 650 859",
+      "website": "https://www.instagram.com/loft.brunch.cocktails/"
+    },
+    "opening_hours": "Mo-Fr 09:00-19:00, Sa-Su 09:00:16:00",
+    "coordinates": [
+      -16.9026995,
+      32.6478592
+    ]
+  },
+  {
+    "name": "Loft Brunch & Cocktails [na.praça]",
+    "type": "restaurant",
+    "address": {
+      "street": "Rua da Conceição",
+      "housenumber": "49",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9050-026"
+    },
+    "contact": {
+      "phone": "(+351) 291 640 513",
+      "website": "https://www.instagram.com/loft.brunch.cocktails/"
+    },
+    "opening_hours": "Mo-Fr 09:00-18:00, Sa 09:00-15:00",
+    "coordinates": [
+      -16.9068992,
+      32.6505695
+    ]
+  },
+  {
+    "name": "A Confeitaria Coffee & Bakery [nos.barreiros]",
+    "type": "bakery",
+    "address": {
+      "street": "Rua Dr Pita",
+      "housenumber": "",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-645"
+    },
+    "contact": {
+      "phone": "(+351) 291 655 791",
+      "website": "https://www.facebook.com/confeitariamc"
+    },
+    "opening_hours": "Mo-Fr 07:30-20:00; Sa-Su 07:30-19:00",
+    "coordinates": [
+      -16.9304329,
+      32.6472152
+    ]
+  },
+  {
+    "name": "A Confeitaria Coffee & Bakery [nas.madalenas]",
+    "type": "bakery",
+    "address": {
+      "street": "Avenida da Madalena",
+      "housenumber": "120",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9020-402"
+    },
+    "contact": {
+      "phone": "(+351) 291 611 846",
+      "website": "https://www.facebook.com/confeitariamc"
+    },
+    "opening_hours": "Mo-Su 07:30-20:00",
+    "coordinates": [
+      -16.930457,
+      32.6607838
+    ]
+  },
+  {
+    "name": "Hit The Road Madeira",
+    "type": "travel_agency",
+    "address": {
+      "street": "Rua da Sé",
+      "housenumber": "10",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-066"
+    },
+    "contact": {
+      "phone": "(+351) 969 466 359",
+      "website": "https://www.hittheroadmadeira.com"
+    },
+    "opening_hours": "Mo-Fr 09:30-18:00, Sa 09:30-12:30",
+    "coordinates": [
+      -16.9083189,
+      32.6478965
+    ]
+  },
+  {
+    "name": "Xarambinha Pizzeria Expresso",
+    "type": "restaurant",
+    "address": {
+      "street": "Largo do Corpo Santo",
+      "housenumber": "16",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9060-075"
+    },
+    "contact": {
+      "phone": "(+351) 291 234 777",
+      "website": "https://www.facebook.com/xarambinha.ristorante/"
+    },
+    "opening_hours": "Mo-Su 12:00-23:00",
+    "coordinates": [
+      -16.9000832,
+      32.647641
+    ]
+  },
+  {
+    "name": "Blaiken Beach Bar",
+    "type": "restaurant",
+    "address": {
+      "street": "E. R. 101-12 Ponta do Sol",
+      "housenumber": "12",
+      "city": "madalena do mar",
+      "region": "",
+      "postcode": "9360-431"
+    },
+    "contact": {
+      "phone": "(+351) 966 524 430",
+      "website": ""
+    },
+    "opening_hours": "Mo-Su 11:00-23:00",
+    "coordinates": [
+      -17.1250178,
+      32.6930004
+    ]
+  },
+  {
+    "name": "A Confeitaria Bakery & Coffee [na.travessa]",
+    "type": "bakery",
+    "address": {
+      "street": "Rua dos Aranhas",
+      "housenumber": "52",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-044"
+    },
+    "contact": {
+      "phone": "(+351) 291 621 325",
+      "website": "https://www.facebook.com/confeitariamc"
+    },
+    "opening_hours": "Mo-Fr 08:00-19:00",
+    "coordinates": [
+      -16.9131324,
+      32.6475908
+    ]
+  },
+  {
+    "name": "Quiksilver",
+    "type": "clothes",
+    "address": {
+      "street": "Rua Câmara Pestana",
+      "housenumber": "34",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-043"
+    },
+    "contact": {
+      "phone": "(+351) 924 349 883",
+      "website": "https://www.facebook.com/quiksilvermadeirafranchise"
+    },
+    "opening_hours": "Mo-Fr 10:00-19:00, Sa 10:00-13:00",
+    "coordinates": [
+      -16.9099765,
+      32.6492503
+    ]
+  },
+  {
+    "name": "A Confeitaria Coffee & Bakery [no.mercado]",
+    "type": "bakery",
+    "address": {
+      "street": "Rua do Hospital Velho",
+      "housenumber": "4",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9060-129"
+    },
+    "contact": {
+      "phone": "(+351) 291 641 089",
+      "website": "https://www.facebook.com/confeitariamc"
+    },
+    "opening_hours": "Mo-Fr 08:00-19:00, Sa 08:00-14:00",
+    "coordinates": [
+      -16.9039226,
+      32.6487912
+    ]
+  },
+  {
+    "name": "Farmacia Confiança - Pharmacy",
+    "type": "pharmacy",
+    "address": {
+      "street": "Rua Doutor Fernão de Ornelas",
+      "housenumber": "19",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9050-449"
+    },
+    "contact": {
+      "phone": "(+351) 291 223 586",
+      "website": "https://www.farmaciasegura.pt"
+    },
+    "opening_hours": "Mo-Sa 08:00-20:00",
+    "coordinates": [
+      -16.9065213,
+      32.6493713
+    ]
+  },
+  {
+    "name": "A Confeitaria Coffee & Bakery [na .avenida]",
+    "type": "bakery",
+    "address": {
+      "street": "Avenida do Infante",
+      "housenumber": "28",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-015"
+    },
+    "contact": {
+      "phone": "(+351) 291 621 325",
+      "website": "https://www.facebook.com/confeitariamc"
+    },
+    "opening_hours": "Mo-Su 07:00-20:00",
+    "coordinates": [
+      -16.9177076,
+      32.6450193
+    ]
+  },
+  {
+    "name": "Farmácia Ponta Delgada - Pharmacy",
+    "type": "pharmacy",
+    "address": {
+      "street": "Estrada Regional 101",
+      "housenumber": "110",
+      "city": "ponta delgada",
+      "region": "",
+      "postcode": "9240-113"
+    },
+    "contact": {
+      "phone": "",
+      "website": ""
+    },
+    "opening_hours": "Mo-Sa 09:00-19:00",
+    "coordinates": [
+      -16.9901709,
+      32.8233359
+    ]
+  },
+  {
+    "name": "Jarana Tapas & Enchidos - Spanish Food",
+    "type": "restaurant",
+    "address": {
+      "street": "Rua dos Netos",
+      "housenumber": "39",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-079"
+    },
+    "contact": {
+      "phone": "+351 291 222 489",
+      "website": ""
+    },
+    "opening_hours": "Mo-Su 8:00-22:00",
+    "coordinates": [
+      -16.9100421,
+      32.6511434
+    ]
+  },
+  {
+    "name": "Bordal - Traditional Embroidery",
+    "type": "gift",
+    "address": {
+      "street": "Rua Doutor Fernão de Ornelas",
+      "housenumber": "77",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9050-021"
+    },
+    "contact": {
+      "phone": "(+351) 291 222 965",
+      "website": "https://www.bordal.pt"
+    },
+    "opening_hours": "Mo-Su 09:00-19:00",
+    "coordinates": [
+      -16.904635,
+      32.6488583
+    ]
+  },
+  {
+    "name": "Jaca Hostel Funchal",
+    "type": "Unknown",
+    "address": {
+      "street": "Rua dos Ferreiros",
+      "housenumber": "140",
+      "city": "",
+      "region": "",
+      "postcode": ""
+    },
+    "contact": {
+      "phone": "(+351) 966 466 621",
+      "website": "https://www.jacahostel.com/"
+    },
+    "opening_hours": "",
+    "coordinates": [
+      -16.9095997,
+      32.6506378
+    ]
+  },
+  {
+    "name": "Loft Brunch e Cocktails [no.monumental]",
+    "type": "restaurant",
+    "address": {
+      "street": "Estrada Monumental",
+      "housenumber": "Loja D",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-100"
+    },
+    "contact": {
+      "phone": "(+351) 291 744 006",
+      "website": "http://instagram.com/loft.brunch.cocktails"
+    },
+    "opening_hours": "Tu-Su 09:00-19:00",
+    "coordinates": [
+      -16.9400004,
+      32.6370116
+    ]
+  },
+  {
+    "name": "Montra Thai Massage & Therapy",
+    "type": "massage",
+    "address": {
+      "street": "Rua do Carmo",
+      "housenumber": "19B",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9050-019"
+    },
+    "contact": {
+      "phone": "(+351) 939 397 945",
+      "website": "https://letsrelaxthaimassage.com"
+    },
+    "opening_hours": "Mo-Su 10:00-21:00",
+    "coordinates": [
+      -16.9056244,
+      32.6502707
+    ]
+  },
+  {
+    "name": "OnCloud - Computers & Printshop",
+    "type": "computer",
+    "address": {
+      "street": "Rua Elias Garcia",
+      "housenumber": "5",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9050-023"
+    },
+    "contact": {
+      "phone": "(+351) 962 183 403",
+      "website": "https://www.oncloud.pt"
+    },
+    "opening_hours": "Mo-Su 09:00-19:00",
+    "coordinates": [
+      -16.9079017,
+      32.6524569
+    ]
+  },
+  {
+    "name": "Exclusive Homes Madeira - Real State",
+    "type": "Unknown",
+    "address": {
+      "street": "Porto de Recreio da Calheta, Marina, Loja 1",
+      "housenumber": "1",
+      "city": "calheta",
+      "region": "",
+      "postcode": "9370-135"
+    },
+    "contact": {
+      "phone": "(+351) 960 312 956",
+      "website": "https://exclusivehomesmadeira.info"
+    },
+    "opening_hours": "Mo-Su 08:00-17:00",
+    "coordinates": [
+      -17.1704238,
+      32.7176855
+    ]
+  },
+  {
+    "name": "Real Health Kombucha",
+    "type": "marketplace",
+    "address": {
+      "street": "Caminho de Jangão",
+      "housenumber": "154",
+      "city": "lombada da ponta do sol",
+      "region": "",
+      "postcode": "9360-523"
+    },
+    "contact": {
+      "phone": "(+351) 913 000 048",
+      "website": "https://www.realhealthkombucha.com/"
+    },
+    "opening_hours": "Mo-Su 09:00-21:00",
+    "coordinates": [
+      -17.0836557,
+      32.6932532
+    ]
+  },
+  {
+    "name": "COIN4CASH",
+    "type": "Unknown",
+    "address": {
+      "street": "Rua das Mercês",
+      "housenumber": "41",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-224"
+    },
+    "contact": {
+      "phone": "+351938993244",
+      "website": "https://linktr.ee/coin4cash"
+    },
+    "opening_hours": "Mo-Su 08:00-22:00",
+    "coordinates": [
+      -16.9116357,
+      32.6514425
+    ]
+  },
+  {
+    "name": "Tapas y Copas - Bar Restaurant",
+    "type": "restaurant",
+    "address": {
+      "street": "Estrada Monumental",
+      "housenumber": "258",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-126"
+    },
+    "contact": {
+      "phone": "(+351) 291 633 751",
+      "website": "https://www.facebook.com/tapasycopasfunchal"
+    },
+    "opening_hours": "Tu-Su 17:00-24:00",
+    "coordinates": [
+      -16.929597,
+      32.638269
+    ]
+  },
+  {
+    "name": "Barbearia Alegria - Barbershop",
+    "type": "hairdresser",
+    "address": {
+      "street": "Rua dos Tanoeiros",
+      "housenumber": "64",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-057"
+    },
+    "contact": {
+      "phone": "(+351) 291 642 542",
+      "website": "https://barbearia-alegria.negocio.site/?utm_source=gmb&utm_medium=referral"
+    },
+    "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-15:00",
+    "coordinates": [
+      -16.9065383,
+      32.6485371
+    ]
+  },
+  {
+    "name": "Jacafé - Coffee, Craft Beer & Yummy Snacks",
+    "type": "cafe",
+    "address": {
+      "street": "Rua dos Ferreiros",
+      "housenumber": "138",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-082"
+    },
+    "contact": {
+      "phone": "(+351) 926 958 673",
+      "website": "https://www.jacahostel.com"
+    },
+    "opening_hours": "Mo-Fr 09:30-17:30; Sa-Su 9:30-13:30",
+    "coordinates": [
+      -16.9096355,
+      32.650618
+    ]
+  },
+  {
+    "name": "A Carruagem Snack Bar",
+    "type": "restaurant",
+    "address": {
+      "street": "Rua do Sabão",
+      "housenumber": "82",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-056"
+    },
+    "contact": {
+      "phone": "(+351) 291 603 003",
+      "website": "https://www.instagram.com/a.carruagem/"
+    },
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "coordinates": [
+      -16.9071803,
+      32.6484461
+    ]
+  },
+  {
+    "name": "Clinica Arriaga - Dental Clinic",
+    "type": "dentist",
+    "address": {
+      "street": "Avenida Arriaga",
+      "housenumber": "42B",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-064"
+    },
+    "contact": {
+      "phone": "(+351) 291 282 590",
+      "website": "https://www.clinicarriaga.pt"
+    },
+    "opening_hours": "Mo-Sa 08:30-21:00",
+    "coordinates": [
+      -16.9122797,
+      32.6471361
+    ]
+  },
+  {
+    "name": "Loja Coral Ribeira Brava - Liquor Store",
+    "type": "pub",
+    "address": {
+      "street": "Ribeira Brava VE4",
+      "housenumber": "65-71",
+      "city": "ribeira brava",
+      "region": "",
+      "postcode": "9304-003"
+    },
+    "contact": {
+      "phone": "(+351) 291 954 391",
+      "website": "https://www.lojacoral.pt"
+    },
+    "opening_hours": "Mo-Sa 09:00-19:00",
+    "coordinates": [
+      -17.0524287,
+      32.6830818
+    ]
+  },
+  {
+    "name": "Bentornato a Rum Bar - Restaurant",
+    "type": "restaurant",
+    "address": {
+      "street": "Rua de Trás",
+      "housenumber": "6",
+      "city": "calheta",
+      "region": "",
+      "postcode": "9370-135"
+    },
+    "contact": {
+      "phone": "",
+      "website": "https://www.instagram.com/bentornato.arumbar/"
+    },
+    "opening_hours": "Mo-Su 08:00-20:00",
+    "coordinates": [
+      -17.1779093,
+      32.7221731
+    ]
+  },
+  {
+    "name": "Musa Lounge Bar - Cocktails",
+    "type": "bar",
+    "address": {
+      "street": "Rua Imperatriz Dona Amélia",
+      "housenumber": "100",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-018"
+    },
+    "contact": {
+      "phone": "(+351) 291 221 877",
+      "website": "https://www.musaloungebar.com"
+    },
+    "opening_hours": "Mo-Su 16:00-01:00",
+    "coordinates": [
+      -16.9199676,
+      32.643166
+    ]
+  },
+  {
+    "name": "Museu Café - Lunch, Snacks & Coffee",
+    "type": "cafe",
+    "address": {
+      "street": "",
+      "housenumber": "85",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-043"
+    },
+    "contact": {
+      "phone": "(+351) 291 620 510",
+      "website": "https://www.facebook.com/museucaferestaurant/?locale=pt_PT"
+    },
+    "opening_hours": "Mo-Fr 12:00-22:00",
+    "coordinates": [
+      -16.9086677,
+      32.6493175
+    ]
+  },
+  {
+    "name": "Botica Inglesa - Pharmacy",
+    "type": "pharmacy",
+    "address": {
+      "street": "Rua Câmara Pestana",
+      "housenumber": "23",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-043"
+    },
+    "contact": {
+      "phone": "(+351) 291 203 060",
+      "website": "https://www.farmaciasegura.pt"
+    },
+    "opening_hours": "Mo-Fr 08:30-19:00; Sa 09:00-13:00",
+    "coordinates": [
+      -16.9099007,
+      32.6491136
+    ]
+  },
+  {
+    "name": "Farmacia São Martinho - Pharmacy",
+    "type": "pharmacy",
+    "address": {
+      "street": "Caminho de São Martinho",
+      "housenumber": "15 D",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-706"
+    },
+    "contact": {
+      "phone": "(+351) 291 721 190",
+      "website": "https://www.farmaciasegura.pt"
+    },
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "coordinates": [
+      -16.9369698,
+      32.6495185
+    ]
+  },
+  {
+    "name": "Monstera Books",
+    "type": "Unknown",
+    "address": {
+      "street": "Rua das Virtudes",
+      "housenumber": "47",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-645"
+    },
+    "contact": {
+      "phone": "(+351) 916 001 177",
+      "website": "https://monsterabooks.com"
+    },
+    "opening_hours": "Mo-Fr 09:00-18:00",
+    "coordinates": [
+      -16.9297355,
+      32.6465144
+    ]
+  },
+  {
+    "name": "Cowork Funchal",
+    "type": "Unknown",
+    "address": {
+      "street": "Rua das Mercês",
+      "housenumber": "41",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-224"
+    },
+    "contact": {
+      "phone": "(+351) 291 006 530",
+      "website": "https://coworkfunchal.com/"
+    },
+    "opening_hours": "Mo-Fr 09:00-18:00",
+    "coordinates": [
+      -16.9115766,
+      32.651342
+    ]
+  },
+  {
+    "name": "Barbearia Sa - Barber Shop",
+    "type": "hairdresser",
+    "address": {
+      "street": "Estrada simão gonçalves da câmara",
+      "housenumber": "",
+      "city": "calheta",
+      "region": "",
+      "postcode": "9370-139"
+    },
+    "contact": {
+      "phone": "(+351) 963 043 949",
+      "website": ""
+    },
+    "opening_hours": "Mo-Fr 09:00-17:00",
+    "coordinates": [
+      -17.1783722,
+      32.7296779
+    ]
+  },
+  {
+    "name": "Yuki by Chef Júlio Pereira",
+    "type": "restaurant",
+    "address": {
+      "street": "Rua do Sabão",
+      "housenumber": "6",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-058"
+    },
+    "contact": {
+      "phone": "(+351) 935 697 679",
+      "website": "https://yukifunchal.pt"
+    },
+    "opening_hours": "Mo-Su 12:30-23:00",
+    "coordinates": [
+      -16.9071915,
+      32.647528
+    ]
+  },
+  {
+    "name": "Oceanodroma - Birds, Whales and Dolphins Watching",
+    "type": "ticket",
+    "address": {
+      "street": "Porto de Recreio",
+      "housenumber": "",
+      "city": "machico",
+      "region": "",
+      "postcode": "9200-107"
+    },
+    "contact": {
+      "phone": "+351 917777441",
+      "website": "https://oceanodroma.co.uk"
+    },
+    "opening_hours": "Mo-Su 10:00-12-00",
+    "coordinates": [
+      -16.7599399,
+      32.717257
+    ]
+  },
+  {
+    "name": "Tiny Tribo - Amusement Center",
+    "type": "Unknown",
+    "address": {
+      "street": "Rua do Infante Santo",
+      "housenumber": "4",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-012"
+    },
+    "contact": {
+      "phone": "(+351) 910 114 246",
+      "website": "https://tinytribo.com"
+    },
+    "opening_hours": "Mo-Sa 10:00-18:00",
+    "coordinates": [
+      -16.9185933,
+      32.6452096
+    ]
+  },
+  {
+    "name": "Ciao Pizzeria",
+    "type": "restaurant",
+    "address": {
+      "street": "Rua Direita",
+      "housenumber": "35",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9050-450"
+    },
+    "contact": {
+      "phone": "291 619 007",
+      "website": ""
+    },
+    "opening_hours": "Mo-Sa 11:30-22:00",
+    "coordinates": [
+      -16.9059473,
+      32.6488089
+    ]
+  },
+  {
+    "name": "Indian Palace",
+    "type": "restaurant",
+    "address": {
+      "street": "Estrada Monumental",
+      "housenumber": "",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-106"
+    },
+    "contact": {
+      "phone": "+351 291 751 039",
+      "website": "https://www.facebook.com/indianpalacefunchal/"
+    },
+    "opening_hours": "",
+    "coordinates": [
+      -16.9340603,
+      32.638444
+    ]
+  },
+  {
+    "name": "Why Not? Restaurant Grill",
+    "type": "restaurant",
+    "address": {
+      "street": "Avenida do Infante",
+      "housenumber": "28",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-015"
+    },
+    "contact": {
+      "phone": "(+351) 291 627 590",
+      "website": "https://whynotgrill.com"
+    },
+    "opening_hours": "Mo-Fr 12:00-22:30",
+    "coordinates": [
+      -16.9171342,
+      32.6452494
+    ]
+  },
+  {
+    "name": "Kampo by Chef Júlio Pereira",
+    "type": "restaurant",
+    "address": {
+      "street": "Rua da Alfândega",
+      "housenumber": "74",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-059"
+    },
+    "contact": {
+      "phone": "(+351) 924 438 080",
+      "website": "https://kampo.pt"
+    },
+    "opening_hours": "Mo-Su 12:30-23:00",
+    "coordinates": [
+      -16.907187,
+      32.6476402
+    ]
+  },
+  {
+    "name": "Loft - Brunch & Cocktails",
+    "type": "restaurant",
+    "address": {
+      "street": "Rua da Conceição",
+      "housenumber": "49",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9050-026"
+    },
+    "contact": {
+      "phone": "(+351) 291 640 513",
+      "website": "https://www.instagram.com/loft.brunch.cocktails"
+    },
+    "opening_hours": "Mo-Fr 09:00-19:00; Sa 10:00-15:00",
+    "coordinates": [
+      -16.9069302,
+      32.6506445
+    ]
+  },
+  {
+    "name": "Akua by Chef Júlio Pereira",
+    "type": "restaurant",
+    "address": {
+      "street": "Rua dos Murças",
+      "housenumber": "6",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-058"
+    },
+    "contact": {
+      "phone": "",
+      "website": ""
+    },
+    "opening_hours": "Mo-Su 12:30-22:00",
+    "coordinates": [
+      -16.9093783,
+      32.6474838
+    ]
+  },
+  {
+    "name": "Re-Canto Food Experiences",
+    "type": "restaurant",
+    "address": {
+      "street": "Ladeira do Farrobo de Baixo",
+      "housenumber": "33",
+      "city": "são gonçalo",
+      "region": "",
+      "postcode": "9060-105"
+    },
+    "contact": {
+      "phone": "(+351) 968 681 656",
+      "website": ""
+    },
+    "opening_hours": "\"by appointment\"",
+    "coordinates": [
+      -16.8835496,
+      32.6543884
+    ]
+  },
+  {
+    "name": "Deliciosamente Mimi - Babysitting & Kids Entertaiment",
+    "type": "childcare",
+    "address": {
+      "street": "Rua 31 de Janeiro",
+      "housenumber": "0",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9050-071"
+    },
+    "contact": {
+      "phone": "(+351) 963 492 484",
+      "website": "https://www.instagram.com/deliciosamente_mimi/"
+    },
+    "opening_hours": "24/7",
+    "coordinates": [
+      -16.9120277,
+      32.6538561
+    ]
+  },
+  {
+    "name": "Sweet Merenda - Let's Brunch",
+    "type": "restaurant",
+    "address": {
+      "street": "Rua dos Aranhas",
+      "housenumber": "31",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-044"
+    },
+    "contact": {
+      "phone": "(+351) 926 609 040",
+      "website": ""
+    },
+    "opening_hours": "Mo-Sa 08:00-16:00",
+    "coordinates": [
+      -16.9131827,
+      32.6479677
+    ]
+  },
+  {
+    "name": "JCMatos - Pet Food & Animal Feeds",
+    "type": "pet",
+    "address": {
+      "street": "Rua da Ponta da Cruz",
+      "housenumber": "25",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9004-416"
+    },
+    "contact": {
+      "phone": "(+351) 919 263 991",
+      "website": "https://www.husse.pt"
+    },
+    "opening_hours": "Mo-Sa 10:00-13:00, Mo-Sa 14:00-19:00",
+    "coordinates": [
+      -16.9468826,
+      32.6350841
+    ]
+  },
+  {
+    "name": "FRIIC - Madeira Fruit Ice Creams",
+    "type": "ice_cream",
+    "address": {
+      "street": "Estrada Monumental",
+      "housenumber": "390",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9004-568"
+    },
+    "contact": {
+      "phone": "(+351) 938 044 804",
+      "website": "https://www.friic.pt/"
+    },
+    "opening_hours": "Mo-Su 10:00-23:00",
+    "coordinates": [
+      -16.9430255,
+      32.636196
+    ]
+  },
+  {
+    "name": "Maia Coffee Shop",
+    "type": "cafe",
+    "address": {
+      "street": "Avenida Zarco",
+      "housenumber": "25",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-069"
+    },
+    "contact": {
+      "phone": "(+351) 960 000 992",
+      "website": "http://www.maiacoffeeshop.com/"
+    },
+    "opening_hours": "Mo-Fr 08:00-19:00, Sa 8:30-13:00",
+    "coordinates": [
+      -16.9101835,
+      32.6489863
+    ]
+  },
+  {
+    "name": "Barreirinha Bar Café - Bar and Coffee",
+    "type": "bar",
+    "address": {
+      "street": "Largo do Socorro",
+      "housenumber": "",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9060-305"
+    },
+    "contact": {
+      "phone": "(+351) 291 627 418",
+      "website": "https://primenet.primedrinks.pt/PrimeMenu/MenuPublic.aspx?MenuPublicToken=evVZP9dUcIwgNmIFl9LDB5LCORt8biTkEpHR9nGDlty05LSSvH&fbclid=IwAR1tAGatUiitpqL2KCDKbcon5QMmhoblCAiOOUkgMfoN0MRuxvket6sWUaI"
+    },
+    "opening_hours": "Mo-Su 09:00-24:00",
+    "coordinates": [
+      -16.8973262,
+      32.6470255
+    ]
+  },
+  {
+    "name": "Penha d'Aguia Funchal - Coffee Shop",
+    "type": "cafe",
+    "address": {
+      "street": "Rua de João Gago",
+      "housenumber": "8",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-715"
+    },
+    "contact": {
+      "phone": "(+351) 291 228 119",
+      "website": "https://www.facebook.com/@penha.daguia"
+    },
+    "opening_hours": "Mo-Sa 08:00-18:00",
+    "coordinates": [
+      -16.9076976,
+      32.6484809
+    ]
+  },
+  {
+    "name": "Penha d'Aguia Ajuda - Coffee Shop",
+    "type": "bakery",
+    "address": {
+      "street": "Rua do Vale D'Ajuda",
+      "housenumber": "120",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-250"
+    },
+    "contact": {
+      "phone": "(+351) 291 633 084",
+      "website": "https://www.facebook.com/@penha.daguia"
+    },
+    "opening_hours": "Mo-Su 09:00-21:00",
+    "coordinates": [
+      -16.945338,
+      32.639432
+    ]
+  },
+  {
+    "name": "La Parreira - Typical Madeiran Restaurant",
+    "type": "restaurant",
+    "address": {
+      "street": "R. Cmte Camacho de Freitas",
+      "housenumber": "517",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9350-077"
+    },
+    "contact": {
+      "phone": "(+351) 291 957 025",
+      "website": "https://www.facebook.com/LAPARREIRA.MADEIRA/"
+    },
+    "opening_hours": "Mo-Su 12:00-23:00",
+    "coordinates": [
+      -17.0263974,
+      32.6748385
+    ]
+  },
+  {
+    "name": "Viola Restaurant",
+    "type": "restaurant",
+    "address": {
+      "street": "Estrada João Gonçalves Zarco",
+      "housenumber": "596",
+      "city": "estreito de câmara de lobos",
+      "region": "",
+      "postcode": "9325"
+    },
+    "contact": {
+      "phone": "(+351) 291 945 601",
+      "website": "https://www.instagram.com/restauranteviola"
+    },
+    "opening_hours": "Sa-Su 12:00-23:00; Mo-Fr 12:00-16:00; 18:00-23:00",
+    "coordinates": [
+      -16.9796427,
+      32.6659777
+    ]
+  },
+  {
+    "name": "Popsec Film Studio",
+    "type": "studio",
+    "address": {
+      "street": "Rua do Carmo",
+      "housenumber": "",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9050-019"
+    },
+    "contact": {
+      "phone": "(+351) 966 825 566",
+      "website": "https://popsec.studio"
+    },
+    "opening_hours": "",
+    "coordinates": [
+      -16.9036873,
+      32.6505246
+    ]
+  },
+  {
+    "name": "Monte das Colmeias - Natural Honey",
+    "type": "honey",
+    "address": {
+      "street": "Estrada da Ponta da Oliveira",
+      "housenumber": "57",
+      "city": "caniço",
+      "region": "",
+      "postcode": "9125-035"
+    },
+    "contact": {
+      "phone": "(+351) 964 311 281",
+      "website": ""
+    },
+    "opening_hours": "Mo-Su 08:00-18:00",
+    "coordinates": [
+      -16.8337662,
+      32.6457964
+    ]
+  },
+  {
+    "name": "Mateus House - Holiday Rental",
+    "type": "Unknown",
+    "address": {
+      "street": "Rua do Cais",
+      "housenumber": "4",
+      "city": "porto da cruz",
+      "region": "",
+      "postcode": "9225-050"
+    },
+    "contact": {
+      "phone": "(+351) 969 103 245",
+      "website": "https://www.booking.com/hotel/pt/mateus-house/"
+    },
+    "opening_hours": "",
+    "coordinates": [
+      -16.8281607,
+      32.7739519
+    ]
+  },
+  {
+    "name": "Quintinha São João Hotel & Spa",
+    "type": "Unknown",
+    "address": {
+      "street": "Rua da Levada de São João",
+      "housenumber": "4",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-191"
+    },
+    "contact": {
+      "phone": "(+351) 291 740 920",
+      "website": "https://www.quintinhasaojoao.com"
+    },
+    "opening_hours": "",
+    "coordinates": [
+      -16.9200882,
+      32.6482644
+    ]
+  },
+  {
+    "name": "Eglis Yolanda Ramirez",
+    "type": "beauty",
+    "address": {
+      "street": "Arcadas de São Francisco",
+      "housenumber": "",
+      "city": "",
+      "region": "",
+      "postcode": ""
+    },
+    "contact": {
+      "phone": "(+351) 927 985 626",
+      "website": "https://www.instagram.com/eglis.y_esteticista_masaggista/"
+    },
+    "opening_hours": "",
+    "coordinates": [
+      -16.9110825,
+      32.6485554
+    ]
+  },
+  {
+    "name": "Hawkers by Optimil - Optician & Sunglasses",
+    "type": "optician",
+    "address": {
+      "street": "Rua da Conceição",
+      "housenumber": "29B",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9050-026"
+    },
+    "contact": {
+      "phone": "(+351) 291 220 679",
+      "website": "https://www.instagram.com/optimil_madeira"
+    },
+    "opening_hours": "Mo-Sa 09:00-19:00",
+    "coordinates": [
+      -16.9068287,
+      32.6502596
+    ]
+  },
+  {
+    "name": "A Ervanária - Herbalist & Natural Supplements",
+    "type": "herbalist",
+    "address": {
+      "street": "Rua do Bom Jesus",
+      "housenumber": "8",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9050-028"
+    },
+    "contact": {
+      "phone": "(+351) 291 220 007",
+      "website": ""
+    },
+    "opening_hours": "Mo-Sa 09:00-19:00",
+    "coordinates": [
+      -16.9075586,
+      32.6508074
+    ]
+  },
+  {
+    "name": "Vanscape Rentals - Rent-a-Car",
+    "type": "car_rental",
+    "address": {
+      "street": "Caminho de Santo Amaro",
+      "housenumber": "6",
+      "city": "são martinho",
+      "region": "",
+      "postcode": "9020-121"
+    },
+    "contact": {
+      "phone": "(+351) 917 999 201",
+      "website": "https://vanscape.pt"
+    },
+    "opening_hours": "24/7",
+    "coordinates": [
+      -16.9445292,
+      32.6570884
+    ]
+  },
+  {
+    "name": "Surf Clube da Madeira",
+    "type": "surf_school",
+    "address": {
+      "street": "",
+      "housenumber": "",
+      "city": "",
+      "region": "",
+      "postcode": ""
+    },
+    "contact": {
+      "phone": "+351 963 356 674",
+      "website": "https://www.surfingmadeira.com/"
+    },
+    "opening_hours": "Mo-Su 08:00-20:00",
+    "coordinates": [
+      -16.8288107,
+      32.7744012
+    ]
+  },
+  {
+    "name": "Farmácia da Ajuda - Pharmacy",
+    "type": "pharmacy",
+    "address": {
+      "street": "Rua do Vale D'Ajuda",
+      "housenumber": "94",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-116"
+    },
+    "contact": {
+      "phone": "(+351) 291 762 399",
+      "website": "https://www.farmaciaspt.com/ilha-da-madeira/farmacias-em-funchal/farmacia-da-ajuda"
+    },
+    "opening_hours": "Mo-Su 09:00-21:00",
+    "coordinates": [
+      -16.9447708,
+      32.6388726
+    ]
+  },
+  {
+    "name": "Farmácia do Fórum - Pharmacy",
+    "type": "pharmacy",
+    "address": {
+      "street": "Estrada Monumental",
+      "housenumber": "392",
+      "city": "funchal",
+      "region": "",
+      "postcode": "9000-246"
+    },
+    "contact": {
+      "phone": "(+351) 291 742 512",
+      "website": "https://www.farmaciaspt.com"
+    },
+    "opening_hours": "Mo-Su 10:00-21:00",
+    "coordinates": [
+      -16.9433019,
+      32.635973
+    ]
+  }
+]

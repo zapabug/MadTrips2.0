@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Custom CSS Variables from LAYOUT_DESIGN.md */
+  --color-bitcoin: #F7931A;
+  --color-sand: #F5F5DC;
+  --color-ocean: #1E3A8A;
+  --color-forest: #2F4F4F;
+  --color-error: #EF4444;
+  --color-success: #10B981;
+
+  /* Default font settings - Tailwind will override with utility classes like font-sans, font-serif etc. */
+  /* Consider setting your primary font in tailwind.config.js */
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* Accessibility and rendering */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom component and utility classes from LAYOUT_DESIGN.md */
+@layer components {
+  .btn-primary {
+    @apply bg-bitcoin text-white px-4 py-2 rounded-md hover:bg-bitcoin/90 transition-colors;
+  }
+
+  .btn-secondary {
+    @apply bg-ocean text-white px-4 py-2 rounded-md hover:bg-ocean/90 transition-colors;
+  }
+
+  .card {
+    @apply bg-white dark:bg-gray-800 rounded-lg shadow-md border border-sand/20 dark:border-gray-700 p-6;
+  }
+
+  .focus-visible {
+    @apply outline-none ring-2 ring-bitcoin ring-offset-2 dark:ring-offset-gray-900;
+  }
+
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem; /* Corresponds to space-4 in LAYOUT_DESIGN.md */
+    padding-right: 1rem; /* Corresponds to space-4 in LAYOUT_DESIGN.md */
+
+    @screen sm { max-width: 640px; }
+    @screen md { max-width: 768px; }
+    @screen lg { max-width: 1024px; }
+    @screen xl { max-width: 1280px; }
+    /* Consider adding 2xl: max-width: 1536px; if needed */
+  }
+}
+
+@layer utilities {
+  /* Light mode base theming classes */
+  .bg-primary { @apply bg-white; }
+  .text-primary { @apply text-gray-900; }
+
+  /* Dark mode base theming classes (ensure darkMode: 'class' in tailwind.config.js) */
+  .dark .bg-primary { @apply bg-gray-900; }
+  .dark .text-primary { @apply text-gray-100; }
+
+  /* Layout utilities */
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+
+  .flex-between {
+    @apply flex items-center justify-between;
+  }
+  
+  /* Tailwind already provides .sr-only, so no need to redefine unless behavior is different */
+}
+
+/*
+  Note:
+  - The generic styles for a, body, h1, button, and the @media (prefers-color-scheme: light) block
+    that were previously in src/index.css have been removed. 
+    Rely on Tailwind's preflight and utility classes, and the styles defined above.
+  - If you have a specific project font, configure it in `tailwind.config.js` 
+    and add @font-face rules here if necessary.
+  - Ensure `darkMode: 'class'` is set in your `tailwind.config.js` for dark mode
+    classes like `dark .bg-primary` to work correctly.
+*/

@@ -1,0 +1,148 @@
+## Interaction 1: 2025-05-11 14:00 UTC
+
+User Input:
+User presented a new concept for a Bitcoin-focused travel concierge service for Madeira. They described themselves as a "Fixer" who personally arranges reservations, logistics, and Bitcoin-based experiences for travelers. User emphasized that services include shuttle coordination, tour curation, and activity scheduling in a mountainous island terrain.
+
+VibeStorm Questions:
+
+    Should the custom trip builder auto-preview itineraries or just collect interests?
+
+    Will Nostr be required or optional for bookings?
+
+    Do you want a private admin dashboard?
+
+User Response:
+
+    Trip builder will collect dates + interests; the fixer handles planning manually.
+
+    Nostr login is required only for confirming bookings and payments.
+
+    Admin dashboard will use Nostr Blossom.
+
+VibeStorm Response Summary:
+Confirmed Nostr-first experience with real-human backend coordination. No auto-scheduling logic required. Booking flow is inquiry → human-curated itinerary → payment in two stages. Fixer handles all logistics and uses Blossom for backend admin.
+
+Decisions Made:
+
+    Name: MadFixer
+
+    Focus: Bitcoiners using Nostr/Lightning
+
+    UX: Bitcoiner-first, not normie-focused
+
+    Core Flow: Explore → Build Trip → Submit via Nostr → Fixer reply → Pay deposit → Confirm
+
+    Admin Dashboard: Nostr Blossom
+
+    Payments: 10% deposit (non-refundable), balance due 2 days before arrival
+
+Steps Explained:
+
+    VibeStorm confirmed file structure, user flow, and Nostr login handling.
+
+    Discussed difference between passive submission and active trip previews.
+
+    Clarified admin integration with Blossom and payment staging logic.
+
+## Interaction 2: 2025-05-12 10:00 UTC
+
+User Input:
+User stated their intention to completely separate the MadTrips application from the existing madtrips project (https://github.com/zapabug/madtrips). The primary motivation is to switch from a Node.js/Next.js stack to Vite for a simpler development process for MadTrips. User also clarified that the project name will be MadTrips (reverting a temporary change to MadFixer) and development will prioritize business/package builder features before social aspects.
+
+Decisions Made:
+- MadTrips will be a new, standalone project.
+- Technology stack for MadTrips will be Vite.
+- Code and concepts from the older `madtrips` GitHub repository may be selectively migrated or rewritten for the Vite environment.
+- Feature development will be phased: 1. Business/Package Builder, 2. Social/Community features.
+
+Steps Explained:
+- Acknowledged the user's decision to fork the project direction and revert the name to MadTrips.
+- Confirmed the technology shift to Vite for `MadTrips`.
+- Noted the phased feature implementation, starting with core business logic.
+- This marks the beginning of the `MadTrips` implementation in a new Vite-based structure, separate from the old `madtrips` repository.
+
+## Interaction 3: 2025-05-11 19:30 UTC
+
+User Input:
+User provided various source files (components, hooks, contexts, data, constants, and styling configurations) via the `docs/` directory, originating from their previous `madtrips` Next.js project. Instructed to migrate these into the new Vite project structure and then update documentation.
+
+Decisions Made & Steps Taken:
+- **Vite Project Initialization**: Confirmed `pnpm` as package manager, `madtrips` as project name.
+- **Core Dependencies**: Installed NDK, Tailwind CSS suite, and `react-router-dom`.
+- **Styling**: Configured Tailwind CSS using `tailwind.config.js` (adapted from user's `tailwind.config.ts`) and `postcss.config.js`. Integrated brand colors.
+- **Directory Structure**: Established `src/components` (with subfolders), `src/hooks`, `src/contexts`, `src/data`, `src/constants`.
+- **File Migration**: 
+    - Copied component files (`CallToAction`, `FeaturedPackages`, `FloatingLoginButton`, `FunchalMap`, `Hero`, `Navigation`) from `docs/` to their respective `src/components/` locations.
+    - Copied `useCache.ts` to `src/hooks/`.
+    - Copied `NostrContext.tsx` to `src/contexts/`.
+    - Copied `packages.ts` to `src/data/`.
+    - Copied `nostr.ts` and `relays.ts` to `src/constants/`.
+- **Docs Cleanup**: Deleted the migrated source files from the `docs/` directory, retaining actual documentation files.
+
+Next Steps:
+- Address linter errors and adapt Next.js specific code (e.g., `next/link`, `next/image`, `next/navigation`) in the migrated files to Vite/React/`react-router-dom` equivalents.
+- Refactor `App.tsx` to set up routing and integrate the main layout.
+- Complete NDK setup within the Vite environment.
+- Handle icon asset (`madtrips.png`).
+
+## Interaction 4: 2025-05-11 22:05 UTC
+
+User Input:
+User requested batch resizing of all images in `public/pacagesimages` using ImageMagick's `mogrify` command to optimize for web delivery. The target maximum dimensions were 1920x1080 pixels, overwriting the originals.
+
+Steps Taken:
+- Listed all `.jpg` images in `public/pacagesimages`.
+- Ran: `mogrify -resize 1920x1080\> *.jpg` to resize all images in place.
+- Verified new file sizes:
+    - All images now range from ~600KB to ~950KB (previously 3.6MB–6.8MB each).
+    - Example: `beach-day.jpg` reduced from 6.8MB to 943KB.
+- Confirmed all images are now web-optimized and suitable for fast loading in the app.
+
+Rationale:
+- Reduces bandwidth and improves performance for users.
+- Ensures all package images are ready for production use without further manual optimization.
+
+Next Steps:
+- Use these optimized images in the business/package builder and throughout the app as needed.
+
+## Interaction 5: 2025-05-12 00:00 UTC
+
+User Input:
+User clarified a major simplification of the MadTrips application. The new vision is a **Vite + React app serving as a browser for travel packages and events in Madeira.** It will feature a Madeira-tailored content feed, leveraging Nostr for displaying images and handling comment sections for trips and events. Complex backend logic, payment flows, direct "Fixer" coordination, and previous services like `CacheService` and `RelayService` are now out of scope.
+
+Decisions Made:
+- Application scope radically simplified to a Nostr-based content browser for Madeira trips/events.
+- Features: Package/event browsing, Nostr images, Nostr comments, Madeira-tailored feed.
+- `NostrContext.tsx` to be refactored for simplicity, removing dependencies on `CacheService` and `RelayService`, and relying more on NDK and `ndk-hooks` directly.
+- UI/UX to focus on a simple, user-friendly interface.
+- **New Concept: Claim Your Business:**
+    - Businesses listed (e.g., for packages or events) may initially not have associated Nostr accounts.
+    - A feature will allow businesses to "claim" their listing by associating it with their Nostr public key.
+    - Once claimed, businesses can update their "company card" or listing with more detailed offers, real-time availability, or other relevant information directly via Nostr events.
+
+Rationale:
+- Streamline development and focus on core Nostr capabilities for content discovery and interaction.
+- Align with a leaner, more maintainable codebase.
+
+Next Steps:
+- Refactor `NostrContext.tsx` to remove outdated dependencies and simplify its logic.
+- Update `Build.md` to reflect the new simplified architecture and feature set.
+- Resolve remaining linter/Vite errors based on the new simplified scope.
+
+# Planning Summary (Latest)
+
+## Recent Changes
+- Added a ⭐ Featured section to `madbiz.md` for top curated picks.
+- Updated and clarified business types for several entries (e.g., Trigal, Queijaria da Avó, Deliciosamente Mimi, Coolzoone Madeira).
+- Removed all mentions of 'Sweet Merenda' and 'Sunshine Pub & Grill'.
+- Ensured 'Restaurante Trigal' is present in both Restaurants and Real Estate & Rentals.
+- Added/updated Bitcoin ATM and P2P listings (e.g., Mais Clinic).
+
+## Data Workflow
+- Curated edits are made in `madbiz.md` (markdown, human-readable, with comments and sections).
+- These edits are then used to update the structured JSON (`madeira_btc_businesses_20250511_172142.json`) for app/service integration.
+- A script is used to remove 'tags' and 'bitcoin_payment' fields from the JSON for a cleaner dataset.
+
+## Next Steps
+- Continue to curate in markdown, then sync to JSON as needed.
+- Use the Featured section for top recommendations in the UI or admin tools.
