@@ -88,7 +88,89 @@ export const FEATURED_BUSINESSES: Business[] = [
     description: 'Café – epic views, kids outdoor playground',
     city: 'Funchal',
     type: 'Café',
-    image: '/assets/businesses/cafe-fortaleza.jpg', // Add this image to assets if available
-    npub: 'npub1examplecafefortaleza' // Replace with real npub if available
+    image: '/assets/businesses/placeholder.png', // Placeholder image
+    npub: '' // Placeholder npub
+  },
+  {
+    id: 'mais-clinic',
+    name: 'Mais Clinic',
+    description: 'Medical Clinic – Bitcoin ATM on location',
+    city: 'Funchal',
+    type: 'Clinic',
+    image: '/assets/businesses/placeholder.png', // Placeholder image
+    npub: '' // Placeholder npub
+  },
+  {
+    id: 'viola-restaurant',
+    name: 'Viola Restaurant',
+    description: 'The Bitcoin Steakhouse – must-visit',
+    city: 'Estreito de Câmara de Lobos',
+    type: 'Restaurant',
+    image: '/assets/businesses/placeholder.png', // Placeholder image
+    npub: '' // Placeholder npub
+  },
+  {
+    id: 'kampo-julio-pereira',
+    name: 'Kampo by Chef Júlio Pereira',
+    description: 'Michelin-level – creative meat dishes by Júlio Pereira',
+    city: 'Funchal',
+    type: 'Restaurant',
+    image: '/assets/businesses/placeholder.png', // Placeholder image
+    npub: '' // Placeholder npub
+  },
+  {
+    id: 'akua-julio-pereira',
+    name: 'Akua by Chef Júlio Pereira',
+    description: 'Seafood-focused fine dining by Júlio Pereira',
+    city: 'Funchal',
+    type: 'Restaurant',
+    image: '/assets/businesses/placeholder.png', // Placeholder image
+    npub: '' // Placeholder npub
+  },
+  {
+    id: 'design-centre-nini',
+    name: 'Design Centre Nini Andrade Silva',
+    description: 'Bar Restaurant – epic location with panoramic views',
+    city: 'Funchal',
+    type: 'Bar Restaurant',
+    image: '/assets/businesses/placeholder.png', // Placeholder image
+    npub: '' // Placeholder npub
+  },
+  {
+    id: 'barreirinha-bar-cafe',
+    name: 'Barreirinha Bar Café',
+    description: 'Bar & Coffee – ocean views, must visit',
+    city: 'Funchal',
+    type: 'Bar & Coffee',
+    image: '/assets/businesses/placeholder.png', // Placeholder image
+    npub: '' // Placeholder npub
+  },
+  {
+    id: 'queijaria-avo',
+    name: 'Queijaria da Avó',
+    description: 'Azorean Cheese Shop',
+    city: 'Funchal',
+    type: 'Shop',
+    image: '/assets/businesses/placeholder.png', // Placeholder image
+    npub: '' // Placeholder npub
+  },
+  {
+    id: 'deliciosamente-mimi',
+    name: 'Deliciosamente Mimi',
+    description: 'Babysitting – highly recommended',
+    city: 'Funchal',
+    type: 'Service',
+    image: '/assets/businesses/placeholder.png', // Placeholder image
+    npub: '' // Placeholder npub
+  },
+  {
+    id: 'coolzoone-madeira',
+    name: 'Coolzoone Madeira',
+    description: 'Health & Wellness',
+    city: 'Funchal',
+    type: 'Wellness',
+    image: '/assets/businesses/placeholder.png', // Placeholder image
+    npub: '' // Placeholder npub
   }
+  // Note: Yuki by Chef Júlio Pereira was missing from the Featured list in madbiz.md
 ]; 

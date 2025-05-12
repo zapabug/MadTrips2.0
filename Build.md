@@ -69,6 +69,35 @@ Next Steps (Revised for Simplification):
 - **Implement Core UI**: Build out the package/event browser, comment sections, and Madeira feed using the migrated components and new simplified Nostr logic.
 - **Ensure NDK Initialization**: Set up NDK singleton and `useNDKInit` correctly, likely in `main.tsx` or `App.tsx`.
 
+## LLD 3: 2025-05-12 (approx) — Routing, Map Variants, Page Structure, Footer
+
+Key Updates:
+- **Routing Setup**: 
+  - `react-router-dom` installed and configured in `src/App.tsx`.
+  - Redundant `<BrowserRouter>` removed from `src/main.tsx` to fix nesting errors.
+  - Routes established for `/`, `/map`, `/community`, `/packages`, `/packages/custom`, and `/packages/:id`.
+- **Page Components Created (in `src/pages/`)**:
+  - `MapPage.tsx`: Renders the full map component.
+  - `CommunityPage.tsx`: Placeholder created.
+  - `PackagesPage.tsx`: Placeholder created, then populated by porting `docs/packages/pacages.page.tsx`.
+  - `CustomPackagePage.tsx`: Placeholder created, references `CustomPackageBuilder` component.
+  - `PackageDetailPage.tsx`: Placeholder created, then populated with a simplified port of `docs/packages/id.page.tsx` (cart/checkout/Nostr logic stubbed).
+- **Map Component (`FunchalMap.tsx`) Enhancements**:
+  - Populated with `FEATURED_BUSINESSES` data from `src/data/packages.ts` (sourced from `madbiz.md`).
+  - Added `variant` prop (`home` | `page`).
+  - `variant="home"` (used in `App.tsx`) shows a smaller map-only view.
+  - `variant="page"` (default, used in `MapPage.tsx`) shows the larger map and the featured business list.
+- **Layout Components (`src/components/layout/`)**:
+  - `Navigation.tsx`: Confirmed existing links align with new routes.
+  - `Footer.tsx`: Created, initially basic, then replaced with a more detailed version adapted from `docs/contexts/ClientLayout.tsx` (social links, powered by, policy links; cache easter egg and Next.js specifics removed). Added to `App.tsx` layout.
+- **Package Components (`src/components/packages/`)**:
+  - `CustomPackageBuilder.tsx`: Placeholder created.
+
+Next Steps:
+- Port the `CustomPackageBuilder` component from the Next.js project.
+- Implement Cart/Checkout functionality (porting/creating store, wrapper, page).
+- Integrate Nostr context/authentication as needed.
+
 # Build Documentation (Latest)
 
 ## Curation Workflow
@@ -84,4 +113,29 @@ Next Steps (Revised for Simplification):
 - All business type clarifications and new entries should be made in the markdown first.
 - The Featured section is intended for admin tools and UI highlights.
 - Continue to maintain markdown as the master file for all curation and planning.
+
+## LLD 4: 2025-05-12 (approx) — Footer, Responsive Packages, Background Fix
+
+Key Updates:
+- **Footer Enhancements & Styling**:
+  - Background color changed to teal (`#14857c`).
+  - Added Nostr profile link (`njump.me` desktop / `nostr:` mobile).
+  - Corrected assets folder name (`asssets` -> `assets`) and verified icon display (`/assets/nostr-icon...`, `/assets/bitcoin.png`).
+- **Responsive Homepage Packages**:
+  - Created `src/hooks/useResponsiveNumItems.ts` to determine item count based on screen size (1 mobile / 2 tablet / 3 desktop).
+  - Created `src/components/PackageCard.tsx` for displaying individual packages.
+  - Created `src/pages/HomePage.tsx` using the hook and card to show featured packages responsively.
+- **Packages Page Implementation**:
+  - Ported `CustomPackageBuilder` from `docs/` reference to `src/components/CustomPackageBuilder.tsx`, adapting for Vite/React and fixing type errors.
+  - Created `src/pages/PackagesPage.tsx` to display all featured packages (using `PackageCard`) and the `CustomPackageBuilder`.
+- **Error Resolution**:
+  - Fixed Vite module loading errors related to default vs named exports (`PackagesPage` in `App.tsx`).
+- **Layout Background Fix**:
+  - Corrected visual layout issue where a gradient background appeared below the content.
+  - Moved the `bg-gradient-to-b from-ocean to-forest` classes from the main wrapper `div` in `src/App.tsx` to the `<main>` element, scoping the gradient correctly to the content area.
+
+Next Steps:
+- Replace mock package data in `HomePage.tsx` and `PackagesPage.tsx` with actual data fetching/management.
+- Implement Cart/Checkout/Booking functionality if required.
+- Integrate Nostr context/authentication for commenting and interaction.
 
