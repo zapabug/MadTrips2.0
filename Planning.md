@@ -158,6 +158,43 @@ Next Steps:
 - Investigate dynamic data loading for business listings on `PackagesPage`.
 - Continue core Nostr feature development.
 
+## Interaction 7: (Current Date) — Map Implementation Refactor & Data Enrichment
+
+User Input & Context:
+Following the decision to use a native map instead of an iframe, the `src/components/home/FunchalMap.tsx` component required a major refactor. The initial attempt involved direct JSON import, leading to Vite/browser parsing errors. Linter errors also needed resolution. The goal was to display markers from `export(1).geojson` and enrich them with data from `MadeiraBusiness.json`.
+
+Decisions Made & Steps Taken:
+- **Map Library**: Implemented `react-leaflet` along with `leaflet` and `@types/leaflet`. The previous `iframe`-based implementation was removed.
+- **Data Fetching**:
+    - Switched from direct JSON import to using Vite's `?url` suffix for both `docs/map/export(1).geojson` and `public/pacages/MadeiraBusiness.json`.
+    - Used `useEffect` and `fetch` API to asynchronously load the data from these URLs when the component mounts.
+    - Added `useState` hooks to manage the fetched `geojsonData`, `curatedBusinesses`, and potential `mapError`.
+    - Implemented basic loading and error display states.
+- **Data Merging**:
+    - Created a `useMemo` hook to build a lookup map (`curatedDetailsLookup`) from the `curatedBusinesses` data, keyed by business name for efficient merging.
+    - In the marker generation loop (`geojsonData.features.map(...)`), the code now looks up matching curated details using the `feature.properties.name` from the GeoJSON.
+    - Popups display merged data: Name from GeoJSON, Type/Description from Curated JSON (if available), Address/City primarily from GeoJSON but falling back to Curated JSON.
+- **Type Safety**: Defined TypeScript interfaces (`GeoJsonFeature`, `GeoJsonRoot`, `CuratedBusiness`, `MergedBusinessDetails`) to improve type safety during data handling and merging.
+- **Issue Resolution**:
+    - Resolved the `Uncaught SyntaxError: unexpected token: ':'` by switching to the `fetch` approach with `?url`.
+    - Addressed multiple TypeScript/ESLint errors through iterations, including:
+        - Using `@ts-expect-error` for the GeoJSON import URL before switching to `fetch`.
+        - Refining type definitions (`any` -> `unknown`, specific coordinate types).
+        - Ensuring the `map` function for `FEATURED_BUSINESSES` always returns valid JSX or `null`.
+        - Explicitly casting GeoJSON properties accessed dynamically (e.g., `feature.properties['addr:street'] as string`).
+- **Component Structure**: The component now renders `MapContainer`, `TileLayer`, and dynamically generated `Marker` components with `Popup`s containing the merged data. The `FEATURED_BUSINESSES` section remains at the bottom, conditionally rendered based on the `variant` prop.
+
+Rationale:
+- Provides a fully interactive, native map experience controlled within the React application.
+- Leverages the detailed geographic data from `export(1).geojson`.
+- Enriches the map markers with curated business details from `MadeiraBusiness.json` (sourced from `madbiz.md`).
+- Establishes a robust pattern for fetching and combining external data sources within a component.
+
+Next Steps:
+- Further refine popup styling and content.
+- Implement planned interaction features (booking buttons, Nostr comments linked to businesses).
+- Consider optimizing data fetching/merging if performance becomes an issue with larger datasets.
+
 # Planning Summary (Latest)
 
 ## Recent Changes

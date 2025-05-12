@@ -1,0 +1,5209 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-05-12T22:51:44Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/124267371",
+        "addr:city": "Santo António da Serra",
+        "addr:postcode": "9200-152",
+        "addr:street": "Estrada Regional 207",
+        "currency:XBT": "yes",
+        "email": "reservations@santodaserragolf.com",
+        "leisure": "golf_course",
+        "name": "Clube de Golf Santo da Serra",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "+351 291 550 100",
+        "survey:date": "2024-09-02",
+        "website": "https://www.santodaserragolf.com/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -16.8038066,
+              32.7225052
+            ],
+            [
+              -16.803907,
+              32.7222331
+            ],
+            [
+              -16.8039424,
+              32.7222423
+            ],
+            [
+              -16.8039982,
+              32.7220909
+            ],
+            [
+              -16.8037315,
+              32.7220213
+            ],
+            [
+              -16.8036694,
+              32.7221898
+            ],
+            [
+              -16.8036095,
+              32.7221742
+            ],
+            [
+              -16.8035154,
+              32.7224292
+            ],
+            [
+              -16.8038066,
+              32.7225052
+            ]
+          ]
+        ]
+      },
+      "id": "way/124267371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/136516313",
+        "addr:city": "Funchal",
+        "addr:housenumber": "29",
+        "addr:postcode": "9060-414",
+        "addr:street": "Rua do Balancal",
+        "currency:XBT": "yes",
+        "description": "18 hole Par 72",
+        "leisure": "golf_course",
+        "name": "Palheiro Golf",
+        "opening_hours": "Mo-Su 07:30-18:30",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 790 120",
+        "survey:date": "2024-11-02",
+        "website": "https://www.palheirogolf.com"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -16.8676483,
+              32.6522794
+            ],
+            [
+              -16.8673068,
+              32.6522154
+            ],
+            [
+              -16.8671757,
+              32.6521908
+            ],
+            [
+              -16.866961,
+              32.6521694
+            ],
+            [
+              -16.8664907,
+              32.6518545
+            ],
+            [
+              -16.8662678,
+              32.6515604
+            ],
+            [
+              -16.8660492,
+              32.6512622
+            ],
+            [
+              -16.8659298,
+              32.6510913
+            ],
+            [
+              -16.8657259,
+              32.6506285
+            ],
+            [
+              -16.8655785,
+              32.6501276
+            ],
+            [
+              -16.8654596,
+              32.6499702
+            ],
+            [
+              -16.8653122,
+              32.6498939
+            ],
+            [
+              -16.8650573,
+              32.6497842
+            ],
+            [
+              -16.8648873,
+              32.6497651
+            ],
+            [
+              -16.8647003,
+              32.6497412
+            ],
+            [
+              -16.864604,
+              32.6498223
+            ],
+            [
+              -16.8646323,
+              32.6499845
+            ],
+            [
+              -16.8647287,
+              32.6500656
+            ],
+            [
+              -16.8647513,
+              32.6501515
+            ],
+            [
+              -16.8646879,
+              32.6502826
+            ],
+            [
+              -16.864638,
+              32.6503852
+            ],
+            [
+              -16.8646927,
+              32.6504855
+            ],
+            [
+              -16.8647175,
+              32.6505481
+            ],
+            [
+              -16.8647488,
+              32.6506193
+            ],
+            [
+              -16.8648275,
+              32.6509327
+            ],
+            [
+              -16.8649451,
+              32.6510826
+            ],
+            [
+              -16.8650629,
+              32.6512296
+            ],
+            [
+              -16.8651686,
+              32.6514561
+            ],
+            [
+              -16.8652292,
+              32.6515533
+            ],
+            [
+              -16.8653009,
+              32.6516637
+            ],
+            [
+              -16.8653987,
+              32.6518268
+            ],
+            [
+              -16.8654482,
+              32.6521789
+            ],
+            [
+              -16.8655308,
+              32.6523424
+            ],
+            [
+              -16.8655541,
+              32.6524093
+            ],
+            [
+              -16.8655751,
+              32.652455
+            ],
+            [
+              -16.8656133,
+              32.6525621
+            ],
+            [
+              -16.8656092,
+              32.6526737
+            ],
+            [
+              -16.8655439,
+              32.6527881
+            ],
+            [
+              -16.8654891,
+              32.65289
+            ],
+            [
+              -16.8654447,
+              32.6534332
+            ],
+            [
+              -16.8647711,
+              32.6535451
+            ],
+            [
+              -16.8628836,
+              32.6538891
+            ],
+            [
+              -16.8622696,
+              32.6539374
+            ],
+            [
+              -16.8618895,
+              32.6538562
+            ],
+            [
+              -16.8615925,
+              32.653701
+            ],
+            [
+              -16.8613428,
+              32.6535701
+            ],
+            [
+              -16.8612517,
+              32.6535531
+            ],
+            [
+              -16.8610908,
+              32.6535231
+            ],
+            [
+              -16.8609627,
+              32.6535743
+            ],
+            [
+              -16.860612,
+              32.6544608
+            ],
+            [
+              -16.8606637,
+              32.6544755
+            ],
+            [
+              -16.8608175,
+              32.6548898
+            ],
+            [
+              -16.8609584,
+              32.6551503
+            ],
+            [
+              -16.8610225,
+              32.6553681
+            ],
+            [
+              -16.8610139,
+              32.6556158
+            ],
+            [
+              -16.8608858,
+              32.6557568
+            ],
+            [
+              -16.8605783,
+              32.6559276
+            ],
+            [
+              -16.8603904,
+              32.6558977
+            ],
+            [
+              -16.86029,
+              32.6558011
+            ],
+            [
+              -16.8599391,
+              32.6558224
+            ],
+            [
+              -16.8598763,
+              32.6558308
+            ],
+            [
+              -16.8598511,
+              32.655873
+            ],
+            [
+              -16.8599271,
+              32.656103
+            ],
+            [
+              -16.8600209,
+              32.6563869
+            ],
+            [
+              -16.8600244,
+              32.6565695
+            ],
+            [
+              -16.8600047,
+              32.6567195
+            ],
+            [
+              -16.8598982,
+              32.656878
+            ],
+            [
+              -16.8597811,
+              32.6571043
+            ],
+            [
+              -16.8596663,
+              32.6575331
+            ],
+            [
+              -16.8596965,
+              32.6577264
+            ],
+            [
+              -16.8598113,
+              32.6578593
+            ],
+            [
+              -16.8600167,
+              32.6579137
+            ],
+            [
+              -16.8601737,
+              32.6579318
+            ],
+            [
+              -16.8603791,
+              32.6579016
+            ],
+            [
+              -16.8606448,
+              32.6579197
+            ],
+            [
+              -16.8607898,
+              32.6578774
+            ],
+            [
+              -16.8610797,
+              32.6582644
+            ],
+            [
+              -16.8613575,
+              32.6582036
+            ],
+            [
+              -16.8618317,
+              32.6582778
+            ],
+            [
+              -16.8625414,
+              32.6585781
+            ],
+            [
+              -16.8634553,
+              32.6588539
+            ],
+            [
+              -16.8639876,
+              32.6587815
+            ],
+            [
+              -16.8645275,
+              32.6587055
+            ],
+            [
+              -16.8648184,
+              32.6585599
+            ],
+            [
+              -16.8652517,
+              32.6582952
+            ],
+            [
+              -16.865356,
+              32.6581009
+            ],
+            [
+              -16.8654772,
+              32.6577964
+            ],
+            [
+              -16.8656105,
+              32.6574777
+            ],
+            [
+              -16.8658983,
+              32.6568447
+            ],
+            [
+              -16.8663236,
+              32.6568617
+            ],
+            [
+              -16.8664585,
+              32.6570055
+            ],
+            [
+              -16.8665519,
+              32.6571405
+            ],
+            [
+              -16.86666,
+              32.6571443
+            ],
+            [
+              -16.8667512,
+              32.6571043
+            ],
+            [
+              -16.8668962,
+              32.6572311
+            ],
+            [
+              -16.8670472,
+              32.657364
+            ],
+            [
+              -16.8672707,
+              32.6573278
+            ],
+            [
+              -16.8677056,
+              32.6573036
+            ],
+            [
+              -16.8679016,
+              32.6574235
+            ],
+            [
+              -16.8682371,
+              32.6578231
+            ],
+            [
+              -16.8684606,
+              32.6578533
+            ],
+            [
+              -16.8686478,
+              32.657811
+            ],
+            [
+              -16.8689256,
+              32.6577566
+            ],
+            [
+              -16.8693786,
+              32.6576298
+            ],
+            [
+              -16.8697698,
+              32.6577086
+            ],
+            [
+              -16.8704958,
+              32.6578453
+            ],
+            [
+              -16.871256,
+              32.6577513
+            ],
+            [
+              -16.8716213,
+              32.6577188
+            ],
+            [
+              -16.8717109,
+              32.6576376
+            ],
+            [
+              -16.8717451,
+              32.6574924
+            ],
+            [
+              -16.8713778,
+              32.6569457
+            ],
+            [
+              -16.8706048,
+              32.6564076
+            ],
+            [
+              -16.8706219,
+              32.6560745
+            ],
+            [
+              -16.8707585,
+              32.6556388
+            ],
+            [
+              -16.8709593,
+              32.6553954
+            ],
+            [
+              -16.8710703,
+              32.6549213
+            ],
+            [
+              -16.8712148,
+              32.6547243
+            ],
+            [
+              -16.8715289,
+              32.6546095
+            ],
+            [
+              -16.8716437,
+              32.6544404
+            ],
+            [
+              -16.8717584,
+              32.6541263
+            ],
+            [
+              -16.8720931,
+              32.6539038
+            ],
+            [
+              -16.8723614,
+              32.6536806
+            ],
+            [
+              -16.8723943,
+              32.6533645
+            ],
+            [
+              -16.8719707,
+              32.6534105
+            ],
+            [
+              -16.871934,
+              32.6532238
+            ],
+            [
+              -16.8716645,
+              32.6532527
+            ],
+            [
+              -16.8716255,
+              32.6530693
+            ],
+            [
+              -16.8716316,
+              32.6529667
+            ],
+            [
+              -16.8713235,
+              32.6527371
+            ],
+            [
+              -16.8709309,
+              32.6526888
+            ],
+            [
+              -16.8703088,
+              32.6525137
+            ],
+            [
+              -16.8690206,
+              32.6522518
+            ],
+            [
+              -16.8688435,
+              32.6519796
+            ],
+            [
+              -16.8688271,
+              32.651836
+            ],
+            [
+              -16.8687204,
+              32.6516847
+            ],
+            [
+              -16.8685826,
+              32.6516227
+            ],
+            [
+              -16.8684326,
+              32.6516107
+            ],
+            [
+              -16.8682915,
+              32.6516101
+            ],
+            [
+              -16.8681549,
+              32.6516284
+            ],
+            [
+              -16.8680364,
+              32.6517152
+            ],
+            [
+              -16.8681488,
+              32.6519938
+            ],
+            [
+              -16.8682972,
+              32.6522724
+            ],
+            [
+              -16.8677563,
+              32.6522782
+            ],
+            [
+              -16.8676483,
+              32.6522794
+            ]
+          ]
+        ]
+      },
+      "id": "way/136516313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/144405799",
+        "addr:city": "Funchal",
+        "addr:housenumber": "29",
+        "addr:postcode": "9060-414",
+        "addr:street": "Rua do Balancal",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:colour": "#fffedb",
+        "building:levels": "1",
+        "cuisine": "coffee_shop",
+        "currency:XBT": "yes",
+        "name": "Palheiro Clubhouse",
+        "opening_hours": "Mo-Su 07:30-18:30",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "+351 291 790 120",
+        "roof:colour": "#f4d195",
+        "roof:material": "roof_tiles",
+        "roof:shape": "hipped",
+        "survey:date": "2025-02-10",
+        "website": "https://www.palheirogolf.com/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -16.8723956,
+              32.6533209
+            ],
+            [
+              -16.8723301,
+              32.6529777
+            ],
+            [
+              -16.8721564,
+              32.6530012
+            ],
+            [
+              -16.872151,
+              32.6529729
+            ],
+            [
+              -16.8721006,
+              32.6529797
+            ],
+            [
+              -16.8721077,
+              32.653017
+            ],
+            [
+              -16.871962,
+              32.6530367
+            ],
+            [
+              -16.8719849,
+              32.6531564
+            ],
+            [
+              -16.8720583,
+              32.6531464
+            ],
+            [
+              -16.8720698,
+              32.6532068
+            ],
+            [
+              -16.8720188,
+              32.6532137
+            ],
+            [
+              -16.8720413,
+              32.6533313
+            ],
+            [
+              -16.8721797,
+              32.6533125
+            ],
+            [
+              -16.8721673,
+              32.6532474
+            ],
+            [
+              -16.8722276,
+              32.6532392
+            ],
+            [
+              -16.872247,
+              32.653341
+            ],
+            [
+              -16.8723956,
+              32.6533209
+            ]
+          ]
+        ]
+      },
+      "id": "way/144405799"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/164762662",
+        "addr:city": "Funchal",
+        "addr:housenumber": "55",
+        "addr:postcode": "9000-096",
+        "addr:street": "Rua dos Estados Unidos da America",
+        "building": "yes",
+        "check_date:currency:XBT": "2024-01-09",
+        "currency:XBT": "yes",
+        "leisure": "fitness_centre",
+        "name": "Naval Box - Crossfit",
+        "opening_hours": "Mo-Sa 07:00-21:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "sport": "crossfit",
+        "survey:date": "2024-10-21",
+        "website": "https://www.clubenavaldofunchal.com/navalbox"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -16.9366131,
+              32.6447527
+            ],
+            [
+              -16.936234,
+              32.6445421
+            ],
+            [
+              -16.9361073,
+              32.6447038
+            ],
+            [
+              -16.9364864,
+              32.6449144
+            ],
+            [
+              -16.9366131,
+              32.6447527
+            ]
+          ]
+        ]
+      },
+      "id": "way/164762662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/548197658",
+        "addr:city": "Funchal",
+        "addr:housenumber": "16",
+        "addr:postcode": "9000-243",
+        "addr:street": "Rua do Arieiro",
+        "building": "yes",
+        "check_date:currency:XBT": "2024-10-18",
+        "currency:XBT": "yes",
+        "email": "informaticaeelectronica@gmail.com",
+        "name": "Informática & Electrónica",
+        "opening_hours": "Mo-Fr 9:00-20:00, Sa 9:00-13:00",
+        "operator": "Hugo Menezes",
+        "payment:lightning": "no",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "yes",
+        "phone": "+351 964 452 730",
+        "shop": "computer",
+        "survey:date": "2024-10-18",
+        "website": "https://www.facebook.com/Informaticaeelectronica"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -16.9578528,
+              32.6478566
+            ],
+            [
+              -16.9578271,
+              32.6477995
+            ],
+            [
+              -16.9577874,
+              32.6478231
+            ],
+            [
+              -16.9578131,
+              32.6478762
+            ],
+            [
+              -16.9578528,
+              32.6478566
+            ]
+          ]
+        ]
+      },
+      "id": "way/548197658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/560482009",
+        "addr:city": "Gaula",
+        "addr:postcode": "9100-079",
+        "addr:street": "Estrada Padre Alfredo Vieira de Freitas",
+        "building": "yes",
+        "check_date": "2025-01-10",
+        "currency:XBT": "yes",
+        "email": "amanhecer.gaula@gmail.com",
+        "name": "Supermarket Amanhecer - Gaula",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 143 855",
+        "shop": "supermarket",
+        "survey:date": "2025-03-24",
+        "website": "https://www.facebook.com/amanhecer.gaula/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -16.8039435,
+              32.6689485
+            ],
+            [
+              -16.8041547,
+              32.6690663
+            ],
+            [
+              -16.8043136,
+              32.6688683
+            ],
+            [
+              -16.8042123,
+              32.6688108
+            ],
+            [
+              -16.8042828,
+              32.6687299
+            ],
+            [
+              -16.8043234,
+              32.668677
+            ],
+            [
+              -16.8042557,
+              32.6686324
+            ],
+            [
+              -16.8042449,
+              32.6686458
+            ],
+            [
+              -16.8042008,
+              32.6686207
+            ],
+            [
+              -16.8039435,
+              32.6689485
+            ]
+          ]
+        ]
+      },
+      "id": "way/560482009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1057258864",
+        "addr:city": "Funchal",
+        "addr:housenumber": "1",
+        "addr:postcode": "9000-116",
+        "addr:street": "Rua Nova do Vale da Ajuda",
+        "building": "commercial",
+        "building:levels": "8",
+        "check_date:currency:XBT": "2024-12-17",
+        "currency:XBT": "yes",
+        "female": "yes",
+        "hairdresser": "barber",
+        "name": "Wildcat Barber - TNT Barbershop",
+        "opening_hours": "Mo-Su 10:00-19:00",
+        "operator": "Wildcat",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "+351927034718",
+        "shop": "hairdresser"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -16.9430664,
+              32.6358987
+            ],
+            [
+              -16.9430009,
+              32.635724
+            ],
+            [
+              -16.9426881,
+              32.6357373
+            ],
+            [
+              -16.942781,
+              32.6358693
+            ],
+            [
+              -16.9429437,
+              32.6358431
+            ],
+            [
+              -16.9429787,
+              32.635917
+            ],
+            [
+              -16.9430664,
+              32.6358987
+            ]
+          ]
+        ]
+      },
+      "id": "way/1057258864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1108191862",
+        "addr:city": "Funchal",
+        "addr:postcode": "9060-182",
+        "addr:street": "R. Conde Carvalhal 26E",
+        "building": "commercial",
+        "check_date:currency:XBT": "2023-12-02",
+        "currency:XBT": "yes",
+        "description": "The best Bouldering center on the island!",
+        "email": "madeiraclimbingcenter@gmail.com",
+        "image": "https://i.ibb.co/1Q0rvDQ/IMG-4915.jpg",
+        "leisure": "sports_centre",
+        "name": "Madeira Climbing Center",
+        "opening_hours": "Mo-Fr 13:00-22:00, Sa-Su 10:00-22:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 220 322",
+        "sport": "climbing",
+        "survey:date": "2024-09-13",
+        "website": "https://www.madeiraclimbingcenter.com"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -16.8987275,
+              32.6512571
+            ],
+            [
+              -16.8986638,
+              32.651233
+            ],
+            [
+              -16.8986788,
+              32.6512048
+            ],
+            [
+              -16.8985717,
+              32.6511643
+            ],
+            [
+              -16.8984949,
+              32.6513082
+            ],
+            [
+              -16.8986042,
+              32.6513496
+            ],
+            [
+              -16.8986223,
+              32.6513158
+            ],
+            [
+              -16.8986838,
+              32.651339
+            ],
+            [
+              -16.8987275,
+              32.6512571
+            ]
+          ]
+        ]
+      },
+      "id": "way/1108191862"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/300363348",
+        "addr:city": "Funchal",
+        "addr:housenumber": "19",
+        "addr:postcode": "9050-449",
+        "addr:street": "Rua Doutor Fernão de Ornelas",
+        "amenity": "pharmacy",
+        "check_date:currency:XBT": "2024-06-06",
+        "currency:XBT": "yes",
+        "email": "farmaciaconfianca.funchal@gmail.com",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Confiança - Pharmacy",
+        "opening_hours": "Mo-Sa 08:00-20:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 291 223 586",
+        "survey:date": "2025-03-19",
+        "website": "https://www.farmaciasegura.pt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9065213,
+          32.6493713
+        ]
+      },
+      "id": "node/300363348"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/570049416",
+        "addr:city": "Canico",
+        "addr:country": "PT",
+        "addr:postcode": "9125-067",
+        "addr:street": "Estrada Avelino Pinto",
+        "amenity": "restaurant",
+        "currency:XBT": "yes",
+        "name": "O Laranjinha - Bistro & Grill",
+        "opening_hours": "Mo-Su 12:30-22:30",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 967 761 115",
+        "survey:date": "2024-12-27",
+        "website": "https://laranjinhabistro.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8276776,
+          32.6465604
+        ]
+      },
+      "id": "node/570049416"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1493432273",
+        "addr:city": "São Jorge",
+        "addr:housenumber": "116",
+        "addr:postcode": "9230-143",
+        "addr:street": "Estrada Regional 101",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "currency:XBT": "yes",
+        "name": "Bolo do Caco Grill & Pizza",
+        "opening_hours": "Tu-Su 12:00-15:30, 17:30-20:00, Monday 12:00-19:00, Wednesday Closed",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 925 660 512",
+        "smoking": "no",
+        "survey:date": "2025-01-07",
+        "website": "https://www.facebook.com/bolodocacobar/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9158517,
+          32.8257268
+        ]
+      },
+      "id": "node/1493432273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1515996844",
+        "addr:city": "Funchal",
+        "addr:housenumber": "23",
+        "addr:postcode": "9000-043",
+        "addr:street": "Rua Câmara Pestana",
+        "amenity": "pharmacy",
+        "check_date:currency:XBT": "2024-02-29",
+        "currency:XBT": "yes",
+        "email": "farmaciaboticainglesa.funchal@gmail.com",
+        "healthcare": "pharmacy",
+        "name": "Botica Inglesa - Pharmacy",
+        "opening_hours": "Mo-Fr 08:30-19:00; Sa 09:00-13:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 291 203 060",
+        "survey:date": "2024-12-27",
+        "website": "https://www.farmaciasegura.pt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9099007,
+          32.6491136
+        ]
+      },
+      "id": "node/1515996844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1524079391",
+        "addr:city": "Ponta Delgada",
+        "addr:housenumber": "110",
+        "addr:postcode": "9240-113",
+        "addr:street": "Estrada Regional 101",
+        "amenity": "pharmacy",
+        "currency:XBT": "yes",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Farmácia Ponta Delgada - Pharmacy",
+        "opening_hours": "Mo-Sa 09:00-19:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "survey:date": "2024-09-02"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9901709,
+          32.8233359
+        ]
+      },
+      "id": "node/1524079391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1531141745",
+        "addr:city": "Santo António da Serra",
+        "addr:postcode": "9200-152",
+        "addr:street": "Estrada Regional 207",
+        "amenity": "restaurant",
+        "currency:XBT": "yes",
+        "email": "fb@santodaserragolf.com",
+        "name": "Trent Jones Restaurant​",
+        "opening_hours": "Mo-Fr 08:30-20:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 291 550 101",
+        "source": "survey",
+        "survey:date": "2025-04-07",
+        "website": "https://santodaserragolf.com/club/facilities/restaurant/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8035603,
+          32.7224148
+        ]
+      },
+      "id": "node/1531141745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1760247844",
+        "addr:city": "Funchal",
+        "addr:housenumber": "16",
+        "addr:postcode": "9060-075",
+        "addr:street": "Largo do Corpo Santo",
+        "amenity": "restaurant",
+        "check_date:currency:XBT": "2025-05-08",
+        "currency:XBT": "yes",
+        "name": "Xarambinha Pizzeria Expresso",
+        "note": "One of the first pizzeria to make home deliveries in Madeira! Italian Restaurant. Dine-in, Takeaway and Delivery.",
+        "opening_hours": "Mo-Su 12:00-23:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 234 777",
+        "survey:date": "2024-08-30",
+        "website": "https://www.facebook.com/xarambinha.ristorante/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9000832,
+          32.647641
+        ]
+      },
+      "id": "node/1760247844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1768692676",
+        "addr:city": "Machico",
+        "addr:postcode": "9200-121",
+        "addr:street": "Edificio Flor do Campo loja BC",
+        "addr:unit": "BC",
+        "contact:mobile": "(+351) 965 445 386",
+        "contact:phone": "(+351) 291 967 146",
+        "currency:XBT": "yes",
+        "email": "margarida.alexandra2010@hotmail.com",
+        "name": "Xanda Cabeleireiro e Estética - Hairdresser & Aesthetics",
+        "opening_hours": "Mo-Sa 09:00-19:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "shop": "hairdresser",
+        "survey:date": "2025-02-20",
+        "website": "https://www.facebook.com/Xandacabeleireiro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.774985,
+          32.7296313
+        ]
+      },
+      "id": "node/1768692676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1782789982",
+        "addr:city": "Funchal",
+        "addr:housenumber": "85",
+        "addr:postcode": "9000-043",
+        "addr:street": "Praça do Munícipio",
+        "amenity": "cafe",
+        "check_date": "2025-03-04",
+        "check_date:currency:XBT": "2025-03-04",
+        "contact:facebook": "museucaferestaurant",
+        "cuisine": "coffee_shop;regional;sandwich",
+        "currency:XBT": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "email": "museucafe@vaga.pt",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Museu Café - Lunch, Snacks & Coffee",
+        "opening_hours": "Mo-Fr 12:00-22:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 291 620 510",
+        "survey:date": "2025-03-04",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9086677,
+          32.6493175
+        ]
+      },
+      "id": "node/1782789982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1832777808",
+        "addr:city": "Funchal",
+        "addr:housenumber": "94",
+        "addr:postcode": "9000-116",
+        "addr:street": "Rua do Vale D'Ajuda",
+        "amenity": "pharmacy",
+        "currency:XBT": "yes",
+        "email": "ajudafarmacia@gmail.com",
+        "healthcare": "pharmacy",
+        "mobile": "(+351) 925 790 785",
+        "name": "Farmácia da Ajuda - Pharmacy",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 762 399",
+        "survey:date": "2024-10-21",
+        "website": "https://www.farmaciaspt.com/ilha-da-madeira/farmacias-em-funchal/farmacia-da-ajuda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9447708,
+          32.6388726
+        ]
+      },
+      "id": "node/1832777808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1910804387",
+        "addr:city": "Funchal",
+        "addr:housenumber": "4",
+        "addr:postcode": "9000-191",
+        "addr:street": "Rua da Levada de São João",
+        "currency:XBT": "yes",
+        "email": "info@quintinhasaojoao.com",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Quintinha São João Hotel & Spa",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 740 920",
+        "source": "Local",
+        "stars": "5",
+        "survey:date": "2025-01-02",
+        "tourism": "hotel",
+        "website": "https://www.quintinhasaojoao.com",
+        "wikidata": "Q111408879"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9200882,
+          32.6482644
+        ]
+      },
+      "id": "node/1910804387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2841018233",
+        "addr:city": "Funchal",
+        "addr:housenumber": "34",
+        "addr:postcode": "9000-043",
+        "addr:street": "Rua Câmara Pestana",
+        "brand": "Quiksilver",
+        "brand:wikidata": "Q1329463",
+        "check_date:currency:XBT": "2024-06-21",
+        "clothes": "sports",
+        "currency:XBT": "yes",
+        "email": "quiksilver.funchal.fra@boardriders.com",
+        "name": "Quiksilver",
+        "opening_hours": "Mo-Fr 10:00-19:00, Sa 10:00-13:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 924 349 883",
+        "shop": "clothes",
+        "survey:date": "2025-03-24",
+        "website": "https://www.facebook.com/quiksilvermadeirafranchise"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9099765,
+          32.6492503
+        ]
+      },
+      "id": "node/2841018233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2862164921",
+        "addr:city": "Estreito de Câmara de Lobos",
+        "addr:housenumber": "596",
+        "addr:postcode": "9325",
+        "addr:street": "Estrada João Gonçalves Zarco",
+        "amenity": "restaurant",
+        "check_date": "2024-10-16",
+        "cuisine": "regional",
+        "currency:XBT": "yes",
+        "name": "Viola Restaurant",
+        "opening_hours": "Sa-Su 12:00-23:00; Mo-Fr 12:00-16:00; 18:00-23:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 945 601",
+        "survey:date": "2024-10-15",
+        "website": "https://www.instagram.com/restauranteviola"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9796427,
+          32.6659777
+        ]
+      },
+      "id": "node/2862164921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2862288957",
+        "addr:city": "Câmara de Lobos",
+        "addr:housenumber": "60",
+        "addr:postcode": "9300-161",
+        "addr:street": "Estrada de Santa Clara",
+        "amenity": "pharmacy",
+        "currency:XBT": "yes",
+        "email": "flobosmar@gmail.com",
+        "healthcare": "pharmacy",
+        "name": "Farmácia Lobos Mar - Pharmacy",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 944 463",
+        "survey:date": "2024-12-27",
+        "website": "https://www.farmaciasportuguesas.pt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.981464,
+          32.651493
+        ]
+      },
+      "id": "node/2862288957"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2869730311",
+        "addr:city": "Funchal",
+        "addr:housenumber": "81",
+        "addr:postcode": "9000-079",
+        "addr:street": "Rua 5 de Outubro",
+        "amenity": "pharmacy",
+        "currency:XBT": "yes",
+        "dispensing": "yes",
+        "email": "farmacialusobritanica1877@gmail.com",
+        "healthcare": "pharmacy",
+        "mobile": "(+351) 967 250 375",
+        "name": "Farmácia Luso-Britânica - Pharmacy",
+        "opening_hours": "Mo-Fr 08:30-20:00; Sa 09:00-13:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "survey:date": "2024-11-12",
+        "website": "http://facebook.com/farmacialusobritanica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9091588,
+          32.6515952
+        ]
+      },
+      "id": "node/2869730311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3274980731",
+        "addr:city": "Funchal",
+        "addr:housenumber": "28",
+        "addr:postcode": "9060-129",
+        "addr:street": "Rua do Hospital Velho",
+        "currency:XBT": "yes",
+        "description": "Discover the joy of bubble tea while enjoying our vibrant cafe atmosphere. With a wide range of flavors and toppings to choose from, there's something for everyone at Boba & Chill.",
+        "email": "info@bobaandchill.pt",
+        "name": "Boba & Chill - Bubble Tea",
+        "opening_hours": "Mo-Fr 12:00-19:00, Sa-Su 13:00-19:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 916 314 935",
+        "shop": "beverages",
+        "survey:date": "2024-11-12",
+        "website": "https://www.bobaandchill.pt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9029929,
+          32.6487861
+        ]
+      },
+      "id": "node/3274980731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3782788344",
+        "addr:city": "São Vicente",
+        "addr:place": "Calhau",
+        "addr:postcode": "9240-018",
+        "currency:XBT": "yes",
+        "name": "Supermarket Amanhecer - São Vicente",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 143 857",
+        "shop": "supermarket",
+        "survey:date": "2025-03-24",
+        "website": "https://amanhecer.pt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.0500151,
+          32.8082324
+        ]
+      },
+      "id": "node/3782788344"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3884132779",
+        "addr:city": "Funchal",
+        "addr:housenumber": "49",
+        "addr:postcode": "9050-026",
+        "addr:street": "Rua da Conceição",
+        "amenity": "restaurant",
+        "cuisine": "brunch",
+        "currency:XBT": "yes",
+        "name": "Loft Brunch & Cocktails [na.praça]",
+        "opening_hours": "Mo-Fr 09:00-18:00, Sa 09:00-15:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 640 513",
+        "survey:date": "2024-07-12",
+        "website": "https://www.instagram.com/loft.brunch.cocktails/",
+        "website:menu": "https://www.facebook.com/brunch.loft/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9068992,
+          32.6505695
+        ]
+      },
+      "id": "node/3884132779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3884742383",
+        "addr:city": "Funchal",
+        "addr:country": "PT",
+        "addr:housenumber": "28",
+        "addr:postcode": "9000-015",
+        "addr:street": "Avenida do Infante",
+        "check_date": "2024-03-02",
+        "check_date:currency:XBT": "2024-05-31",
+        "currency:XBT": "yes",
+        "indoor_seating": "yes",
+        "name": "A Confeitaria Coffee & Bakery [na .avenida]",
+        "opening_hours": "Mo-Su 07:00-20:00",
+        "outdoor_seating": "yes",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 621 325",
+        "shop": "bakery",
+        "survey:date": "2025-03-03",
+        "website": "https://www.facebook.com/confeitariamc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9177076,
+          32.6450193
+        ]
+      },
+      "id": "node/3884742383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3886246589",
+        "addr:city": "Funchal",
+        "addr:housenumber": "2A",
+        "addr:postcode": "9000-069",
+        "addr:street": "Avenida Zarco",
+        "amenity": "cafe",
+        "currency:XBT": "yes",
+        "email": "info@kampo.pt",
+        "name": "Theo’s by Chef Júlio Pereira",
+        "opening_hours": "Mo-Su 12:30-23:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 939 698 979",
+        "survey:date": "2025-02-01",
+        "website": "https://theos.pt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9095128,
+          32.6474443
+        ]
+      },
+      "id": "node/3886246589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3887477219",
+        "addr:city": "Funchal",
+        "addr:housenumber": "120",
+        "addr:postcode": "9000-250",
+        "addr:street": "Rua do Vale D'Ajuda",
+        "currency:XBT": "yes",
+        "email": "penhadaguia1844@gmail.com",
+        "name": "Penha d'Aguia Ajuda - Coffee Shop",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 633 084",
+        "shop": "bakery",
+        "survey:date": "2024-10-10",
+        "website": "https://www.facebook.com/@penha.daguia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.945338,
+          32.639432
+        ]
+      },
+      "id": "node/3887477219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3947240594",
+        "addr:city": "Funchal",
+        "addr:housenumber": "41",
+        "addr:postcode": "9000-224",
+        "addr:street": "Rua das Mercês",
+        "currency:XBT": "yes",
+        "description": "Offices, Coworking Spaces, Multipurpose Spaces, Meeting Rooms, Patio and Events.",
+        "email": "info@coworkfunchal.com",
+        "name": "Cowork Funchal",
+        "office": "coworking",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 291 006 530",
+        "survey:date": "2024-08-04",
+        "website": "https://coworkfunchal.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9115766,
+          32.651342
+        ]
+      },
+      "id": "node/3947240594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3948387460",
+        "addr:city": "Funchal",
+        "addr:housenumber": "28",
+        "addr:postcode": "9000-015",
+        "addr:street": "Avenida do Infante",
+        "amenity": "restaurant",
+        "cuisine": "grill",
+        "currency:XBT": "yes",
+        "email": "info@whynotgrill.com",
+        "indoor_seating": "yes",
+        "name": "Why Not? Restaurant Grill",
+        "opening_hours": "Mo-Fr 12:00-22:30",
+        "outdoor_seating": "yes",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 627 590",
+        "survey:date": "2024-09-26",
+        "website": "https://whynotgrill.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9171342,
+          32.6452494
+        ]
+      },
+      "id": "node/3948387460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3997675690",
+        "addr:city": "Funchal",
+        "addr:housenumber": "44",
+        "addr:postcode": "9000-267",
+        "addr:street": "Levada dos Piornais",
+        "amenity": "bar",
+        "currency:XBT": "yes",
+        "name": "A casa da Levada - Bar",
+        "opening_hours": "Su-Th 08:00-24:00, Fr-Sa 08:00-02:00",
+        "outdoor_seating": "yes",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 744 986",
+        "survey:date": "2024-10-29",
+        "website": "https://www.instagram.com/casa_da_levada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9440523,
+          32.6437868
+        ]
+      },
+      "id": "node/3997675690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4183148414",
+        "addr:city": "Funchal",
+        "addr:housenumber": "4",
+        "addr:postcode": "9060-129",
+        "addr:street": "Rua do Hospital Velho",
+        "check_date:currency:XBT": "2025-03-04",
+        "contact:facebook": "confeitariamc",
+        "contact:instagram": "a_confeitaria_",
+        "currency:XBT": "yes",
+        "internet_access": "wlan",
+        "name": "A Confeitaria Coffee & Bakery [no.mercado]",
+        "opening_hours": "Mo-Fr 08:00-19:00, Sa 08:00-14:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 621 325",
+        "shop": "bakery",
+        "smoking": "outside",
+        "survey:date": "2024-03-04",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9039226,
+          32.6487912
+        ]
+      },
+      "id": "node/4183148414"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4269544449",
+        "addr:city": "Funchal",
+        "addr:postcode": "9020-329",
+        "addr:street": "Avenida da Madalena",
+        "amenity": "cafe",
+        "check_date": "2024-10-31",
+        "currency:XBT": "yes",
+        "indoor_seating": "yes",
+        "name": "Madalenas Café",
+        "outdoor_seating": "yes",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9284015,
+          32.6591867
+        ]
+      },
+      "id": "node/4269544449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4298812341",
+        "addr:city": "Funchal",
+        "addr:housenumber": "15 D",
+        "addr:postcode": "9000-706",
+        "addr:street": "Caminho de São Martinho",
+        "amenity": "pharmacy",
+        "currency:XBT": "yes",
+        "email": "farmaciadesaomartinho@gmail.com",
+        "healthcare": "pharmacy",
+        "mobile": "(+351) 966 735 183",
+        "name": "Farmacia São Martinho - Pharmacy",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 291 721 190",
+        "survey:date": "2024-09-02",
+        "website": "https://www.farmaciasegura.pt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9369698,
+          32.6495185
+        ]
+      },
+      "id": "node/4298812341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4319235351",
+        "addr:city": "Funchal",
+        "addr:postcode": "9060-305",
+        "addr:street": "Largo do Socorro",
+        "amenity": "bar",
+        "check_date:currency:XBT": "2024-10-05",
+        "currency:XBT": "yes",
+        "internet_access": "wlan",
+        "name": "Barreirinha Bar Café - Bar and Coffee",
+        "opening_hours": "Mo-Su 09:00-24:00",
+        "outdoor_seating": "yes",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 291 627 418",
+        "survey:date": "2023-11-15",
+        "website": "https://primenet.primedrinks.pt/PrimeMenu/MenuPublic.aspx?MenuPublicToken=evVZP9dUcIwgNmIFl9LDB5LCORt8biTkEpHR9nGDlty05LSSvH&fbclid=IwAR1tAGatUiitpqL2KCDKbcon5QMmhoblCAiOOUkgMfoN0MRuxvket6sWUaI",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8973262,
+          32.6470255
+        ]
+      },
+      "id": "node/4319235351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4365947245",
+        "addr:city": "Funchal",
+        "addr:housenumber": "39",
+        "addr:postcode": "9000-079",
+        "addr:street": "Rua dos Netos",
+        "amenity": "restaurant",
+        "check_date:currency:XBT": "2025-03-05",
+        "contact:facebook": "https://www.facebook.com/profile.php/?id=100077379049116",
+        "contact:instagram": "http://www.instagram.com/jarana_tapasenchidos/?hl=es",
+        "currency:XBT": "yes",
+        "indoor_seating": "yes",
+        "mobile": "+34 646 576 166",
+        "name": "Jarana Tapas & Enchidos - Spanish Food",
+        "opening_hours": "Mo-Su 8:00-22:00",
+        "outdoor_seating": "no",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "+351 291 222 489",
+        "survey:date": "2024-09-02"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9100421,
+          32.6511434
+        ]
+      },
+      "id": "node/4365947245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4648482791",
+        "addr:city": "Funchal",
+        "addr:housenumber": "52",
+        "addr:postcode": "9000-044",
+        "addr:street": "Rua dos Aranhas",
+        "check_date:currency:XBT": "2024-06-21",
+        "currency:XBT": "yes",
+        "indoor_seating": "yes",
+        "name": "A Confeitaria Bakery & Coffee [na.travessa]",
+        "opening_hours": "Mo-Fr 08:00-19:00",
+        "outdoor_seating": "yes",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 621 325",
+        "shop": "bakery",
+        "survey:date": "2025-03-24",
+        "website": "https://www.facebook.com/confeitariamc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9131324,
+          32.6475908
+        ]
+      },
+      "id": "node/4648482791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5520941429",
+        "addr:city": "Funchal",
+        "addr:housenumber": "8",
+        "addr:postcode": "9000-715",
+        "addr:street": "Rua de João Gago",
+        "amenity": "cafe",
+        "currency:XBT": "yes",
+        "email": "penhadaguia1844@gmail.com",
+        "name": "Penha d'Aguia Funchal - Coffee Shop",
+        "opening_hours": "Mo-Sa 08:00-18:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 228 119",
+        "survey:date": "2024-10-10",
+        "website": "https://www.facebook.com/@penha.daguia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9076976,
+          32.6484809
+        ]
+      },
+      "id": "node/5520941429"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5818418732",
+        "addr:city": "Funchal",
+        "addr:housenumber": "28F",
+        "addr:postcode": "9000-015",
+        "addr:street": "Avenida do Infante",
+        "addr:unit": "AC",
+        "amenity": "restaurant",
+        "cuisine": "international",
+        "currency:XBT": "yes",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Le Bistrot Jacarandá - Restaurant",
+        "opening_hours": "Mo-Su 12:00-23:00, Sa Closed",
+        "outdoor_seating": "yes",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 644 270",
+        "smoking": "outside",
+        "survey:date": "2025-02-01",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "website": "https://www.facebook.com/bistrotmadeira"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9173787,
+          32.6451247
+        ]
+      },
+      "id": "node/5818418732"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6128776289",
+        "addr:city": "Funchal",
+        "addr:housenumber": "34b",
+        "addr:postcode": "9000-113",
+        "addr:street": "Rua da Casa Branca",
+        "amenity": "cafe",
+        "currency:XBT": "yes",
+        "indoor_seating": "yes",
+        "name": "A Confeitaria [na.casabranca]",
+        "opening_hours": "Mo-Sa 07:30-20:00; Su 07:30-14:00",
+        "outdoor_seating": "yes",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 601 940",
+        "survey:date": "2024-11-18",
+        "website": "https://www.facebook.com/confeitariamc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9275821,
+          32.6407088
+        ]
+      },
+      "id": "node/6128776289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6161313808",
+        "addr:city": "Funchal",
+        "addr:housenumber": "80",
+        "addr:postcode": "9060-155",
+        "addr:street": "Rua Latino Coelho",
+        "currency:XBT": "yes",
+        "description": "Recording Studio, School, Rehearsal Rooms, Musical Instrument Shop & Vinyl Records. \n\nLoja de instrumentos. Academia de música. Estúdio de gravação. Salas de Ensaio.",
+        "email": "estudiovinteeum@gmail.com",
+        "name": "Estúdio 21 - Music Store, School, Studio & Vinyl Shop",
+        "opening_hours": "Mo-Fr 10:30-19:00, Sa 10:00-13:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 963 788 506",
+        "shop": "musical_instrument",
+        "survey:date": "2024-12-12",
+        "website": "https://linktr.ee/estudio21"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9020292,
+          32.6485679
+        ]
+      },
+      "id": "node/6161313808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7020274902",
+        "addr:city": "Funchal",
+        "addr:housenumber": "77",
+        "addr:postcode": "9050-021",
+        "addr:street": "Rua Doutor Fernão de Ornelas",
+        "currency:XBT": "yes",
+        "email": "bordal@bordal.pt",
+        "name": "Bordal - Traditional Embroidery",
+        "opening_hours": "Mo-Su 09:00-19:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 222 965",
+        "shop": "gift",
+        "survey:date": "2024-09-02",
+        "website": "https://www.bordal.pt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.904635,
+          32.6488583
+        ]
+      },
+      "id": "node/7020274902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9404362755",
+        "addr:city": "Funchal",
+        "addr:housenumber": "6",
+        "addr:postcode": "9000-058",
+        "addr:street": "Rua dos Murças",
+        "amenity": "restaurant",
+        "check_date": "2025-05-08",
+        "check_date:currency:XBT": "2025-05-08",
+        "contact:email": "info@kampo.pt",
+        "contact:phone": "(+351) 938 034 758",
+        "contact:website": "https://akuafunchal.pt",
+        "cuisine": "international",
+        "currency:XBT": "yes",
+        "name": "Akua by Chef Júlio Pereira",
+        "opening_hours": "Mo-Su 12:30-22:00",
+        "operator": "JPL Food Unipessoal Lda",
+        "outdoor_seating": "yes",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "survey:date": "2024-04-29"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9093783,
+          32.6474838
+        ]
+      },
+      "id": "node/9404362755"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9712012317",
+        "addr:city": "Funchal",
+        "addr:postcode": "9000-106",
+        "addr:street": "Estrada Monumental",
+        "amenity": "restaurant",
+        "check_date:currency:XBT": "2024-02-27",
+        "currency:XBT": "yes",
+        "email": "sajjad.khan83@yahoo.com",
+        "name": "Indian Palace",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no",
+        "phone": "+351 291 751 039",
+        "survey:date": "2024-12-27",
+        "website": "https://www.facebook.com/indianpalacefunchal/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9340603,
+          32.638444
+        ]
+      },
+      "id": "node/9712012317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10011487439",
+        "addr:city": "Funchal",
+        "addr:housenumber": "47",
+        "addr:postcode": "9000-645",
+        "addr:street": "Rua das Virtudes",
+        "check_date:currency:XBT": "2023-10-25",
+        "currency:XBT": "yes",
+        "email": "info@anislandapart.com",
+        "name": "An Island Apart - Holiday Rentals",
+        "office": "company",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351‭) 925 444 444‬",
+        "survey:date": "2024-08-04",
+        "website": "https://anislandapart.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9298534,
+          32.6465249
+        ]
+      },
+      "id": "node/10011487439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10016008392",
+        "addr:city": "Funchal",
+        "addr:housenumber": "47",
+        "addr:postcode": "9000-645",
+        "addr:street": "Rua das Virtudes",
+        "check_date:currency:XBT": "2023-10-25",
+        "currency:XBT": "yes",
+        "email": "info@monsteramedia.com",
+        "name": "Monstera Books",
+        "office": "company",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 916 001 177",
+        "survey:date": "2024-08-04",
+        "website": "https://monsterabooks.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9297355,
+          32.6465144
+        ]
+      },
+      "id": "node/10016008392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10016016902",
+        "addr:city": "Funchal",
+        "addr:housenumber": "46",
+        "addr:postcode": "9000-645",
+        "addr:street": "Rua das Virtudes",
+        "currency:XBT": "yes",
+        "name": "Manta - Agência de Comunicação",
+        "office": "advertising_agency",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "+351 962 824 040",
+        "survey:date": "2024-08-04",
+        "website": "https://wearemanta.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9298054,
+          32.6463638
+        ]
+      },
+      "id": "node/10016016902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10169374926",
+        "addr:city": "Funchal",
+        "addr:housenumber": "25",
+        "addr:postcode": "9000-069",
+        "addr:street": "Avenida Zarco",
+        "amenity": "cafe",
+        "check_date:currency:XBT": "2025-03-05",
+        "contact:facebook": "https://www.facebook.com/maiacoffeeshop/",
+        "contact:instagram": "https://www.instagram.com/maiacoffeeshop/",
+        "currency:XBT": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "yes",
+        "name": "Maia Coffee Shop",
+        "opening_hours": "Mo-Fr 08:00-19:00, Sa 8:30-13:00",
+        "outdoor_seating": "yes",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 960 000 992",
+        "smoking": "outside",
+        "survey:date": "2024-03-12",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9101835,
+          32.6489863
+        ]
+      },
+      "id": "node/10169374926"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10171104008",
+        "addr:housenumber": "140",
+        "addr:street": "Rua dos Ferreiros",
+        "air_conditioning": "yes",
+        "check_date": "2023-11-07",
+        "currency:XBT": "yes",
+        "email": "heythere@jacahostel.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Jaca Hostel Funchal",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 966 466 621",
+        "source": "survey",
+        "survey:date": "2024-09-02",
+        "tourism": "hostel",
+        "website": "https://www.jacahostel.com/",
+        "wikidata": "Q111119246"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9095997,
+          32.6506378
+        ]
+      },
+      "id": "node/10171104008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10295182582",
+        "addr:city": "Funchal",
+        "addr:housenumber": "8",
+        "addr:postcode": "9000-098",
+        "addr:street": "Estrada Monumental",
+        "amenity": "bar",
+        "currency:XBT": "yes",
+        "indoor_seating": "yes",
+        "mobile": "(+351) 969 043 034",
+        "name": "O Maltez - Food & Drinks",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "outdoor_seating": "yes",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "survey:date": "2024-12-27"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9236637,
+          32.6433149
+        ]
+      },
+      "id": "node/10295182582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10295182583",
+        "addr:city": "Funchal",
+        "addr:housenumber": "4",
+        "addr:postcode": "9000-089",
+        "addr:street": "Estrada Monumental",
+        "check_date": "2025-03-24",
+        "check_date:currency:XBT": "2025-03-24",
+        "contact:instagram": "travelwithus_madeira",
+        "currency:XBT": "yes",
+        "email": "info@madeira-island-tours.com",
+        "name": "Madeira Island Tours",
+        "opening_hours": "Mo-Su 09:00-18:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 607 610",
+        "shop": "travel_agency",
+        "website": "https://www.madeiratravelwithus.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9235799,
+          32.643336
+        ]
+      },
+      "id": "node/10295182583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10559301056",
+        "addr:street": "Arcadas de São Francisco",
+        "check_date:currency:XBT": "2024-01-08",
+        "currency:XBT": "yes",
+        "name": "Eglis Yolanda Ramirez",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no",
+        "phone": "(+351) 927 985 626",
+        "shop": "beauty",
+        "survey:date": "2024-10-18",
+        "website": "https://www.instagram.com/eglis.y_esteticista_masaggista/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9110825,
+          32.6485554
+        ]
+      },
+      "id": "node/10559301056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10719701517",
+        "addr:city": "Funchal",
+        "addr:street": "Jardim Público da Ajuda",
+        "check_date": "2024-11-27",
+        "contact:instagram": "rheremans",
+        "currency:XBT": "yes",
+        "description": "Each Sunday: \n11:00-12:00 (Hatha Yoga)",
+        "email": "roel.heremans@gmail.com",
+        "leisure": "fitness_centre",
+        "name": "Hatha Yoga",
+        "opening_hours": "Su 11:00-12:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "+351 913 000 048",
+        "sport": "yoga",
+        "survey:date": "2024-11-27",
+        "website": "https://roel-heremans.com/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9428055,
+          32.6384605
+        ]
+      },
+      "id": "node/10719701517"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10855911506",
+        "addr:city": "Funchal",
+        "addr:housenumber": "258",
+        "addr:postcode": "9000-126",
+        "addr:street": "Estrada Monumental",
+        "amenity": "restaurant",
+        "check_date": "2025-04-25",
+        "check_date:currency:XBT": "2025-05-07",
+        "contact:facebook": "tapasycopasfunchal",
+        "contact:instagram": "tapasycopasfunchal",
+        "cuisine": "tapas",
+        "currency:XBT": "yes",
+        "email": "tapasycopasfunchal@gmail.com",
+        "indoor_seating": "yes",
+        "name": "Tapas y Copas",
+        "opening_hours": "Tu-Su 17:00-24:00",
+        "outdoor_seating": "yes",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "+351 291 633 751",
+        "survey:date": "2024-12-27",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.929597,
+          32.638269
+        ]
+      },
+      "id": "node/10855911506"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10899529872",
+        "addr:city": "Funchal",
+        "addr:housenumber": "35",
+        "addr:postcode": "9050-450",
+        "addr:street": "Rua Direita",
+        "amenity": "restaurant",
+        "check_date": "2023-05-24",
+        "check_date:currency:XBT": "2024-11-28",
+        "contact:instagram": "ciaopizzeriafunchal",
+        "cuisine": "pizza",
+        "currency:XBT": "yes",
+        "description": "Small but mighty",
+        "name": "Ciao Pizzeria",
+        "opening_hours": "Mo-Sa 11:30-22:00",
+        "payment:lightning": "yes",
+        "payment:onchain": "yes",
+        "phone": "291 619 007"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9059473,
+          32.6488089
+        ]
+      },
+      "id": "node/10899529872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10912591292",
+        "addr:city": "Funchal",
+        "addr:postcode": "9000-645",
+        "addr:street": "Rua Dr Pita",
+        "currency:XBT": "yes",
+        "indoor_seating": "yes",
+        "name": "A Confeitaria Coffee & Bakery [nos.barreiros]",
+        "opening_hours": "Mo-Fr 07:30-20:00; Sa-Su 07:30-19:00",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 655 791",
+        "shop": "bakery",
+        "smoking": "separated",
+        "survey:date": "2024-12-27",
+        "toilets": "yes",
+        "website": "https://www.facebook.com/confeitariamc",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9304329,
+          32.6472152
+        ]
+      },
+      "id": "node/10912591292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10934040100",
+        "addr:city": "Funchal",
+        "addr:housenumber": "Loja D",
+        "addr:postcode": "9000-100",
+        "addr:street": "Estrada Monumental",
+        "amenity": "restaurant",
+        "cuisine": "brunch",
+        "currency:XBT": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Loft Brunch e Cocktails [no.monumental]",
+        "opening_hours": "Tu-Su 09:00-19:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 744 006",
+        "survey:date": "2024-09-02",
+        "website": "http://instagram.com/loft.brunch.cocktails"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9400004,
+          32.6370116
+        ]
+      },
+      "id": "node/10934040100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10958561090",
+        "addr:city": "Funchal",
+        "addr:housenumber": "120",
+        "addr:postcode": "9020-402",
+        "addr:street": "Avenida da Madalena",
+        "check_date": "2025-04-23",
+        "check_date:smoking": "2025-04-23",
+        "currency:XBT": "yes",
+        "indoor_seating": "yes",
+        "name": "A Confeitaria Coffee & Bakery [nas.madalenas]",
+        "opening_hours": "Mo-Su 07:30-20:00",
+        "outdoor_seating": "yes",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 611 846",
+        "shop": "bakery",
+        "smoking": "outside",
+        "website": "https://www.facebook.com/confeitariamc",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.930457,
+          32.6607838
+        ]
+      },
+      "id": "node/10958561090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10977807516",
+        "addr:city": "Funchal",
+        "addr:door": "11",
+        "addr:housenumber": "33/47",
+        "addr:postcode": "9000-061",
+        "addr:street": "Avenida Arriaga",
+        "check_date": "2024-02-29",
+        "check_date:currency:XBT": "2025-01-27",
+        "currency:XBT": "yes",
+        "description": "Electronics Store",
+        "mobile": "(+351) 920 428 798",
+        "name": "Kalani Electronics",
+        "opening_hours": "Mo-Su 11:00-19:30",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 966 140 259",
+        "shop": "electronics",
+        "survey:date": "2024-12-27",
+        "website": "https://maps.app.goo.gl/qY9dHoKeqVNjaKAD6"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9108464,
+          32.6469924
+        ]
+      },
+      "id": "node/10977807516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11109725525",
+        "addr:city": "São Martinho",
+        "addr:housenumber": "348",
+        "addr:postcode": "9000-100",
+        "addr:street": "Estrada Monumental",
+        "addr:unit": "C",
+        "amenity": "restaurant",
+        "check_date": "2025-05-07",
+        "cuisine": "italian",
+        "currency:XBT": "yes",
+        "name": "Alforno Madeira",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 622 622",
+        "survey:date": "2025-05-07",
+        "website": "http://www.alfornomadeira.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9400388,
+          32.6369855
+        ]
+      },
+      "id": "node/11109725525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11238828758",
+        "addr:city": "Funchal",
+        "addr:housenumber": "19B",
+        "addr:postcode": "9050-019",
+        "addr:street": "Rua do Carmo",
+        "check_date:currency:XBT": "2023-10-31",
+        "currency:XBT": "yes",
+        "email": "hello@letsrelax.com",
+        "name": "Montra Thai Massage & Therapy",
+        "opening_hours": "Mo-Su 10:00-21:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 939 397 945",
+        "shop": "massage",
+        "survey:date": "2024-09-02",
+        "website": "https://letsrelaxthaimassage.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9056244,
+          32.6502707
+        ]
+      },
+      "id": "node/11238828758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11302214536",
+        "addr:city": "Funchal",
+        "addr:housenumber": "5",
+        "addr:postcode": "9050-023",
+        "addr:street": "Rua Elias Garcia",
+        "currency:XBT": "yes",
+        "email": "geral@oncloud.pt",
+        "name": "OnCloud - Computers & Printshop",
+        "opening_hours": "Mo-Su 09:00-19:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 962 183 403",
+        "shop": "computer",
+        "survey:date": "2024-09-02",
+        "website": "https://www.oncloud.pt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9079017,
+          32.6524569
+        ]
+      },
+      "id": "node/11302214536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11306826523",
+        "addr:city": "Calheta",
+        "addr:housenumber": "1",
+        "addr:postcode": "9370-135",
+        "addr:street": "Porto de Recreio da Calheta, Marina, Loja 1",
+        "check_date:currency:XBT": "2025-01-28",
+        "currency:XBT": "yes",
+        "email": "Info@homes-madeira.com",
+        "name": "Exclusive Homes Madeira - Real State",
+        "office": "estate_agent",
+        "opening_hours": "Mo-Su 08:00-17:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 960 312 956",
+        "survey:date": "2024-09-02",
+        "website": "https://exclusivehomesmadeira.info"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.171905,
+          32.7185095
+        ]
+      },
+      "id": "node/11306826523"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11330857543",
+        "addr:city": "Funchal",
+        "addr:housenumber": "138",
+        "addr:postcode": "9000-082",
+        "addr:street": "Rua dos Ferreiros",
+        "amenity": "cafe",
+        "check_date": "2024-12-04",
+        "check_date:currency:XBT": "2024-09-04",
+        "check_date:diet:vegan": "2024-12-04",
+        "check_date:diet:vegetarian": "2024-12-04",
+        "cuisine": "coffee_shop",
+        "currency:XBT": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "email": "heythere@jacahostel.com",
+        "indoor_seating": "yes",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Jacafé - Coffee, Craft Beer & Yummy Snacks",
+        "opening_hours": "Mo-Fr 09:30-17:30; Sa-Su 9:30-13:30",
+        "outdoor_seating": "no",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 926 958 673",
+        "website": "https://www.jacahostel.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9096355,
+          32.650618
+        ]
+      },
+      "id": "node/11330857543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11385915128",
+        "addr:city": "Calheta",
+        "addr:housenumber": "6",
+        "addr:postcode": "9370-135",
+        "addr:street": "Rua de Trás",
+        "amenity": "restaurant",
+        "check_date:currency:XBT": "2024-05-27",
+        "cuisine": "breakfast;coffee_shop;portuguese",
+        "currency:XBT": "yes",
+        "name": "Bentornato a Rum Bar - Restaurant",
+        "opening_hours": "Fr-Tu 10:00-20:00; Th 15:00-20:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "survey:date": "2025-02-28",
+        "website": "https://www.instagram.com/bentornato.arumbar/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.1779836,
+          32.7222296
+        ]
+      },
+      "id": "node/11385915128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11394277900",
+        "addr:city": "Funchal",
+        "addr:housenumber": "82",
+        "addr:postcode": "9000-056",
+        "addr:street": "Rua do Sabão",
+        "amenity": "restaurant",
+        "currency:XBT": "yes",
+        "name": "A Carruagem Snack Bar",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 603 003",
+        "survey:date": "2024-12-27",
+        "website": "https://www.instagram.com/a.carruagem/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9071803,
+          32.6484461
+        ]
+      },
+      "id": "node/11394277900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11443304542",
+        "addr:city": "Funchal",
+        "addr:housenumber": "42B",
+        "addr:postcode": "9000-064",
+        "addr:street": "Avenida Arriaga",
+        "addr:unit": "2 Floor",
+        "amenity": "dentist",
+        "check_date:currency:XBT": "2024-02-17",
+        "currency:XBT": "yes",
+        "email": "info@clinicarriaga.pt",
+        "healthcare": "dentist",
+        "healthcare:speciality": "dentist;orthodontics",
+        "name": "Clinica Arriaga - Dental Clinic",
+        "opening_hours": "Mo-Sa 08:30-21:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 282 590",
+        "survey:date": "2024-11-27",
+        "website": "https://www.clinicarriaga.pt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9122797,
+          32.6471361
+        ]
+      },
+      "id": "node/11443304542"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11497253572",
+        "addr:city": "Câmara De Lobos",
+        "addr:housenumber": "92",
+        "addr:postcode": "9300-164",
+        "addr:street": "Estrada João Gonçalves Zarco",
+        "amenity": "pharmacy",
+        "currency:XBT": "yes",
+        "email": "fmc.farmacia@gmail.com",
+        "healthcare": "pharmacy",
+        "name": "Farmácia Popular - Pharmacy",
+        "opening_hours": "Mo-Sa 09:00-22:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 942 114",
+        "survey:date": "2024-12-27",
+        "website": "https://www.farmaciasportuguesas.pt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9738574,
+          32.6481749
+        ]
+      },
+      "id": "node/11497253572"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11500426360",
+        "addr:city": "Ribeira Brava",
+        "addr:housenumber": "65-71",
+        "addr:postcode": "9304-003",
+        "addr:street": "Ribeira Brava VE4",
+        "amenity": "pub",
+        "check_date": "2024-11-27",
+        "check_date:currency:XBT": "2024-02-17",
+        "currency:XBT": "yes",
+        "name": "Loja Coral Ribeira Brava - Liquor Store",
+        "opening_hours": "Mo-Sa 09:00-19:00",
+        "operator": "ECM",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 954 391",
+        "survey:date": "2024-02-05",
+        "website": "https://www.lojacoral.pt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.0524287,
+          32.6830818
+        ]
+      },
+      "id": "node/11500426360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11503797086",
+        "addr:city": "Funchal",
+        "addr:housenumber": "29B",
+        "addr:postcode": "9050-026",
+        "addr:street": "Rua da Conceição",
+        "currency:XBT": "yes",
+        "email": "madeira@hawkersbyoptimil.pt",
+        "mobile": "(+351) 964 993 767",
+        "name": "Hawkers by Optimil - Optician & Sunglasses",
+        "opening_hours": "Mo-Sa 09:00-19:00",
+        "operator": "Optimil Madeira",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 220 679",
+        "shop": "optician",
+        "survey:date": "2024-10-18",
+        "website": "https://www.instagram.com/optimil_madeira"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9068287,
+          32.6502596
+        ]
+      },
+      "id": "node/11503797086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11504629014",
+        "addr:city": "Funchal",
+        "addr:housenumber": "8",
+        "addr:postcode": "9050-028",
+        "addr:street": "Rua do Bom Jesus",
+        "currency:XBT": "yes",
+        "email": "comercial@aervanaria.com",
+        "name": "A Ervanária - Herbalist & Natural Supplements",
+        "opening_hours": "Mo-Sa 09:00-19:00",
+        "operator": "A Ervanária",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 220 007",
+        "shop": "herbalist",
+        "survey:date": "2024-10-18"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9075586,
+          32.6508074
+        ]
+      },
+      "id": "node/11504629014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11518916465",
+        "addr:city": "São Martinho",
+        "addr:housenumber": "6",
+        "addr:postcode": "9020-121",
+        "addr:street": "Caminho de Santo Amaro",
+        "amenity": "car_rental",
+        "currency:XBT": "yes",
+        "email": "info@vanscape.pt",
+        "name": "Vanscape Rentals - Rent-a-Car",
+        "opening_hours": "24/7",
+        "operator": "Vanscape",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 917 999 201",
+        "survey:date": "2024-10-18",
+        "website": "https://vanscape.pt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9445292,
+          32.6570884
+        ]
+      },
+      "id": "node/11518916465"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11523686113",
+        "addr:city": "Machico",
+        "addr:postcode": "9200-107",
+        "addr:street": "Porto de Recreio",
+        "brand": "Oceanodroma",
+        "check_date": "2025-01-02",
+        "check_date:currency:XBT": "2024-08-20",
+        "currency:EUR": "yes",
+        "currency:XBT": "yes",
+        "name": "Oceanodroma - Birds, Whales and Dolphins Watching",
+        "name:en": "Oceanodroma Whale Watching",
+        "name:pt": "Oceanodroma Observação de Cetáceos",
+        "opening_hours": "Mo-Su 10:00-12-00",
+        "operator": "Wind Birds",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "+351 923330429",
+        "shop": "ticket",
+        "survey:date": "2024-01-17",
+        "website": "https://oceanodroma.co.uk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7599399,
+          32.717257
+        ]
+      },
+      "id": "node/11523686113"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11530905242",
+        "addr:city": "Funchal",
+        "addr:housenumber": "100",
+        "addr:postcode": "9000-018",
+        "addr:street": "Rua Imperatriz Dona Amélia",
+        "amenity": "bar",
+        "check_date:currency:XBT": "2024-07-06",
+        "currency:XBT": "yes",
+        "email": "musaloungebar@gmail.com",
+        "name": "Musa Lounge Bar - Cocktails",
+        "opening_hours": "Mo-Su 16:00-01:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 221 877",
+        "survey:date": "2024-01-19",
+        "website": "https://www.musaloungebar.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9195791,
+          32.6432251
+        ]
+      },
+      "id": "node/11530905242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11540207132",
+        "addr:city": "Funchal",
+        "addr:housenumber": "392",
+        "addr:postcode": "9000-246",
+        "addr:street": "Estrada Monumental",
+        "amenity": "pharmacy",
+        "currency:XBT": "yes",
+        "healthcare": "pharmacy",
+        "level": "1",
+        "name": "Farmácia do Fórum - Pharmacy",
+        "opening_hours": "Mo-Su 10:00-21:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 742 512",
+        "survey:date": "2024-10-30",
+        "website": "https://www.farmaciaspt.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9433019,
+          32.635973
+        ]
+      },
+      "id": "node/11540207132"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11544205286",
+        "addr:city": "Funchal",
+        "addr:street": "Santa Catarina Park",
+        "currency:XBT": "yes",
+        "dance:style": "salsa;bachata",
+        "dance:teaching": "yes",
+        "leisure": "dance",
+        "name": "Salsa Madeira - Dance Classes",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 964 685 693",
+        "survey:date": "2024-10-30",
+        "website": "https://salsa-madeira.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9136205,
+          32.645442
+        ]
+      },
+      "id": "node/11544205286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11573231990",
+        "addr:city": "Funchal",
+        "addr:housenumber": "64",
+        "addr:postcode": "9000-057",
+        "addr:street": "Rua dos Tanoeiros",
+        "contact:email": "barbeariaalegria@gmail.com",
+        "currency:XBT": "yes",
+        "male": "yes",
+        "name": "Barbearia Alegria - Barbershop",
+        "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-15:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 642 542",
+        "shop": "hairdresser",
+        "survey:date": "2024-12-27"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9065383,
+          32.6485371
+        ]
+      },
+      "id": "node/11573231990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11587597356",
+        "addr:city": "Funchal",
+        "addr:postcode": "9050-054",
+        "addr:street": "Rua Alferes Veiga Pestana",
+        "amenity": "pub",
+        "currency:XBT": "yes",
+        "name": "Loja Coral Funchal - Flagship Store",
+        "opening_hours": "Mo-Sa 09:00-20:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 222 345",
+        "survey:date": "2024-11-12",
+        "website": "https://www.lojacoral.pt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9042614,
+          32.6523248
+        ]
+      },
+      "id": "node/11587597356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11592691654",
+        "addr:city": "Funchal",
+        "addr:housenumber": "36",
+        "addr:postcode": "9050-548",
+        "addr:street": "Estrada Luso-Brasileira",
+        "addr:unit": "B",
+        "check_date": "2024-02-06",
+        "contact:email": "epicmadeira@gmail.com",
+        "contact:twitter": "https://twitter.com/EpicMadeira",
+        "currency:XBT": "yes",
+        "name": "EPIC Madeira",
+        "opening_hours": "Mo-Su 09:00-17:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "yes",
+        "phone": "(+351) 933 668 228",
+        "shop": "travel_agency",
+        "survey:date": "2024-12-27",
+        "website": "https://www.epicmadeira.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9027713,
+          32.6694824
+        ]
+      },
+      "id": "node/11592691654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11677250847",
+        "addr:city": "Funchal",
+        "addr:housenumber": "12",
+        "addr:postcode": "9000-003",
+        "addr:street": "Rua De Leichlingen",
+        "amenity": "cafe",
+        "check_date": "2025-04-30",
+        "check_date:currency:XBT": "2025-04-30",
+        "check_date:opening_hours": "2025-02-29",
+        "contact:facebook": "AMPMLifeisSimple",
+        "cuisine": "coffee_shop;sandwich;juice",
+        "currency:XBT": "yes",
+        "internet_access": "yes",
+        "name": "AM PM - Wine & Coffee Shop",
+        "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:00-14:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "+351 916 122 738",
+        "survey:date": "2024-11-12",
+        "takeaway": "yes",
+        "toilets": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9341346,
+          32.637619
+        ]
+      },
+      "id": "node/11677250847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11685057034",
+        "amenity": "surf_school",
+        "check_date": "2024-12-27",
+        "contact:email": "surfclubedamadeira@gmail.com",
+        "currency:XBT": "yes",
+        "name": "Surf Clube da Madeira",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "+351 963 356 674",
+        "website": "https://www.surfingmadeira.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8287202,
+          32.7744311
+        ]
+      },
+      "id": "node/11685057034"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11691928781",
+        "addr:city": "Funchal",
+        "addr:housenumber": "35",
+        "addr:postcode": "9050-450",
+        "addr:street": "Rua Direita",
+        "addr:unit": "1",
+        "amenity": "restaurant",
+        "check_date": "2024-03-04",
+        "contact:email": "tranviafood28@gmail.com",
+        "currency:XBT": "yes",
+        "name": "Tranvía Food",
+        "opening_hours": "Mo-Sa 12:00-22:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "yes",
+        "phone": "(+351) 935 039 546",
+        "survey:date": "2024-12-27"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9057241,
+          32.648811
+        ]
+      },
+      "id": "node/11691928781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11693627293",
+        "addr:city": "Funchal",
+        "addr:housenumber": "23",
+        "addr:postcode": "9060-415",
+        "addr:street": "Rua da Estalagem",
+        "email": "roel.heremans@gmail.com",
+        "leisure": "fitness_centre",
+        "name": "Hatha Yoga",
+        "opening_hours": "Th 18:00-19:00",
+        "payment:cash": "yes",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "phone": "+351 913 00 00 48",
+        "sport": "yoga",
+        "website": "https://www.roel-heremans.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8667193,
+          32.657738
+        ]
+      },
+      "id": "node/11693627293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11697915754",
+        "addr:city": "São Gonçalo",
+        "addr:housenumber": "33",
+        "addr:postcode": "9060-105",
+        "addr:street": "Ladeira do Farrobo de Baixo",
+        "addr:unit": "5",
+        "amenity": "restaurant",
+        "check_date": "2024-03-06",
+        "check_date:currency:XBT": "2024-09-30",
+        "contact:instagram": "https://www.instagram.com/recantofoodexperiences?igsh=cTEwNzFhYTZoZjRw",
+        "currency:XBT": "yes",
+        "name": "Re-Canto Food Experiences",
+        "opening_hours": "\"by appointment\"",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 968 681 656",
+        "survey:date": "2024-03-08"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8835496,
+          32.6543884
+        ]
+      },
+      "id": "node/11697915754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11709389277",
+        "addr:city": "Funchal",
+        "addr:housenumber": "41",
+        "addr:postcode": "9000-224",
+        "addr:street": "Rua das Mercês",
+        "check_date": "2024-03-10",
+        "check_date:currency:XBT": "2024-03-11",
+        "currency:XBT": "yes",
+        "description": "Specialising in digital currency, marketing remittance services with a focus on P2P Fiat On/Off ramp solutions, bridging traditional fiat currencies with digital assets. Increasing brand awareness, sales & website traffic. Penetrating new markets.",
+        "name": "COIN4CASH",
+        "office": "advertising_agency",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "+351938993244",
+        "ref:vatin": "517755319",
+        "source": "https://www.racius.com/coin4cash-pt-sociedade-unipessoal-lda/",
+        "survey:date": "2024-12-27",
+        "website": "https://linktr.ee/coin4cash"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9116357,
+          32.6514425
+        ]
+      },
+      "id": "node/11709389277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11717471895",
+        "addr:city": "Funchal",
+        "addr:housenumber": "49",
+        "addr:postcode": "9050-026",
+        "addr:street": "Rua da Conceição",
+        "amenity": "restaurant",
+        "check_date": "2024-03-11",
+        "check_date:currency:XBT": "2024-09-30",
+        "contact:instagram": "https://www.instagram.com/loft.brunch.cocktails?igsh=MWQzaGdwMGdyd2RocQ==",
+        "currency:XBT": "yes",
+        "name": "Loft - Brunch & Cocktails",
+        "opening_hours": "Mo-Fr 09:00-19:00; Sa 10:00-15:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 640 513",
+        "survey:date": "2024-03-11",
+        "website": "https://www.instagram.com/loft.brunch.cocktails"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9069302,
+          32.6506445
+        ]
+      },
+      "id": "node/11717471895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11724220607",
+        "addr:city": "Funchal",
+        "addr:housenumber": "12",
+        "addr:postcode": "9050-027",
+        "addr:street": "Rua de João de Deus",
+        "amenity": "money_transfer",
+        "cash_in": "yes",
+        "cash_out": "no",
+        "cash_withdrawal": "no",
+        "check_date": "2025-01-07",
+        "currency:XBT": "yes",
+        "email": "suporte@mindthecoin.com",
+        "indoor": "yes",
+        "level": "0",
+        "name": "Bitcoin ATM - Buy BTC (Mind The Coin)",
+        "network": "Bitcoin",
+        "note": "The ATM is located just next to the reception. Ring the buzz to get access to the building.",
+        "opening_hours": "Mo-Sa 09:00-20:00",
+        "operator": "Mind the Coin - Bitcoin ATM",
+        "payment:lightning": "no",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "yes",
+        "start_date": "2024-02-19",
+        "survey:date": "2025-01-07",
+        "url": "https://coinatmradar.com/bitcoin_atm/79247/bitcoin-atm-general-bytes-funchal-mais-clinic/",
+        "website": "https://mindthecoin.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9050531,
+          32.6512949
+        ]
+      },
+      "id": "node/11724220607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11724278098",
+        "addr:city": "Funchal",
+        "addr:housenumber": "12 B",
+        "addr:postcode": "9050-027",
+        "addr:street": "Rua de João de Deus",
+        "amenity": "dentist",
+        "currency:XBT": "yes",
+        "email": "geral@maisclinic.com",
+        "healthcare": "dentist",
+        "healthcare:speciality": "dentist;orthodontics",
+        "name": "IPRO Clinic - Dental Clinic",
+        "opening_hours": "Mo-Sa 09:00-20:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 291 232 972",
+        "survey:date": "2024-12-27",
+        "website": "https://iproclinic.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9052312,
+          32.6513049
+        ]
+      },
+      "id": "node/11724278098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11724307289",
+        "addr:city": "Funchal",
+        "addr:housenumber": "12",
+        "addr:postcode": "9050-027",
+        "addr:street": "Rua de João de Deus",
+        "amenity": "clinic",
+        "currency:XBT": "yes",
+        "email": "geral@maisclinic.com",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Mais Clinic - Medical Clinic",
+        "opening_hours": "Mo-Sa 09:00-20:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 291 232 972",
+        "survey:date": "2024-12-27",
+        "website": "https://www.maisclinic.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9049074,
+          32.6512861
+        ]
+      },
+      "id": "node/11724307289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11735349063",
+        "addr:city": "Funchal",
+        "addr:housenumber": "N°110",
+        "addr:postcode": "9000-018",
+        "addr:street": "Rua emperatriz dona Amélia loja n*110",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "check_date": "2024-11-05",
+        "check_date:currency:XBT": "2025-01-02",
+        "cuisine": "snackbar;snack",
+        "currency:XBT": "yes",
+        "email": "vanscapebar@gmail.com",
+        "name": "The Vanscape Gastrobar",
+        "opening_hours": "Mo-Sa 11:00-24:00, Fr-Sa 11:00-02:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "+351 925 185 245",
+        "survey:date": "2024-07-31",
+        "website": "https://www.instagram.com/vanscapegastrobar/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9201137,
+          32.6431443
+        ]
+      },
+      "id": "node/11735349063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11764620468",
+        "addr:city": "Funchal",
+        "addr:housenumber": "59",
+        "addr:postcode": "9000-077",
+        "addr:street": "Rua da Queimada de Cima",
+        "check_date": "2024-08-01",
+        "contact:email": "d13nis@hotmail.com",
+        "currency:XBT": "yes",
+        "description": "Azores cheese shop",
+        "email": "d13nis@hotmail.com",
+        "name": "Queijaria da Avó - Açores Cheese Shop",
+        "opening_hours": "Mo-Fr 10:30-19:30, Sa 10:00-14:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 960 207 729",
+        "shop": "cheese",
+        "survey:date": "2024-03-27",
+        "website": "https://www.instagram.com/queijariadaavo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9080859,
+          32.6491926
+        ]
+      },
+      "id": "node/11764620468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11768876216",
+        "addr:city": "Funchal",
+        "addr:housenumber": "86",
+        "addr:postcode": "9000-161",
+        "addr:street": "Rua da Levada dos Barreiros",
+        "amenity": "restaurant",
+        "cuisine": "steak_house",
+        "currency:XBT": "yes",
+        "name": "Restaurante Central Grill - Steakhouse",
+        "opening_hours": "Mo-Su 12:30-24:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 934 344",
+        "survey:date": "2025-01-06",
+        "website": "https://restaurantecentralgrill.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9297446,
+          32.646419
+        ]
+      },
+      "id": "node/11768876216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11787870145",
+        "addr:city": "Santa Cruz",
+        "addr:postcode": "9100-186",
+        "addr:street": "Estrada Santo António da Serra",
+        "currency:XBT": "yes",
+        "description": "Civil construction of residential and non-residential buildings, Remodeling, Formwork, Plastering, other specialized construction and finishing. Installation of plumbing and electrical installations. Wholesale and retail trade of construction materials.",
+        "email": "grmadtetos@gmail.com",
+        "name": "Traços Formosos - Construction Company",
+        "office": "engineer",
+        "opening_hours": "Mo-Fr 09:00-17:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 913 469 600",
+        "survey:date": "2025-01-06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7846428,
+          32.7021089
+        ]
+      },
+      "id": "node/11787870145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11804556044",
+        "addr:city": "Funchal",
+        "addr:housenumber": "179",
+        "addr:postcode": "9000-100",
+        "addr:street": "Estrada Monumental",
+        "amenity": "restaurant",
+        "cuisine": "mediterranean",
+        "currency:XBT": "yes",
+        "name": "Atlantic Restaurant",
+        "opening_hours": "Mo-Su 12:00-22:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 761 703",
+        "survey:date": "2025-01-22",
+        "website": "https://www.facebook.com/AtlanticRestaurante"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9289719,
+          32.6372777
+        ]
+      },
+      "id": "node/11804556044"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11807989531",
+        "addr:city": "Funchal",
+        "addr:housenumber": "289",
+        "addr:postcode": "9060-054",
+        "addr:street": "Rua Conde Carvalhal",
+        "check_date": "2025-01-22",
+        "contact:facebook": "https://www.facebook.com/Full-Experience-1665736706977535/",
+        "contact:instagram": "https://www.instagram.com/fullexperiencemadeira/",
+        "currency:XBT": "yes",
+        "name": "Full experience",
+        "office": "guide",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no",
+        "phone": "(+351) 913 469 879",
+        "survey:date": "2025-01-22",
+        "website": "https://fullexperience.pt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8762772,
+          32.6483429
+        ]
+      },
+      "id": "node/11807989531"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11816483895",
+        "addr:city": "Funchal",
+        "addr:housenumber": "14",
+        "addr:place": "Largo do Chafariz",
+        "addr:postcode": "9000-070",
+        "amenity": "pharmacy",
+        "check_date": "2024-04-14",
+        "contact:email": "chafarizfarma@gmail.com",
+        "currency:XBT": "yes",
+        "healthcare": "pharmacy",
+        "name": "Chafariz Farma - Pharmacy",
+        "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-13:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 203 930",
+        "survey:date": "2025-01-22",
+        "website": "https://www.farmaciasegura.pt/pt/chafariz-farma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9079298,
+          32.6489756
+        ]
+      },
+      "id": "node/11816483895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11844100083",
+        "addr:city": "Funchal",
+        "addr:housenumber": "28B",
+        "addr:postcode": "9000-015",
+        "addr:street": "Avenida do Infante",
+        "addr:unit": "Z",
+        "amenity": "bar",
+        "currency:XBT": "yes",
+        "name": "Joker - Cafe & Pub",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 644 270",
+        "survey:date": "2025-02-01",
+        "website": "https://www.facebook.com/jokerfunchal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9172486,
+          32.6451991
+        ]
+      },
+      "id": "node/11844100083"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11866832384",
+        "addr:city": "Funchal",
+        "addr:housenumber": "74",
+        "addr:postcode": "9000-059",
+        "addr:street": "Rua da Alfândega",
+        "amenity": "restaurant",
+        "check_date:currency:XBT": "2024-09-30",
+        "currency:XBT": "yes",
+        "email": "info@kampo.pt",
+        "name": "Kampo by Chef Júlio Pereira",
+        "opening_hours": "Mo-Su 12:30-23:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 924 438 080",
+        "survey:date": "2024-04-29",
+        "website": "https://kampo.pt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.907187,
+          32.6476402
+        ]
+      },
+      "id": "node/11866832384"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11876640186",
+        "addr:city": "Funchal",
+        "addr:housenumber": "138",
+        "addr:postcode": "9000-018",
+        "addr:street": "Rua Imperatriz Dona Amélia",
+        "amenity": "clinic",
+        "currency:XBT": "yes",
+        "description": "The Mega Cryo Center, Coolzoone Madeira Center is where you can experience 9 world records in one place. Longevity, BioHacking, experiences and special events ensure fun, endorphins, dopamine, serotonin, immediately more energy and a great mood.",
+        "email": "madeira@coolzoone.pt",
+        "healthcare": "clinic",
+        "name": "Coolzoone Madeira - Health and Wellness Center",
+        "opening_hours": "Mo-Su 10:00-20:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 937 962 938",
+        "survey:date": "2025-02-04",
+        "website": "https://cryo-center-madeira.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9207207,
+          32.6430412
+        ]
+      },
+      "id": "node/11876640186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11883426222",
+        "addr:city": "Funchal",
+        "addr:housenumber": "108",
+        "addr:postcode": "9000-018",
+        "addr:street": "Rua Imperatriz Dona Amélia",
+        "amenity": "restaurant",
+        "check_date": "2025-01-02",
+        "currency:XBT": "yes",
+        "name": "Nomade Restaurante",
+        "opening_hours": "Mo-Su 09:30-24:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 915 498 449",
+        "survey:date": "2025-01-23"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9200209,
+          32.6431676
+        ]
+      },
+      "id": "node/11883426222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11895319609",
+        "addr:city": "Funchal",
+        "addr:housenumber": "390",
+        "addr:postcode": "9004-568",
+        "addr:street": "Estrada Monumental",
+        "check_date:currency:XBT": "2024-10-24",
+        "currency:XBT": "yes",
+        "email": "geral@friic.pt",
+        "level": "0",
+        "name": "Top Atlântico",
+        "opening_hours": "Mo-Su 10:00-23:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 938 044 804",
+        "shop": "travel_agency",
+        "survey:date": "2024-10-02",
+        "website": "https://www.friic.pt/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9435986,
+          32.63672
+        ]
+      },
+      "id": "node/11895319609"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11922293979",
+        "addr:city": "Caniço",
+        "addr:postcode": "9125-169",
+        "addr:street": "Caminho da Cancela",
+        "currency:XBT": "yes",
+        "description": "Specialist in areas of electricity services, installation and maintenance (low and medium voltage), telecommunications, electronic security, renewable energy, alarmist and maintenance of properties, buildings and industrial facilities.",
+        "email": "geral@sicaprep.pt",
+        "name": "Sicaprep Lda - Electrical and Telecommunications",
+        "opening_hours": "Mo-Fr 08:30-18:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 291 707 670",
+        "shop": "electrical",
+        "survey:date": "2025-02-24",
+        "trade": "yes",
+        "website": "https://www.sicaprep.pt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8583894,
+          32.6469189
+        ]
+      },
+      "id": "node/11922293979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11922346436",
+        "addr:city": "Caniço",
+        "addr:housenumber": "6",
+        "addr:postcode": "9125-169",
+        "addr:street": "Caminho da Cancela",
+        "currency:XBT": "yes",
+        "description": "Specialist in areas of air conditioning, HVAC and sanitary hot hater (SHW), having all the skills for their successful execution, preparation of engineering projects, coordination and execution.",
+        "email": "geral@unilateral.com.pt",
+        "name": "Unilateral Lda - Electronic Technology",
+        "opening_hours": "Mo-Fr 08:30-18:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 291 707 660",
+        "shop": "trade",
+        "survey:date": "2025-02-24",
+        "website": "http://www.unilateral.com.pt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8584967,
+          32.6469505
+        ]
+      },
+      "id": "node/11922346436"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11942903591",
+        "addr:city": "Funchal",
+        "addr:housenumber": "48",
+        "addr:postcode": "9000-171",
+        "addr:street": "Calçada Cabouquiera",
+        "currency:XBT": "yes",
+        "email": "info@hospedariapordosol.com",
+        "guest_house": "bed_and_breakfast",
+        "internet_access": "yes",
+        "name": "Hospedaria Pôr do Sol – Bed & Breakfast",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 968 662 543",
+        "survey:date": "2025-03-03",
+        "tourism": "hostel",
+        "website": "https://www.booking.com/Share-2vytpU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9181341,
+          32.6479407
+        ]
+      },
+      "id": "node/11942903591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11958358824",
+        "addr:city": "Funchal",
+        "addr:housenumber": "8",
+        "addr:postcode": "9000-015",
+        "addr:street": "Avenida do Infante",
+        "currency:XBT": "yes",
+        "email": "management@mcs.pt",
+        "name": "MCS - Madeira Corporate Services",
+        "office": "yes",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 291 202 400",
+        "survey:date": "2025-03-19",
+        "website": "https://mcs.pt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9140136,
+          32.6464387
+        ]
+      },
+      "id": "node/11958358824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11981813727",
+        "addr:city": "Funchal",
+        "addr:housenumber": "38",
+        "addr:postcode": "9050-019",
+        "addr:street": "Rua do Carmo",
+        "craft": "cleaning",
+        "currency:XBT": "yes",
+        "description": "Specialist in professional cleaning and sanitizing of Sofas, Mattresses, Carpets, Curtains and Fabric Waterproofing",
+        "email": "info@resolveja.pt",
+        "name": "Resolve Já - Specialized Interior Cleaning",
+        "opening_hours": "Mo-Sa 09:00-19:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "800 500 125",
+        "survey:date": "2025-03-19",
+        "website": "https://resolveja.pt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9052083,
+          32.6502564
+        ]
+      },
+      "id": "node/11981813727"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12046030110",
+        "addr:city": "Calheta",
+        "addr:postcode": "9370-139",
+        "addr:street": "Estrada simão gonçalves da câmara",
+        "check_date:currency:XBT": "2024-09-09",
+        "currency:XBT": "yes",
+        "name": "Barbearia Sa - Barber Shop",
+        "opening_hours": "Mo-Fr 09:00-17:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no",
+        "phone": "(+351) 963 043 949",
+        "shop": "hairdresser",
+        "survey:date": "2024-07-10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.1783722,
+          32.7296779
+        ]
+      },
+      "id": "node/12046030110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12047495869",
+        "addr:city": "Calheta",
+        "addr:postcode": "9370-133",
+        "addr:street": "Porto de Recreio da Calheta, Av. D. Manuel I",
+        "currency:XBT": "yes",
+        "email": "letsbuggymadeira@gmail.com",
+        "name": "Let's Buggy - Off Road Adventures ATVs & Side by Side",
+        "opening_hours": "Mo-Su 09:00-19:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 925 771 341",
+        "shop": "travel_agency",
+        "survey:date": "2024-07-11",
+        "website": "https://www.letsbuggy.pt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.1700544,
+          32.7176271
+        ]
+      },
+      "id": "node/12047495869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12047548455",
+        "addr:city": "São Gonçalo",
+        "addr:housenumber": "23",
+        "addr:postcode": "9060-415",
+        "addr:street": "Rua da Estalagem",
+        "currency:XBT": "yes",
+        "description": "A Relais & Châteaux Hotel with over 220 years of history, beauty & elegance. \n\nHotel, Golf, Spa, Gardens, Nature Trails, Fishing, Horseriding, Bird Watching and Swimming Pools.",
+        "email": "reservations.casavelha@palheiroestate.com",
+        "name": "Casa Velha Do Palheiro - Relais & Châteaux",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 291 790 350",
+        "survey:date": "2024-11-07",
+        "tourism": "hotel",
+        "website": "https://casa-velha.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8671904,
+          32.6582136
+        ]
+      },
+      "id": "node/12047548455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12071359490",
+        "addr:city": "Madalena do Mar",
+        "addr:housenumber": "12",
+        "addr:postcode": "9360-431",
+        "addr:street": "E. R. 101-12 Ponta do Sol",
+        "amenity": "restaurant",
+        "check_date:currency:XBT": "2024-07-25",
+        "cuisine": "regional;open_only_in_summer",
+        "currency:XBT": "yes",
+        "name": "Blaiken Beach Bar",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 966 524 430",
+        "survey:date": "2024-07-24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.1250178,
+          32.6930004
+        ]
+      },
+      "id": "node/12071359490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12087383257",
+        "addr:city": "Funchal",
+        "addr:housenumber": "0",
+        "addr:postcode": "9050-028",
+        "addr:street": "Rua do Bom Jesus",
+        "currency:XBT": "yes",
+        "description": "Photocopies, prints, scanners, binding, lamination and accessories for phones",
+        "email": "challenge.fantasylda@yahoo.com",
+        "name": "Challenge Fantasy - Eurocopy",
+        "opening_hours": "Mo-Fr 08:00-18:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no",
+        "phone": "(+351) 930 443 685",
+        "shop": "stationery",
+        "survey:date": "2024-08-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.907482,
+          32.6508313
+        ]
+      },
+      "id": "node/12087383257"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12092460600",
+        "addr:city": "Funchal",
+        "addr:housenumber": "45",
+        "addr:postcode": "9000-645",
+        "addr:street": "Rua das Virtudes",
+        "currency:XBT": "yes",
+        "description": "Archipelago Investments is a boutique consultancy whose core business is to provide high value-added technical services to non-residents wishing to invest or reside in Portugal, particularly in the Autonomous Region of Madeira.",
+        "email": "info@archipelago.investments",
+        "name": "Archipelago Investments",
+        "office": "consulting",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "survey:date": "2024-08-04",
+        "website": "https://archipelago.investments"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9297634,
+          32.6462926
+        ]
+      },
+      "id": "node/12092460600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12095671945",
+        "addr:city": "Funchal",
+        "addr:housenumber": "8",
+        "addr:postcode": "9000-075",
+        "addr:street": "Rua João Tavira",
+        "amenity": "cafe",
+        "check_date:currency:XBT": "2025-04-27",
+        "contact:email": "info@motya.pt",
+        "contact:phone": "(+351) 938 873 847",
+        "contact:website": "https://motya.pt",
+        "currency:XBT": "yes",
+        "name": "Motya Coffee Shop",
+        "opening_hours": "Mo-Su 08:00-18:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "survey:date": "2024-11-05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9088937,
+          32.6483991
+        ]
+      },
+      "id": "node/12095671945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12115332363",
+        "addr:city": "Funchal",
+        "addr:housenumber": "120",
+        "addr:postcode": "9020-402",
+        "addr:street": "Avenida da Madalena",
+        "amenity": "taxi",
+        "currency:XBT": "yes",
+        "description": "You can request a pick-up service by calling Ricardo.",
+        "email": "ricardo_bruno_98@hotmail.com",
+        "name": "Taxi - Ricardo Vieira",
+        "opening_hours": "Mo-Fr 10:00-18:00, Sunday 10:00-18:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 925 299 801",
+        "survey:date": "2024-08-16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9308967,
+          32.6607159
+        ]
+      },
+      "id": "node/12115332363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12128667974",
+        "addr:city": "Funchal",
+        "addr:postcode": "9060-397",
+        "addr:street": "Rua de Dom Carlos I",
+        "amenity": "restaurant",
+        "check_date:currency:XBT": "2025-01-02",
+        "currency:XBT": "yes",
+        "name": "Loft Brunch & Cocktails [na.zona velha]",
+        "opening_hours": "Mo-Fr 09:00-19:00, Sa-Su 09:00:16:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 650 859",
+        "survey:date": "2024-08-22",
+        "website": "https://www.instagram.com/loft.brunch.cocktails/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9026995,
+          32.6478592
+        ]
+      },
+      "id": "node/12128667974"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12144638910",
+        "addr:city": "Funchal",
+        "addr:housenumber": "10",
+        "addr:postcode": "9000-066",
+        "addr:street": "Rua da Sé",
+        "currency:XBT": "yes",
+        "description": "We’re a young, adventurous and passionate tour operator based in Madeira Island. We specialise in 4×4 nature tours, hiking tours and camping trips all off the beaten path, away from the big crowds and tourist traps. A experience that you will never forget",
+        "email": "hittheroadjeep@gmail.com",
+        "name": "Hit The Road Madeira",
+        "opening_hours": "Mo-Fr 09:30-18:00, Sa 09:30-12:30",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 969 466 359",
+        "shop": "travel_agency",
+        "survey:date": "2024-08-24",
+        "website": "https://www.hittheroadmadeira.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9083189,
+          32.6478965
+        ]
+      },
+      "id": "node/12144638910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12170029523",
+        "addr:city": "Funchal",
+        "addr:housenumber": "6",
+        "addr:postcode": "9000-058",
+        "addr:street": "Rua do Sabão",
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "currency:XBT": "yes",
+        "name": "Yuki by Chef Júlio Pereira",
+        "opening_hours": "Mo-Su 12:30-23:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 935 697 679",
+        "survey:date": "2024-09-11",
+        "website": "https://yukifunchal.pt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9071915,
+          32.647528
+        ]
+      },
+      "id": "node/12170029523"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12175023458",
+        "addr:city": "Funchal",
+        "addr:housenumber": "4",
+        "addr:postcode": "9000-012",
+        "addr:street": "Rua do Infante Santo",
+        "addr:unit": "Loja 8",
+        "currency:XBT": "yes",
+        "leisure": "indoor_play",
+        "name": "Tiny Tribo - Amusement Center",
+        "opening_hours": "Mo-Sa 10:00-18:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 910 114 246",
+        "survey:date": "2024-09-13",
+        "website": "https://tinytribo.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9185933,
+          32.6452096
+        ]
+      },
+      "id": "node/12175023458"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12214400619",
+        "addr:city": "Funchal",
+        "addr:housenumber": "0",
+        "addr:postcode": "9050-071",
+        "addr:street": "Rua 31 de Janeiro",
+        "amenity": "childcare",
+        "currency:XBT": "yes",
+        "description": "For more information, contact Emilia.",
+        "email": "deliciosamente.mimi@gmail.com",
+        "name": "Deliciosamente Mimi - Babysitting & Kids Entertaiment",
+        "opening_hours": "24/7",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 963 492 484",
+        "survey:date": "2024-10-01",
+        "website": "https://www.instagram.com/deliciosamente_mimi/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9120277,
+          32.6538561
+        ]
+      },
+      "id": "node/12214400619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12216023368",
+        "addr:city": "Funchal",
+        "addr:housenumber": "25",
+        "addr:postcode": "9004-416",
+        "addr:street": "Rua da Ponta da Cruz",
+        "currency:XBT": "yes",
+        "email": "madeira@husse.pt",
+        "name": "JCMatos - Pet Food & Animal Feeds",
+        "opening_hours": "Mo-Sa 10:00-13:00, Mo-Sa 14:00-19:00",
+        "operator": "Husse",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 919 263 991",
+        "shop": "pet",
+        "survey:date": "2024-10-02",
+        "website": "https://www.husse.pt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9468826,
+          32.6350841
+        ]
+      },
+      "id": "node/12216023368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12255825952",
+        "addr:city": "Porto da Cruz",
+        "addr:housenumber": "4",
+        "addr:postcode": "9225-050",
+        "addr:street": "Rua do Cais",
+        "currency:XBT": "yes",
+        "description": "The holiday home is just 50 metres from Alagoa Beach, provides beachfront accommodation with 2 bedrooms, 1 bathroom, a garden, TV and free WiFi. Featuring a balcony, is in an area where guests can engage in activities such as hiking, diving and cycling.",
+        "email": "rodes271071@gmail.com",
+        "internet_access": "yes",
+        "name": "Mateus House - Holiday Rental",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 969 103 245",
+        "survey:date": "2024-10-16",
+        "tourism": "apartment",
+        "website": "https://www.booking.com/hotel/pt/mateus-house/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8281607,
+          32.7739519
+        ]
+      },
+      "id": "node/12255825952"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12259448058",
+        "addr:city": "Funchal",
+        "addr:postcode": "9050-019",
+        "addr:street": "Rua do Carmo",
+        "amenity": "studio",
+        "currency:XBT": "yes",
+        "description": "We don't just capture moments; we craft stories that resonate. Through the lens of film and photography, we weave narratives that inspire, entertain, and connect. \n\nService by appointment only, please contact us!",
+        "email": "hello@popsec.studio",
+        "name": "Popsec Film Studio",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 966 825 566",
+        "studio": "audio",
+        "survey:date": "2024-10-17",
+        "website": "https://popsec.studio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9036873,
+          32.6505246
+        ]
+      },
+      "id": "node/12259448058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12259468869",
+        "addr:city": "Caniço",
+        "addr:housenumber": "57",
+        "addr:postcode": "9125-035",
+        "addr:street": "Estrada da Ponta da Oliveira",
+        "currency:XBT": "yes",
+        "description": "Natural honey made by a family of beekeepers.\n\nPlace your order by calling or WhatsApp. \nService by appointment only, please contact us!",
+        "name": "Monte das Colmeias - Natural Honey",
+        "opening_hours": "Mo-Su 08:00-18:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 964 311 281",
+        "shop": "honey",
+        "survey:date": "2024-10-17"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8337662,
+          32.6457964
+        ]
+      },
+      "id": "node/12259468869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12294411829",
+        "addr:city": "Funchal",
+        "addr:housenumber": "88",
+        "addr:postcode": "9050-019",
+        "addr:street": "Rua do Carmo",
+        "amenity": "dentist",
+        "currency:XBT": "yes",
+        "email": "info@risuclinic.pt",
+        "healthcare": "dentist",
+        "name": "RISU Clinic - Dental Clinic",
+        "opening_hours": "Mo-Fr 08:30-19:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 913 036 840",
+        "survey:date": "2024-10-28",
+        "website": "https://risuclinic.pt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9034789,
+          32.6504051
+        ]
+      },
+      "id": "node/12294411829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12299432290",
+        "addr:city": "Funchal",
+        "addr:housenumber": "60",
+        "addr:postcode": "9000-018",
+        "addr:street": "Rua Imperatriz Dona Amélia",
+        "amenity": "car_rental",
+        "currency:XBT": "yes",
+        "email": "info@rentx.pt",
+        "name": "RentX - Rent a Car Funchal",
+        "opening_hours": "Mo-Su 09:00-18:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 937 118 318",
+        "survey:date": "2024-10-30",
+        "website": "https://www.rentx.pt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9181114,
+          32.6440892
+        ]
+      },
+      "id": "node/12299432290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12299540113",
+        "addr:city": "Machico",
+        "addr:postcode": "9200-000",
+        "addr:street": "Rua de Manuel Passos",
+        "amenity": "car_rental",
+        "currency:XBT": "yes",
+        "email": "info@rentx.pt",
+        "name": "RentX - Rent a Car Airport",
+        "opening_hours": "Mo-Su 08:00-19:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 604 953",
+        "survey:date": "2024-10-30",
+        "website": "https://www.rentx.pt/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7743153,
+          32.7292782
+        ]
+      },
+      "id": "node/12299540113"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12302413350",
+        "addr:city": "Funchal",
+        "addr:postcode": "9060-129",
+        "addr:street": "Rua do Hospital Velho",
+        "currency:XBT": "yes",
+        "email": "evolvestudio22@gmail.com",
+        "leisure": "fitness_centre",
+        "name": "Evolve Studio - Fitness Center",
+        "opening_hours": "Mo-Fr 07:00-21:00, Sa 09:00-13:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 915 705 137",
+        "survey:date": "2024-10-31",
+        "website": "https://evolvestudio2022.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9028655,
+          32.6488269
+        ]
+      },
+      "id": "node/12302413350"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12335658360",
+        "addr:city": "Funchal",
+        "addr:housenumber": "9",
+        "addr:postcode": "9050-028",
+        "addr:street": "Rua do Bom Jesus",
+        "addr:unit": "Floor 3",
+        "amenity": "doctors",
+        "currency:XBT": "yes",
+        "description": "Provide health and well-being through a personalized and scientific approach to natural precision medicine, prioritizing each patient's individuality.",
+        "email": "info@drarutecastro.com",
+        "healthcare": "doctor",
+        "name": "Dra. Rute Castro - Natural Precision Medicine",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "survey:date": "2024-11-12",
+        "website": "https://drarutecastro.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9070444,
+          32.6511953
+        ]
+      },
+      "id": "node/12335658360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12397550161",
+        "addr:city": "Funchal",
+        "addr:housenumber": "205",
+        "addr:postcode": "9000-100",
+        "addr:street": "Estrada Monumental",
+        "amenity": "restaurant",
+        "cuisine": "portuguese",
+        "currency:XBT": "yes",
+        "diet:healthy": "yes",
+        "diet:lactose_free": "yes",
+        "diet:meat": "yes",
+        "name": "Corner 205",
+        "payment:cash": "yes",
+        "payment:lightning": "yes",
+        "phone": "+351 291 626 288",
+        "survey:date": "2024-12-03"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9345262,
+          32.6383603
+        ]
+      },
+      "id": "node/12397550161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12506897348",
+        "addr:city": "São Martinho",
+        "addr:housenumber": "2",
+        "addr:postcode": "9000-250",
+        "addr:street": "Rua Nova do Vale da Ajuda",
+        "currency:XBT": "yes",
+        "description": "Madeira Island Tattoo & Barber Shop is a unique blend of art and beauty, offering expert tattoo designs and precision barbering in a stylish, welcoming space.\n⚠️ For quotes/reservations, send a message ☎️",
+        "email": "madeira.island.tattoo@gmail.com",
+        "name": "Madeira Island Tattoo & Barber Shop",
+        "opening_hours": "Mo-Fr 11:00-19:00, Sa 11:00-15:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 960 072 733",
+        "shop": "tattoo",
+        "survey:date": "2025-01-16",
+        "website": "https://www.instagram.com/madeira_island_tattoo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9421542,
+          32.6360476
+        ]
+      },
+      "id": "node/12506897348"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12539349257",
+        "addr:city": "Funchal",
+        "addr:housenumber": "64",
+        "addr:postcode": "9000-116",
+        "addr:street": "Rua do Vale D'Ajuda",
+        "currency:XBT": "yes",
+        "email": "ludgerobaltazarfish@gmail.com",
+        "name": "LBFish - Fish Market",
+        "opening_hours": "Tu-Fr 10:00-19:00, Sa 10:00-14:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 937 570 405",
+        "shop": "seafood",
+        "survey:date": "2025-01-28",
+        "website": "https://www.instagram.com/lbfishh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9436329,
+          32.6377382
+        ]
+      },
+      "id": "node/12539349257"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12542162389",
+        "addr:city": "Funchal",
+        "addr:housenumber": "40",
+        "addr:postcode": "9000-116",
+        "addr:street": "Rua do Vale D'Ajuda",
+        "amenity": "ice_cream",
+        "currency:XBT": "yes",
+        "name": "Gelataria Gela-Tó - Ice Cream Shop",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "survey:date": "2025-01-29",
+        "website": "https://www.instagram.com/gelatofunchal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9432323,
+          32.6374601
+        ]
+      },
+      "id": "node/12542162389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12579271786",
+        "addr:city": "Funchal",
+        "addr:housenumber": "97A",
+        "addr:postcode": "9050-026",
+        "addr:street": "Rua da Conceição",
+        "currency:XBT": "yes",
+        "description": "Barbershop in Funchal \nOut of the box hair cuts, good music and more",
+        "email": "1underground.barbershop@gmail.com",
+        "hairdresser": "barber",
+        "name": "The Underground Barbershop",
+        "opening_hours": "Mo-Fr 10:00-19:00, Sa 10:00-15:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 916 738 050",
+        "shop": "hairdresser",
+        "survey:date": "2025-02-11",
+        "website": "https://www.instagram.com/the.undergroundbarbershop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9076873,
+          32.6515492
+        ]
+      },
+      "id": "node/12579271786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12596030157",
+        "addr:city": "Funchal",
+        "addr:housenumber": "145",
+        "addr:postcode": "9000-783",
+        "addr:street": "Avenida Mário Soares",
+        "currency:XBT": "yes",
+        "description": "At Daily Worn Watches, we believe watch collecting should be fun—no matter the price tag. From quirky vintage finds to modern classics, we carefully curate timepieces that spark joy for true enthusiasts. Contact us to book an appointment.",
+        "email": "dailywornwatches@gmail.com",
+        "name": "Daily Worn Watches",
+        "opening_hours": "By appointment",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 963 801 623",
+        "shop": "watches",
+        "survey:date": "2025-02-17",
+        "website": "https://linktr.ee/dailywornwatches"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9439519,
+          32.6461426
+        ]
+      },
+      "id": "node/12596030157"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12598805836",
+        "addr:city": "Funchal",
+        "addr:housenumber": "8",
+        "addr:postcode": "9060-129",
+        "addr:street": "Rua do Hospital Velho 23A, Edificio Insular, Piso 4",
+        "amenity": "dentist",
+        "currency:XBT": "yes",
+        "description": "Madeira Dental Center is a Dental Clinic & Dentist. Located inside the Madeira Medical Center. Take the elevator or stairs to the 4th floor, Office 8.",
+        "email": "comedicinadentaria@gmail.com",
+        "healthcare": "dentist",
+        "healthcare:speciality": "dentist",
+        "name": "Madeira Dental Center",
+        "opening_hours": "Mo-Su 09:00-19:00, Sa 09:00-13:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 291 145 530",
+        "survey:date": "2025-02-18",
+        "website": "https://www.instagram.com/madeiradentalcenter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9032786,
+          32.6491849
+        ]
+      },
+      "id": "node/12598805836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12603852343",
+        "addr:city": "Machico",
+        "addr:postcode": "9200-121",
+        "addr:street": "Edificio Flor do Campo loja DC",
+        "addr:unit": "DC",
+        "currency:XBT": "yes",
+        "description": "Excellent location in the center of Machico, close to the airport and beaches, with all services nearby. To pay with Bitcoin, you must contact us directly by email or phone.",
+        "email": "margarida.alexandra2010@hotmail.com",
+        "name": "Xanda Escape Apartment",
+        "opening_hours": "Mo-Fr 09:00-19:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 965 445 386",
+        "survey:date": "2025-02-20",
+        "tourism": "apartment"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7748948,
+          32.7296955
+        ]
+      },
+      "id": "node/12603852343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12615578978",
+        "addr:city": "Funchal",
+        "addr:housenumber": "19",
+        "addr:postcode": "9000-049",
+        "addr:street": "Rua das Pretas",
+        "amenity": "restaurant",
+        "check_date:currency:XBT": "2025-03-05",
+        "contact:facebook": "https://www.facebook.com/people/NovoTahiti/100089267124880/",
+        "currency:XBT": "yes",
+        "email": "novotahiti@gmail.com",
+        "name": "Novo Tahiti Restaurant",
+        "opening_hours": "Mo-Fr 07:00-22:00, Sa 08:00-22:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 620 087",
+        "survey:date": "2025-02-24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.910663,
+          32.649354
+        ]
+      },
+      "id": "node/12615578978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12638805756",
+        "addr:city": "Funchal",
+        "addr:housenumber": "110B",
+        "addr:postcode": "9060-329",
+        "addr:street": "Caminho das Voltas",
+        "amenity": "nightclub",
+        "currency:XBT": "yes",
+        "description": "Pitanga Discos is a cultural association and artistic collective in Madeira, blending curation, music production, sound engineering, graphic arts, and performance.",
+        "name": "Pitanga Discos",
+        "opening_hours": "No opening hours",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "survey:date": "2025-03-05",
+        "website": "http://instagram.com/pitanga_discos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8901564,
+          32.6664346
+        ]
+      },
+      "id": "node/12638805756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12698719019",
+        "addr:city": "Funchal",
+        "addr:postcode": "9000-224",
+        "addr:street": "Largo Severiano Ferraz",
+        "currency:XBT": "yes",
+        "description": "We are Gonçalo & Sofia, our goal is to show you Madeira in its most genuine form, guiding you through it’s mystical mountains, streams, waterfalls and many other hidden gems that only a native eye can help you explore. Contact us to book your reservation!",
+        "email": "endemicxperiences@gmail.com",
+        "mobile": "(+351) 918 436 609",
+        "name": "Endemic Xperiences",
+        "office": "guide",
+        "opening_hours": "Mo-Su 08:00-18:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 916 206 551  (+351) 918 436 609",
+        "survey:date": "2025-03-25",
+        "website": "https://www.endemicxperiences.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.9116281,
+          32.6519211
+        ]
+      },
+      "id": "node/12698719019"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12757762391",
+        "addr:city": "Funchal",
+        "addr:housenumber": "9A",
+        "addr:postcode": "9060-240",
+        "addr:street": "Estrada da Boa Nova",
+        "currency:XBT": "yes",
+        "email": "lavidbeautybar@gmail.com",
+        "name": "La Vid Beauty Bar",
+        "opening_hours": "Mo-Fr 09:00–18:00,Sa 08:00–17:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 937 118 013",
+        "shop": "beauty",
+        "survey:date": "2025-04-15",
+        "website": "https://lavidbeautybar.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8960173,
+          32.6586277
+        ]
+      },
+      "id": "node/12757762391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12800054828",
+        "addr:city": "Prazeres",
+        "addr:housenumber": "21",
+        "addr:postcode": "9370-619",
+        "addr:street": "Caminho Lombo dos Barros",
+        "check_date:currency:XBT": "2025-04-30",
+        "currency:XBT": "yes",
+        "description": "Chiropractor. More than 30 years of practice.",
+        "email": "7995168@gmail.com",
+        "healthcare": "alternative",
+        "healthcare:speciality": "chiropractic",
+        "name": "Chiropractor.best Mark Vdovskikh",
+        "opening_hours": "By appointment",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 919 191 858",
+        "survey:date": "2025-04-30",
+        "website": "https://linktr.ee/chiropractor_best"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.2046427,
+          32.7553446
+        ]
+      },
+      "id": "node/12800054828"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12800096615",
+        "addr:city": "Prazeres",
+        "addr:housenumber": "21",
+        "addr:postcode": "9370-619",
+        "addr:street": "Caminho Lombo dos Barros",
+        "check_date:currency:XBT": "2025-04-30",
+        "currency:XBT": "yes",
+        "description": "Restores circulation of blood, lymph and intracellular fluid",
+        "healthcare": "alternative",
+        "name": "Vaculife.best Olga Vdovskikh",
+        "opening_hours": "By appointment",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "yes",
+        "phone": "(+351) 924 445 098",
+        "survey:date": "2025-04-30",
+        "website": "https://linktr.ee/vaculife.best"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.2046205,
+          32.7552964
+        ]
+      },
+      "id": "node/12800096615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12830339237",
+        "addr:city": "Funchal",
+        "addr:postcode": "9060-305",
+        "addr:street": "Largo do Socorro",
+        "amenity": "restaurant",
+        "currency:XBT": "yes",
+        "name": "Basalto Restaurant",
+        "opening_hours": "We-Su 12:00–22:00, Mo-Tu Closed",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "(+351) 291 111 207",
+        "survey:date": "2025-05-12",
+        "website": "https://www.instagram.com/ba.salto/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.897544,
+          32.6467716
+        ]
+      },
+      "id": "node/12830339237"
+    }
+  ]
+}

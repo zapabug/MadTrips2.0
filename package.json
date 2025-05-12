@@ -12,8 +12,11 @@
   "dependencies": {
     "@nostr-dev-kit/ndk": "^2.14.9",
     "@nostr-dev-kit/ndk-hooks": "^1.1.31",
+    "@types/leaflet": "^1.9.17",
+    "leaflet": "^1.9.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-leaflet": "^5.0.0",
     "react-router-dom": "^7.6.0"
   },
   "devDependencies": {

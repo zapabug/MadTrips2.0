@@ -6,7 +6,7 @@
 
 **1. Project Goal & Core Concept:**
 
-MadTrips is a **Vite + React application serving as a browser for travel packages and events in Madeira.** It will feature a Madeira-tailored content feed, leveraging Nostr for displaying images and handling comment sections for trips and events. The primary focus is on providing a simple, user-friendly interface for discovering Madeira through Nostr.
+MadTrips is a **Vite + React application serving as a browser for travel packages and events in Madeira.** It will feature a Madeira-tailored content feed and an interactive map (using `react-leaflet`) displaying local businesses. Map data is sourced primarily from `docs/map/export(1).geojson` for locations and core details, enriched with curated information from `public/pacages/MadeiraBusiness.json`. The app leverages Nostr for displaying images and handling comment sections for trips, events, and map features. The primary focus is on providing a simple, user-friendly interface for discovering Madeira through Nostr and facilitating Bitcoin-based interactions.
 
 **2. Planning & Decision Summary (See @Planning.md for full history):**
 
@@ -27,6 +27,7 @@ MadTrips is a **Vite + React application serving as a browser for travel package
 See @Build.md for the definitive LLD, including:
 - Project structure and setup.
 - NDK setup for fetching and displaying Nostr content.
+- Native map implementation (`react-leaflet`) using dual data sources (`export(1).geojson` and `MadeiraBusiness.json`) for displaying businesses and enabling MadTrips-specific booking/interaction features (See LLD 6 in Build.md).
 
 **4. Essential Supporting Documentation Files:**
 

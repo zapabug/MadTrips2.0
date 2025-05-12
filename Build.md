@@ -175,3 +175,31 @@ Next Steps:
 - Consider dynamic data fetching for business listings in `PackagesPage.tsx` from `madbiz.md` (or its JSON counterpart) instead of manual arrays.
 - Continue with Nostr integration for comments and business "claiming" features as per LLD 5 in `Planning.md`.
 
+## LLD 6: (Current Date) — Native Map Implementation (`FunchalMap.tsx` Refactor)
+
+Key Updates:
+- **Technology**: Replaced the previous `iframe`-based map with `react-leaflet` (`MapContainer`, `TileLayer`, `Marker`, `Popup` components) and `leaflet` library.
+- **Data Sources**:
+    - `docs/map/export(1).geojson`: Primary source for business locations (points) and core properties (name, address details).
+    - `public/pacages/MadeiraBusiness.json`: Secondary source for curated/enriched data (business type, descriptions, featured status), derived from `madbiz.md`.
+- **Data Fetching & Handling**:
+    - Uses Vite's `?url` import suffix to get URLs for the data files.
+    - Employs `useEffect` and `fetch` to asynchronously load both GeoJSON and curated JSON data on component mount.
+    - Manages data (`geojsonData`, `curatedBusinesses`) and loading/error states (`mapError`) using `useState`.
+    - Defines TypeScript interfaces (`GeoJsonFeature`, `GeoJsonRoot`, `CuratedBusiness`, etc.) for type safety.
+- **Data Merging Logic**:
+    - Uses `useMemo` to create an efficient lookup map (`curatedDetailsLookup`) from the curated data, keyed by business name.
+    - Iterates through `geojsonData.features`:
+        - Extracts coordinates (`feature.geometry.coordinates`) for the `Marker` position (handling potential coordinate order variations).
+        - Retrieves the business name (`feature.properties.name`).
+        - Looks up corresponding curated details using the name from the `curatedDetailsLookup` map.
+        - Renders a `Popup` containing merged information: name (GeoJSON), type/description (Curated), address/city (GeoJSON preferred, fallback to Curated).
+- **Error Handling & UI**: Includes basic loading message and error display if data fetching fails. Map display relies on successful fetching of at least the GeoJSON.
+- **Component Props**: Retains the `variant` prop (`'home' | 'page'`) to control map height and conditional rendering of the `FEATURED_BUSINESSES` section (which still uses static data from `src/data/packages.ts`).
+- **Issue Resolution**: Addresses previous Vite/JSON import errors and various linter/type errors encountered during development.
+
+Next Steps:
+- Integrate interactive elements into Popups (e.g., booking buttons).
+- Connect business listings to Nostr for comments/reviews/claiming.
+- Style Popups for better readability and user experience.
+

@@ -1,0 +1,626 @@
+{
+  "Unknown Business Type": [
+    {
+      "name": "Archipelago Investments",
+      "city": "Funchal",
+      "type": null
+    },
+    {
+      "name": "Robert Mauser",
+      "city": "Funchal",
+      "type": null
+    }
+  ],
+  "Restaurants, Bars & Cafés": [
+    {
+      "name": "Café Fortaleza",
+      "type": "Café – epic views, kids outdoor playground",
+      "city": "Funchal",
+      "isFeatured": true,
+      "description": "Café – epic views, kids outdoor playground"
+    },
+    {
+      "name": "Ameu.gosto",
+      "type": "Natural Wine & Food",
+      "city": "Funchal"
+    },
+    {
+      "name": "The Vanscape Gastrobar",
+      "type": "Gastrobar",
+      "city": "Funchal"
+    },
+    {
+      "name": "Nomade Restaurante",
+      "type": "Restaurant",
+      "city": "Funchal"
+    },
+    {
+      "name": "Restaurante Central Grill",
+      "type": "Brazilian Rodizio",
+      "city": "Funchal"
+    },
+    {
+      "name": "Design Centre Nini Andrade Silva",
+      "type": "Bar Restaurant – epic location",
+      "city": "Funchal",
+      "isFeatured": true,
+      "description": "Bar Restaurant – epic location with panoramic views"
+    },
+    {
+      "name": "AM PM",
+      "type": "Wine & Coffee Shop",
+      "city": "Funchal"
+    },
+    {
+      "name": "Tranvía Food",
+      "type": "Restaurant",
+      "city": "Funchal"
+    },
+    {
+      "name": "O Maltez",
+      "type": "Food & Drinks",
+      "city": "Funchal"
+    },
+    {
+      "name": "O Laranjinha",
+      "type": "Bistro & Grill",
+      "city": "Caniço"
+    },
+    {
+      "name": "Atlantic Restaurant",
+      "type": "Restaurant",
+      "city": "Funchal"
+    },
+    {
+      "name": "Le Bistrot Jacarandá",
+      "type": "Restaurant",
+      "city": "Funchal"
+    },
+    {
+      "name": "Joker",
+      "type": "Cafe & Pub",
+      "city": "Funchal"
+    },
+    {
+      "name": "Theo's by Chef Júlio Pereira",
+      "type": "Michelin Restaurant",
+      "city": "Funchal"
+    },
+    {
+      "name": "Jarana Tapas & Enchidos",
+      "type": "Spanish Snack Bar",
+      "city": "Funchal"
+    },
+    {
+      "name": "Tapas y Copas",
+      "type": "Spanish Snack Bar",
+      "city": "Funchal"
+    },
+    {
+      "name": "Jacafé",
+      "type": "Coffee, Craft Beer & Snacks (fiatjaf café)",
+      "city": "Funchal"
+    },
+    {
+      "name": "A Carruagem Snack Bar",
+      "type": "Snack Bar",
+      "city": "Funchal"
+    },
+    {
+      "name": "Bentornato a Rum Bar",
+      "type": "Restaurant",
+      "city": "Calheta"
+    },
+    {
+      "name": "Musa Lounge Bar",
+      "type": "Cocktails",
+      "city": "Funchal"
+    },
+    {
+      "name": "Museu Café",
+      "type": "Coffee & Snacks",
+      "city": "Funchal"
+    },
+    {
+      "name": "Why Not? Restaurant Grill",
+      "type": "Grill",
+      "city": "Funchal"
+    },
+    {
+      "name": "Kampo by Chef Júlio Pereira",
+      "type": "Michelin Restaurant",
+      "city": "Funchal",
+      "isFeatured": true,
+      "description": "Michelin-level – creative meat dishes by Júlio Pereira"
+    },
+    {
+      "name": "Akua by Chef Júlio Pereira",
+      "type": "Michelin Restaurant",
+      "city": "Funchal",
+      "isFeatured": true,
+      "description": "Seafood-focused fine dining by Júlio Pereira"
+    },
+    {
+      "name": "Yuki by Chef Júlio Pereira",
+      "type": "Michelin Restaurant",
+      "city": "Funchal",
+      "isFeatured": true,
+      "description": "Japanese fusion by Júlio Pereira"
+    },
+    {
+      "name": "Ciao Pizzeria",
+      "type": "Pizzeria",
+      "city": "Funchal"
+    },
+    {
+      "name": "Indian Palace",
+      "type": "Indian Restaurant",
+      "city": "Funchal"
+    },
+    {
+      "name": "Re-Canto Food Experiences",
+      "type": "Food Experience",
+      "city": "São Gonçalo"
+    },
+    {
+      "name": "Maia Coffee Shop",
+      "type": "Coffee Shop",
+      "city": "Funchal"
+    },
+    {
+      "name": "Barreirinha Bar Café",
+      "type": "Bar & Coffee – must visit",
+      "city": "Funchal",
+      "isFeatured": true,
+      "description": "Bar & Coffee – ocean views, must visit"
+    },
+    {
+      "name": "Penha d'Aguia (Ajuda)",
+      "type": "Coffee Shop",
+      "city": "Funchal"
+    },
+    {
+      "name": "La Parreira",
+      "type": "Traditional Butcher & BBQ",
+      "city": "Funchal"
+    },
+    {
+      "name": "Viola Restaurant",
+      "type": "The Bitcoin Steakhouse",
+      "city": "Estreito de Câmara de Lobos",
+      "isFeatured": true,
+      "description": "The Bitcoin Steakhouse – must-visit"
+    },
+    {
+      "name": "Xarambinha Pizzeria Expresso",
+      "type": "Pizzeria",
+      "city": "Funchal"
+    },
+    {
+      "name": "Restaurante Trigal",
+      "type": "Restaurant & AirBnB",
+      "city": "Funchal"
+    }
+  ],
+  "Pharmacies": [
+    {
+      "name": "Farmácia Luso-Britânica",
+      "city": "Funchal",
+      "type": null
+    },
+    {
+      "name": "Farmácia Popular",
+      "city": "Câmara de Lobos",
+      "type": null
+    },
+    {
+      "name": "Farmácia Lobos Mar",
+      "city": "Câmara de Lobos",
+      "type": null
+    },
+    {
+      "name": "Chafariz Farma",
+      "city": "Funchal",
+      "type": null
+    },
+    {
+      "name": "Farmacia Confiança",
+      "city": "Funchal",
+      "type": null
+    },
+    {
+      "name": "Farmácia Ponta Delgada",
+      "city": "Ponta Delgada",
+      "type": null
+    },
+    {
+      "name": "Botica Inglesa",
+      "city": "Funchal",
+      "type": null
+    },
+    {
+      "name": "Farmacia São Martinho",
+      "city": "Funchal",
+      "type": null
+    },
+    {
+      "name": "Farmácia da Ajuda",
+      "city": "Funchal",
+      "type": null
+    },
+    {
+      "name": "Farmácia do Fórum",
+      "city": "Funchal",
+      "type": null
+    }
+  ],
+  "Clinics & Health": [
+    {
+      "name": "Coolzoone Madeira",
+      "type": "Health & Wellness",
+      "city": "Funchal",
+      "isFeatured": true,
+      "description": "Health & Wellness"
+    },
+    {
+      "name": "IPRO Clinic",
+      "type": "Dental Clinic",
+      "city": "Funchal"
+    },
+    {
+      "name": "Mais Clinic",
+      "type": "Medical Clinic, Bitcoin ATM on location",
+      "city": "Funchal",
+      "isFeatured": true,
+      "description": "Medical Clinic – Bitcoin ATM on location"
+    },
+    {
+      "name": "Clinica Arriaga",
+      "type": "Dental Clinic",
+      "city": "Funchal"
+    },
+    {
+      "name": "Montra Thai Massage & Therapy",
+      "type": "Massage Therapy",
+      "city": "Funchal"
+    },
+    {
+      "name": "Resolve Já",
+      "type": "Interior Cleaning",
+      "city": "Funchal"
+    },
+    {
+      "name": "Real Health Kombucha",
+      "type": "Kombucha / Wellness",
+      "city": "Lombada da Ponta do Sol"
+    },
+    {
+      "name": "Hatha Yoga",
+      "type": "Yoga Studio",
+      "city": "Funchal"
+    },
+    {
+      "name": "Deliciosamente Mimi",
+      "type": "Babysitting – highly recommended",
+      "city": "Funchal",
+      "isFeatured": true,
+      "description": "Babysitting – highly recommended"
+    },
+    {
+      "name": "Eglis Yolanda Ramirez",
+      "type": "Chiropractor",
+      "city": "Funchal"
+    }
+  ],
+  "Shops & Markets": [
+    {
+      "name": "Queijaria da Avó",
+      "type": "Azorean Cheese Shop",
+      "city": "Funchal",
+      "isFeatured": true,
+      "description": "Azorean Cheese Shop"
+    },
+    {
+      "name": "Loja Coral Funchal",
+      "type": "Liquor Store",
+      "city": "Funchal"
+    },
+    {
+      "name": "Loja Coral Ribeira Brava",
+      "type": "Liquor Store",
+      "city": "Ribeira Brava"
+    },
+    {
+      "name": "Quiksilver",
+      "type": "Surf Apparel",
+      "city": "Funchal"
+    },
+    {
+      "name": "Bordal",
+      "type": "Traditional Embroidery",
+      "city": "Funchal"
+    },
+    {
+      "name": "Monstera Books",
+      "type": "Bookstore",
+      "city": "Funchal"
+    },
+    {
+      "name": "A Ervanária",
+      "type": "Herbalist & Supplements",
+      "city": "Funchal"
+    },
+    {
+      "name": "Hawkers by Optimil",
+      "type": "Optician & Sunglasses",
+      "city": "Funchal"
+    },
+    {
+      "name": "JCMatos",
+      "type": "Pet Food & Animal Feeds",
+      "city": "Funchal"
+    },
+    {
+      "name": "FRIIC",
+      "type": "Fruit Ice Creams",
+      "city": "Funchal"
+    }
+  ],
+  "Real Estate & Rentals": [
+    {
+      "name": "An Island Apart",
+      "type": "Holiday Rentals",
+      "city": "Funchal"
+    },
+    {
+      "name": "Luxury Charter Madeira",
+      "type": "Yacht Rental",
+      "city": "—"
+    },
+    {
+      "name": "Mateus House",
+      "type": "Holiday Rental",
+      "city": "Porto da Cruz"
+    },
+    {
+      "name": "Quintinha São João Hotel & Spa",
+      "type": "Hotel & Spa",
+      "city": "Funchal"
+    },
+    {
+      "name": "Hospedaria Pôr do Sol",
+      "type": "Bed & Breakfast",
+      "city": "Funchal"
+    },
+    {
+      "name": "Exclusive Homes Madeira",
+      "type": "Real Estate",
+      "city": "Calheta"
+    },
+    {
+      "name": "Vanscape Rentals",
+      "type": "Rent-a-Car",
+      "city": "São Martinho"
+    },
+    {
+      "name": "Restaurante Trigal",
+      "type": "Restaurant & AirBnB",
+      "city": "Funchal"
+    }
+  ],
+  "Coworking & Work Cafés": [
+    {
+      "name": "Cowork Funchal",
+      "type": "Coworking Space / Offices / Events",
+      "city": "Funchal"
+    },
+    {
+      "name": "Loft - Brunch & Cocktails (multi-location)",
+      "type": "Brunch Bar / Laptop-friendly Coffee Spot",
+      "city": "Funchal"
+    }
+  ],
+  "Construction, Tech & Services": [
+    {
+      "name": "Afonso Camacho",
+      "type": "Construction Materials",
+      "city": "Funchal / Caniço"
+    },
+    {
+      "name": "Traços Formosos",
+      "type": "Construction Company",
+      "city": "Santa Cruz"
+    },
+    {
+      "name": "Kalani Electronics",
+      "type": "Electronics",
+      "city": "Funchal"
+    },
+    {
+      "name": "Unilateral Lda",
+      "type": "Electronic Tech",
+      "city": "Caniço"
+    },
+    {
+      "name": "Sicaprep Lda",
+      "type": "Electrical & Telecom",
+      "city": "Caniço"
+    },
+    {
+      "name": "OnCloud",
+      "type": "Computers & Printshop",
+      "city": "Funchal"
+    },
+    {
+      "name": "Challenge Fantasy - Eurocopy",
+      "type": "Copy/Print",
+      "city": "Funchal"
+    },
+    {
+      "name": "MCS - Madeira Corporate Services",
+      "type": "Corporate Services",
+      "city": "Funchal"
+    },
+    {
+      "name": "Manta",
+      "type": "Communication Agency",
+      "city": "Funchal"
+    }
+  ],
+  "Barbers & Beauty": [
+    {
+      "name": "Barbearia Alegria",
+      "type": "Barbershop",
+      "city": "Funchal"
+    },
+    {
+      "name": "Barbearia Sa",
+      "type": "Barbershop",
+      "city": "Calheta"
+    },
+    {
+      "name": "Gentleman1415",
+      "type": "Barbershop",
+      "city": "Funchal"
+    }
+  ],
+  "Fitness, Dance & Leisure": [
+    {
+      "name": "Salsa Madeira",
+      "type": "Dance Classes",
+      "city": "Funchal"
+    },
+    {
+      "name": "Tiny Tribo",
+      "type": "Child Amusement Center",
+      "city": "Funchal"
+    },
+    {
+      "name": "Surf Clube da Madeira",
+      "type": "Surfing",
+      "city": "Funchal"
+    }
+  ],
+  "Experiences, Tours & Transport": [
+    {
+      "name": "EPIC Madeira",
+      "type": "Canyoning/Adventure Tours",
+      "city": "Funchal"
+    },
+    {
+      "name": "Full Experience",
+      "type": "Canyoning & Adventure Jeep Tours",
+      "city": "Funchal"
+    },
+    {
+      "name": "Hit The Road Madeira",
+      "type": "4x4 Tours",
+      "city": "Funchal"
+    },
+    {
+      "name": "Let's Buggy    4x4 buggy rentals",
+      "type": "Off-road Adventures",
+      "city": "Calheta"
+    },
+    {
+      "name": "Oceanodroma",
+      "type": "Bird & Whale Watching",
+      "city": "Machico"
+    },
+    {
+      "name": "Taxi - Ricardo Vieira",
+      "type": "Taxi",
+      "city": "Funchal"
+    },
+    {
+      "name": "Popsec Film Studio",
+      "type": "Film Studio (not a tour)",
+      "city": "Funchal"
+    }
+  ],
+  "Featured": [
+    {
+      "name": "Café Fortaleza",
+      "description": "Café – epic views, kids outdoor playground",
+      "city": "Funchal"
+    },
+    {
+      "name": "Mais Clinic",
+      "description": "Medical Clinic – Bitcoin ATM on location",
+      "city": "Funchal"
+    },
+    {
+      "name": "Viola Restaurant",
+      "description": "The Bitcoin Steakhouse – must-visit",
+      "city": "Estreito de Câmara de Lobos"
+    },
+    {
+      "name": "Kampo by Chef Júlio Pereira",
+      "description": "Michelin-level – creative meat dishes by Júlio Pereira",
+      "city": "Funchal",
+      "isFeatured": true,
+      "type": "Michelin Restaurant"
+    },
+    {
+      "name": "Akua by Chef Júlio Pereira",
+      "description": "Seafood-focused fine dining by Júlio Pereira",
+      "city": "Funchal",
+      "isFeatured": true,
+      "type": "Michelin Restaurant"
+    },
+    {
+      "name": "Yuki by Chef Júlio Pereira",
+      "description": "Japanese fusion by Júlio Pereira",
+      "city": "Funchal",
+      "isFeatured": true,
+      "type": "Michelin Restaurant"
+    },
+    {
+      "name": "Design Centre Nini Andrade Silva",
+      "description": "Bar Restaurant – epic location with panoramic views",
+      "city": "Funchal",
+      "isFeatured": true,
+      "type": "Bar Restaurant – epic location"
+    },
+    {
+      "name": "Barreirinha Bar Café",
+      "description": "Bar & Coffee – ocean views, must visit",
+      "city": "Funchal",
+      "isFeatured": true,
+      "type": "Bar & Coffee – must visit"
+    },
+    {
+      "name": "Queijaria da Avó",
+      "description": "Azorean Cheese Shop",
+      "city": "Funchal",
+      "isFeatured": true,
+      "type": "Azorean Cheese Shop"
+    },
+    {
+      "name": "Deliciosamente Mimi",
+      "description": "Babysitting – highly recommended",
+      "city": "Funchal",
+      "isFeatured": true,
+      "type": "Babysitting – highly recommended"
+    },
+    {
+      "name": "Coolzoone Madeira",
+      "description": "Health & Wellness",
+      "city": "Funchal",
+      "isFeatured": true,
+      "type": "Health & Wellness"
+    }
+  ],
+  "Bitcoin ATMs & P2P": [
+    {
+      "name": "COIN4CASH",
+      "type": "P2P Service",
+      "city": "Funchal"
+    },
+    {
+      "name": "Mais Clinic",
+      "type": "Bitcoin ATM on location",
+      "city": "Funchal"
+    }
+  ]
+}
