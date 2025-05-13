@@ -622,5 +622,20 @@
       "type": "Bitcoin ATM on location",
       "city": "Funchal"
     }
+  ],
+  "Honorable Mentions": [
+    {
+      "name": "Audax",
+      "status": "Does NOT Accept Bitcoin",
+      "city": "Funchal",
+      "coordinates": [
+        32.6432034,
+        -16.9197555
+      ],
+      "address": "Rua Imperatriz Dona Amélia nº104, Funchal, PT 9000-018",
+      "phone": "+351 291 147 850",
+      "website": "www.instagram.com/audaxrestaurante",
+      "description": "Progressive Madeiran Cuisine. European restaurant. Rating: 4.8 (102 Reviews). Hours: Mon-Sat 12:30–3 PM & 6:30–10 PM, Sun Closed. This is a Michelin award-winning traditional Madeira cuisine experience."
+    }
   ]
 }

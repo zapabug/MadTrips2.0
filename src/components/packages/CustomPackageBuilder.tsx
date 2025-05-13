@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useEffect, useState } from 'react';
 
 // Activity categories and the activities within each category
 const activityCategories = [

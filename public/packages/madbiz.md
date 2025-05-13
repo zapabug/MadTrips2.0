@@ -197,4 +197,44 @@
 
 ---
 
+### 📝 Pending Updates & Additions
+
+**Instructions:** Use this section to propose new businesses or locations to be added/updated in the `madeira_btc_businesses_20250511_172142.json` file. Provide as much detail as possible using the format below.
+
+**To apply these updates:**
+1. Ensure all entries below are correctly formatted.
+2. Run the update script from your terminal: `node scripts/update-business-data.cjs`
+3. After running the script, **manually remove or comment out** the processed entries below to prevent adding them again next time.
+
+**Format:**
+
+```
+**[Business Name]**
+*   **Status:** [ Accepts Bitcoin | Does NOT Accept Bitcoin | Unknown ]
+*   **Category:** [ e.g., Restaurant, Shop, Clinic, Experience, Notable Landmark ]
+*   **City:** [ City Name | Unknown ]
+*   **Coordinates:** [ Latitude, Longitude | Optional ]
+*   **Address:** [ Full Address | Optional ]
+*   **Phone:** [ Phone Number | Optional ]
+*   **Website:** [ URL | Optional ]
+*   **Notes:** [ Any relevant notes, description, opening hours, etc. ]
+---
+```
+
+**Example Update:**
+
+**Audax**
+*   **Status:** Does NOT Accept Bitcoin
+*   **Category:** Honorable Mentions
+*   **City:** Funchal
+*   **Coordinates:** 32.6432034, -16.9197555
+*   **Address:** Rua Imperatriz Dona Amélia nº104, Funchal, PT 9000-018
+*   **Phone:** +351 291 147 850
+*   **Website:** www.instagram.com/audaxrestaurante
+*   **Notes:** Progressive Madeiran Cuisine. European restaurant. Rating: 4.8 (102 Reviews). Hours: Mon-Sat 12:30–3 PM & 6:30–10 PM, Sun Closed. This is a Michelin award-winning traditional Madeira cuisine
+---
+```
+
+---
+
 

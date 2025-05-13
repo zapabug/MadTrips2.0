@@ -212,3 +212,40 @@ Next Steps:
 ## Next Steps
 - Continue to curate in markdown, then sync to JSON as needed.
 - Use the Featured section for top recommendations in the UI or admin tools.
+
+---
+
+## Interaction 8: (Current Date) — Data Management Workflow & Scripting
+
+User Input & Context:
+Following the setup of the map and business data sources, a more robust method was needed to manage and update the `madeira_btc_businesses_20250511_172142.json` file. The `public/packages/madbiz.md` file was designated as the human-readable source of truth for these updates. Additionally, minor issues with map data import paths and display (z-index) needed resolution.
+
+Decisions Made & Steps Taken:
+- **Map Data Path & Display Fixes**:
+    - Resolved several Vite errors in `FunchalMap.tsx` by correcting relative import paths for GeoJSON and business data files.
+    - Identified and corrected a typo in the `public/packages/` directory name within an import statement.
+    - Updated the import to use the correct filename `madeira_btc_businesses_20250511_172142.json` instead of the previously assumed `MadeiraBusiness.json`.
+    - Fixed a z-index issue where the map was displaying over the navigation bar by applying `z-10` to the map container in `FunchalMap.tsx`.
+- **`madbiz.md` as Curation Hub**:
+    - A new section "📝 Pending Updates & Additions" was added to `madbiz.md`.
+    - A specific markdown format was defined for adding or updating business entries within this section.
+    - The "Audax" business was added as the first entry to be processed, categorized under "Honorable Mentions".
+- **JSON Update Script (`scripts/update-business-data.cjs`)**:
+    - A Node.js script was created to automate the transfer of data from `madbiz.md` to `madeira_btc_businesses_20250511_172142.json`.
+    - The script parses the "Pending Updates & Additions" section, extracts business details, and then adds or updates corresponding entries in the JSON file.
+    - Logic was included to create new categories in the JSON if they don't already exist.
+    - The script was enhanced to update existing entries (matching on name and city within a category) rather than just skipping duplicates.
+    - Several debugging iterations were performed:
+        - Corrected script execution context (running from project root).
+        - Renamed script from `.js` to `.cjs` to resolve ES Module scope issues (`require` not defined) due to `"type": "module"` in `package.json`.
+        - Refined parsing logic (regex and string manipulation) to correctly identify and process entries under the "**Pending Entries:**" header within `madbiz.md`.
+- **Documentation Updates**:
+    - `madbiz.md` was updated with instructions on how to run the script and manage processed entries.
+
+Rationale:
+- Establishes a clear and maintainable workflow for updating business data, using markdown for human-friendly editing and a script for reliable JSON updates.
+- Resolves outstanding issues with map data loading and display, improving application stability.
+
+Next Steps:
+- Utilize the new script for ongoing updates to business listings.
+- Ensure data consistency between `madbiz.md` and the JSON file through regular script execution.

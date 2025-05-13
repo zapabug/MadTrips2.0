@@ -14,11 +14,11 @@ Core User Flow:
 5. User can log in via Nostr (NIP-07) to post comments.
 
 Key Features:
-- Browse Madeira-specific travel packages and events.
-- View package/event details with images sourced from Nostr.
-- Read and write comments on packages/events via Nostr.
-- Madeira-tailored content feed.
-- User authentication via NIP-07 for interaction (commenting).
+- [ ] Browse Madeira-specific travel packages and events.
+- [ ] View package/event details with images sourced from Nostr.
+- [ ] Read and write comments on packages/events via Nostr.
+- [ ] Madeira-tailored content feed.
+- [x] User authentication via NIP-07 for interaction (commenting). (NDK setup in place)
 
 Out of Scope (for this simplified version):
 - Complex backend trip booking/coordination by a "Fixer".
@@ -64,142 +64,129 @@ Code Migration from Previous Project (via `docs/` staging):
 - Constants: `nostr.ts`, `relays.ts`.
 
 Next Steps (Revised for Simplification):
-- **Simplify `NostrContext.tsx`**: Remove `CacheService`, `RelayService` dependencies. Rely on NDK/ndk-hooks for core Nostr functionality.
-- **Resolve Linter/Vite Errors**: Focus on errors related to the simplified scope.
-- **Implement Core UI**: Build out the package/event browser, comment sections, and Madeira feed using the migrated components and new simplified Nostr logic.
-- **Ensure NDK Initialization**: Set up NDK singleton and `useNDKInit` correctly, likely in `main.tsx` or `App.tsx`.
+- [x] **Simplify `NostrContext.tsx`**: Remove `CacheService`, `RelayService` dependencies. Rely on NDK/ndk-hooks for core Nostr functionality.
+- [x] **Resolve Linter/Vite Errors**: Focus on errors related to the simplified scope. (Ongoing, many resolved)
+- [ ] **Implement Core UI**: Build out the package/event browser, comment sections, and Madeira feed using the migrated components and new simplified Nostr logic. (Package browser partially implemented)
+- [x] **Ensure NDK Initialization**: Set up NDK singleton and `useNDKInit` correctly, likely in `main.tsx` or `App.tsx`.
 
 ## LLD 3: 2025-05-12 (approx) — Routing, Map Variants, Page Structure, Footer
 
 Key Updates:
-- **Routing Setup**: 
-  - `react-router-dom` installed and configured in `src/App.tsx`.
-  - Redundant `<BrowserRouter>` removed from `src/main.tsx` to fix nesting errors.
-  - Routes established for `/`, `/map`, `/community`, `/packages`, `/packages/custom`, and `/packages/:id`.
-- **Page Components Created (in `src/pages/`)**:
-  - `MapPage.tsx`: Renders the full map component.
-  - `CommunityPage.tsx`: Placeholder created.
-  - `PackagesPage.tsx`: Placeholder created, then populated by porting `docs/packages/pacages.page.tsx`.
-  - `CustomPackagePage.tsx`: Placeholder created, references `CustomPackageBuilder` component.
-  - `PackageDetailPage.tsx`: Placeholder created, then populated with a simplified port of `docs/packages/id.page.tsx` (cart/checkout/Nostr logic stubbed).
-- **Map Component (`FunchalMap.tsx`) Enhancements**:
-  - Populated with `FEATURED_BUSINESSES` data from `src/data/packages.ts` (sourced from `madbiz.md`).
-  - Added `variant` prop (`home` | `page`).
-  - `variant="home"` (used in `App.tsx`) shows a smaller map-only view.
-  - `variant="page"` (default, used in `MapPage.tsx`) shows the larger map and the featured business list.
-- **Layout Components (`src/components/layout/`)**:
-  - `Navigation.tsx`: Confirmed existing links align with new routes.
-  - `Footer.tsx`: Created, initially basic, then replaced with a more detailed version adapted from `docs/contexts/ClientLayout.tsx` (social links, powered by, policy links; cache easter egg and Next.js specifics removed). Added to `App.tsx` layout.
-- **Package Components (`src/components/packages/`)**:
-  - `CustomPackageBuilder.tsx`: Placeholder created.
+- [x] **Routing Setup**: 
+  - [x] `react-router-dom` installed and configured in `src/App.tsx`.
+  - [x] Redundant `<BrowserRouter>` removed from `src/main.tsx` to fix nesting errors.
+  - [x] Routes established for `/`, `/map`, `/community`, `/packages`, `/packages/custom`, and `/packages/:id`.
+- [x] **Page Components Created (in `src/pages/`)**:
+  - [x] `MapPage.tsx`: Renders the full map component.
+  - [x] `CommunityPage.tsx`: Placeholder created.
+  - [x] `PackagesPage.tsx`: Placeholder created, then populated by porting `docs/packages/pacages.page.tsx`.
+  - [x] `CustomPackagePage.tsx`: Placeholder created, references `CustomPackageBuilder` component.
+  - [x] `PackageDetailPage.tsx`: Placeholder created, then populated with a simplified port of `docs/packages/id.page.tsx` (cart/checkout/Nostr logic stubbed).
+- [x] **Map Component (`FunchalMap.tsx`) Enhancements**:
+  - [x] Populated with `FEATURED_BUSINESSES` data from `src/data/packages.ts` (sourced from `madbiz.md`).
+  - [x] Added `variant` prop (`home` | `page`).
+  - [x] `variant="home"` (used in `App.tsx`) shows a smaller map-only view.
+  - [x] `variant="page"` (default, used in `MapPage.tsx`) shows the larger map and the featured business list.
+- [x] **Layout Components (`src/components/layout/`)**:
+  - [x] `Navigation.tsx`: Confirmed existing links align with new routes.
+  - [x] `Footer.tsx`: Created, initially basic, then replaced with a more detailed version adapted from `docs/contexts/ClientLayout.tsx`. Added to `App.tsx` layout.
+- [x] **Package Components (`src/components/packages/`)**:
+  - [x] `CustomPackageBuilder.tsx`: Placeholder created (fully implemented later).
 
 Next Steps:
-- Port the `CustomPackageBuilder` component from the Next.js project.
-- Implement Cart/Checkout functionality (porting/creating store, wrapper, page).
-- Integrate Nostr context/authentication as needed.
+- [x] Port the `CustomPackageBuilder` component from the Next.js project. (Completed in LLD 4/5)
+- [ ] Implement Cart/Checkout functionality (porting/creating store, wrapper, page).
+- [ ] Integrate Nostr context/authentication as needed. (Ongoing)
 
 # Build Documentation (Latest)
 
 ## Curation Workflow
-- **Primary curation** is performed in `public/pacages/madbiz.md` (markdown, human-readable, with sections and comments).
+- **Primary curation** is performed in `public/packages/madbiz.md` (markdown, human-readable, with sections and comments, including a dedicated "Pending Updates & Additions" section).
 - **Featured section** at the top highlights top picks for easy reference and UI integration.
 - **Deprecated or unwanted entries** (e.g., Sweet Merenda, Sunshine Pub & Grill) are removed from the markdown and not included in the JSON.
 - **Sync to JSON:**
-  - After curation, the markdown is used as the source of truth to update `public/pacages/madeira_btc_businesses_20250511_172142.json`.
-  - A script (`remove_tags.js`) is used to remove all `tags` and `bitcoin_payment` fields from the JSON for a clean dataset.
-- **App/service integration** uses only the cleaned JSON; direct edits to the JSON are discouraged.
+  - After curation, the `scripts/update-business-data.cjs` script is run (`node scripts/update-business-data.cjs`) from the project root.
+  - This script parses the "Pending Updates & Additions" section of `madbiz.md` and adds/updates entries in `public/packages/madeira_btc_businesses_20250511_172142.json`.
+  - The script handles creating new categories and updating existing entries.
+  - (Optional/Previous Step) A script (`remove_tags.js`) was previously mentioned to remove `tags` and `bitcoin_payment` fields - review if this is still needed after the primary update script runs.
+- **App/service integration** uses only the updated `madeira_btc_businesses_20250511_172142.json`; direct edits to the JSON are discouraged.
 
 ## Notes
-- All business type clarifications and new entries should be made in the markdown first.
+- All business type clarifications and new entries should be made in the `madbiz.md` "Pending Updates & Additions" section first.
 - The Featured section is intended for admin tools and UI highlights.
-- Continue to maintain markdown as the master file for all curation and planning.
+- Continue to maintain markdown as the master file for all curation.
 
 ## LLD 4: 2025-05-12 (approx) — Footer, Responsive Packages, Background Fix
 
 Key Updates:
-- **Footer Enhancements & Styling**:
-  - Background color changed to teal (`#14857c`).
-  - Added Nostr profile link (`njump.me` desktop / `nostr:` mobile).
-  - Corrected assets folder name (`asssets` -> `assets`) and verified icon display (`/assets/nostr-icon...`, `/assets/bitcoin.png`).
-- **Responsive Homepage Packages**:
-  - Created `src/hooks/useResponsiveNumItems.ts` to determine item count based on screen size (1 mobile / 2 tablet / 3 desktop).
-  - Created `src/components/PackageCard.tsx` for displaying individual packages.
-  - Created `src/pages/HomePage.tsx` using the hook and card to show featured packages responsively.
-- **Packages Page Implementation**:
-  - Ported `CustomPackageBuilder` from `docs/` reference to `src/components/CustomPackageBuilder.tsx`, adapting for Vite/React and fixing type errors.
-  - Created `src/pages/PackagesPage.tsx` to display all featured packages (using `PackageCard`) and the `CustomPackageBuilder`.
-- **Error Resolution**:
-  - Fixed Vite module loading errors related to default vs named exports (`PackagesPage` in `App.tsx`).
-- **Layout Background Fix**:
-  - Corrected visual layout issue where a gradient background appeared below the content.
-  - Moved the `bg-gradient-to-b from-ocean to-forest` classes from the main wrapper `div` in `src/App.tsx` to the `<main>` element, scoping the gradient correctly to the content area.
+- [x] **Footer Enhancements & Styling**:
+  - [x] Background color changed to teal (`#14857c`).
+  - [x] Added Nostr profile link (`njump.me` desktop / `nostr:` mobile).
+  - [x] Corrected assets folder name (`asssets` -> `assets`) and verified icon display.
+- [x] **Responsive Homepage Packages**:
+  - [x] Created `src/hooks/useResponsiveNumItems.ts`.
+  - [x] Created `src/components/PackageCard.tsx`.
+  - [x] Created `src/pages/HomePage.tsx` using the hook and card.
+- [x] **Packages Page Implementation**:
+  - [x] Ported `CustomPackageBuilder` to `src/components/CustomPackageBuilder.tsx`.
+  - [x] Created `src/pages/PackagesPage.tsx` to display featured packages and the `CustomPackageBuilder`.
+- [x] **Error Resolution**:
+  - [x] Fixed Vite module loading errors.
+- [x] **Layout Background Fix**:
+  - [x] Corrected visual layout issue with background gradient.
 
 Next Steps:
-- Replace mock package data in `HomePage.tsx` and `PackagesPage.tsx` with actual data fetching/management.
-- Implement Cart/Checkout/Booking functionality if required.
-- Integrate Nostr context/authentication for commenting and interaction.
+- [ ] Replace mock package data in `HomePage.tsx` and `PackagesPage.tsx` with actual data fetching/management.
+- [ ] Implement Cart/Checkout/Booking functionality if required.
+- [ ] Integrate Nostr context/authentication for commenting and interaction. (Ongoing)
 
 ## LLD 5: Current Date (Reflects recent UI/UX changes and component restructuring)
 
 Key Updates:
-- **Custom Package Builder & Page Separation**:
-  - `CustomPackageBuilder` component (`src/components/packages/CustomPackageBuilder.tsx`) implemented with interactive UI for duration, accommodation, and activity selection, including dynamic price calculation.
-  - Dedicated page `src/pages/CustomPackagePage.tsx` created for the builder, separating it from the main packages listing.
-  - Styling for the `CustomPackageBuilder` and `CustomPackagePage` introduction refined to a "sunset vacation" theme (warm backgrounds, bitcoin orange titles, amber text) to evoke an inviting feel, designed to sit on the existing `ocean-to-forest` page gradient.
-
-- **`PackagesPage.tsx` Restructuring**:
-  - Added a main page title: "Discover Madeira's Packages & Places".
-  - Removed the integrated `CustomPackageBuilder`.
-  - Created `src/components/BusinessCard.tsx` for a horizontal display of business details (name, type, city).
-  - Created `src/components/KidFriendlyCard.tsx` for a simpler, grid-friendly display (name, type).
-  - Repurposed space to feature new sections:
-    - "Bitcoin Essentials & Family Fun": Uses `KidFriendlyCard` in a grid, incorporating kid-friendly places and Bitcoin ATM/P2P services (data manually curated from `madbiz.md`).
-    - "Honorable Mentions": Updated with a subtitle ("Always ask: 'Can I pay in Bitcoin?'") and descriptive text. Placeholder for future business listings.
-
-- **`madbiz.md` (Business Listings Curation)**:
-  - Added a new section: `### 🧑‍💻 Coworking & Work Cafés`.
-  - Added "Cowork Funchal" (Type: Coworking Space / Offices / Events) to this new section.
-  - Moved "Loft - Brunch & Cocktails (multi-location)" (Type updated to: Brunch Bar / Laptop-friendly Coffee Spot) to this new section.
-  - Ensured "COIN4CASH" is correctly listed under `### ₿ Bitcoin ATMs & P2P`.
-  - Note: "Madeira Island Tours" was discussed and temporarily added, but user's subsequent file changes indicate it was removed.
-
-- **Brand Colors & Tailwind**: 
-  - New "Accent Blues & Purples" color palette added to `docs/brandColors.md`.
-  - Guidance provided for integrating these into `tailwind.config.js`.
-
-- **Code Maintenance**: 
-  - Resolved linter errors in `PackagesPage.tsx` related to unused imports/variables.
+- [x] **Custom Package Builder & Page Separation**:
+  - [x] `CustomPackageBuilder` component (`src/components/packages/CustomPackageBuilder.tsx`) implemented with interactive UI.
+  - [x] Dedicated page `src/pages/CustomPackagePage.tsx` created.
+  - [x] Styling for the `CustomPackageBuilder` and `CustomPackagePage` refined.
+- [x] **`PackagesPage.tsx` Restructuring**:
+  - [x] Added a main page title.
+  - [x] Removed the integrated `CustomPackageBuilder`.
+  - [x] Created `src/components/BusinessCard.tsx`.
+  - [x] Created `src/components/KidFriendlyCard.tsx`.
+  - [x] Repurposed space to feature new sections ("Bitcoin Essentials & Family Fun", "Honorable Mentions").
+- [x] **`madbiz.md` (Business Listings Curation)**: (Process, not a checkable item)
+  - [x] Added new sections and updated listings.
+- [x] **Brand Colors & Tailwind**: 
+  - [x] New color palette added to `docs/brandColors.md`.
+  - [x] Guidance provided for `tailwind.config.js`.
+- [x] **Code Maintenance**: 
+  - [x] Resolved linter errors in `PackagesPage.tsx`.
 
 Next Steps:
-- Populate "Honorable Mentions" section with data in `PackagesPage.tsx`.
-- Consider dynamic data fetching for business listings in `PackagesPage.tsx` from `madbiz.md` (or its JSON counterpart) instead of manual arrays.
-- Continue with Nostr integration for comments and business "claiming" features as per LLD 5 in `Planning.md`.
+- [ ] Populate "Honorable Mentions" section with data in `PackagesPage.tsx`.
+- [x] Consider dynamic data fetching for business listings in `PackagesPage.tsx` from `madbiz.md` (or its JSON counterpart) instead of manual arrays. (Partially addressed by map component, ongoing for PackagesPage)
+- [ ] Continue with Nostr integration for comments and business "claiming" features as per LLD 5 in `Planning.md`.
 
 ## LLD 6: (Current Date) — Native Map Implementation (`FunchalMap.tsx` Refactor)
 
 Key Updates:
-- **Technology**: Replaced the previous `iframe`-based map with `react-leaflet` (`MapContainer`, `TileLayer`, `Marker`, `Popup` components) and `leaflet` library.
-- **Data Sources**:
-    - `docs/map/export(1).geojson`: Primary source for business locations (points) and core properties (name, address details).
-    - `public/pacages/MadeiraBusiness.json`: Secondary source for curated/enriched data (business type, descriptions, featured status), derived from `madbiz.md`.
-- **Data Fetching & Handling**:
-    - Uses Vite's `?url` import suffix to get URLs for the data files.
-    - Employs `useEffect` and `fetch` to asynchronously load both GeoJSON and curated JSON data on component mount.
-    - Manages data (`geojsonData`, `curatedBusinesses`) and loading/error states (`mapError`) using `useState`.
-    - Defines TypeScript interfaces (`GeoJsonFeature`, `GeoJsonRoot`, `CuratedBusiness`, etc.) for type safety.
-- **Data Merging Logic**:
-    - Uses `useMemo` to create an efficient lookup map (`curatedDetailsLookup`) from the curated data, keyed by business name.
-    - Iterates through `geojsonData.features`:
-        - Extracts coordinates (`feature.geometry.coordinates`) for the `Marker` position (handling potential coordinate order variations).
-        - Retrieves the business name (`feature.properties.name`).
-        - Looks up corresponding curated details using the name from the `curatedDetailsLookup` map.
-        - Renders a `Popup` containing merged information: name (GeoJSON), type/description (Curated), address/city (GeoJSON preferred, fallback to Curated).
-- **Error Handling & UI**: Includes basic loading message and error display if data fetching fails. Map display relies on successful fetching of at least the GeoJSON.
-- **Component Props**: Retains the `variant` prop (`'home' | 'page'`) to control map height and conditional rendering of the `FEATURED_BUSINESSES` section (which still uses static data from `src/data/packages.ts`).
-- **Issue Resolution**: Addresses previous Vite/JSON import errors and various linter/type errors encountered during development.
+- [x] **Technology**: Replaced the previous `iframe`-based map with `react-leaflet`.
+- [x] **Data Sources**:
+    - [x] `docs/map/export(1).geojson`: Primary source.
+    - [x] `public/packages/madeira_btc_businesses_20250511_172142.json`: Secondary source (corrected filename).
+- [x] **Data Fetching & Handling**:
+    - [x] Uses Vite's `?url` import suffix.
+    - [x] Employs `useEffect` and `fetch`.
+    - [x] Manages data and loading/error states using `useState`.
+    - [x] Defines TypeScript interfaces.
+- [x] **Data Merging Logic**:
+    - [x] Uses `useMemo` to create an efficient lookup map.
+    - [x] Iterates through `geojsonData.features` for merging and rendering `Popup`s.
+- [x] **Error Handling & UI**: Includes basic loading message and error display.
+- [x] **Component Props**: Retains the `variant` prop.
+- [x] **Issue Resolution**: Addresses previous Vite/JSON import errors (path, filename, typo) and linter/type errors. Also resolved map display overlap with navigation bar (z-index).
 
 Next Steps:
-- Integrate interactive elements into Popups (e.g., booking buttons).
-- Connect business listings to Nostr for comments/reviews/claiming.
-- Style Popups for better readability and user experience.
+- [ ] Integrate interactive elements into Popups (e.g., booking buttons).
+- [ ] Connect business listings to Nostr for comments/reviews/claiming.
+- [ ] Style Popups for better readability and user experience.
 

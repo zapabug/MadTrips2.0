@@ -6,7 +6,7 @@ import { useState, useEffect, useMemo } from 'react'; // Import useMemo
 
 // Import data URLs
 import geojsonUrl from '../../../docs/map/export(1).geojson?url';
-import curatedDataUrl from '../../../public/pacages/MadeiraBusiness.json?url'; // Renamed for clarity
+import curatedDataUrl from '../../../public/packages/madeira_btc_businesses_20250511_172142.json?url'; // Updated to actual filename
 
 // Optional: Configure Leaflet icon (if default icons don't show up)
 // import markerIcon2x from 'leaflet/dist/images/marker-icon-2x.png';
@@ -121,7 +121,8 @@ export function FunchalMap({ variant = 'page' }: FunchalMapProps) {
 
   return (
     <>
-      <div className={`w-full ${mapHeightClass} relative p-3 rounded-lg overflow-hidden border border-gray-300 dark:border-gray-700`}>
+      {/* Add z-10 to ensure map is below the fixed navbar (z-30) */}
+      <div className={`w-full ${mapHeightClass} relative p-3 rounded-lg overflow-hidden border border-gray-300 dark:border-gray-700 z-10`}>
         <MapContainer
           center={mapCenter}
           zoom={initialZoom}
