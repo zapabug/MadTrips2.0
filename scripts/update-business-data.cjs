@@ -4,7 +4,7 @@ const path = require('path');
 // Define paths relative to the script location
 const baseDir = path.join(__dirname, '..'); // Project root
 const mdPath = path.join(baseDir, 'public/packages/madbiz.md');
-const jsonPath = path.join(baseDir, 'public/packages/madeira_btc_businesses_20250511_172142.json');
+const jsonPath = path.join(baseDir, 'public/packages/BusinessDetails.json');
 
 console.log(`Reading Markdown from: ${mdPath}`);
 console.log(`Reading/Writing JSON to: ${jsonPath}`);

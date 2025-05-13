@@ -6,7 +6,7 @@ import { useState, useEffect, useMemo } from 'react'; // Import useMemo
 
 // Import data URLs
 import geojsonUrl from '../../../docs/map/export(1).geojson?url';
-import curatedDataUrl from '../../../public/packages/madeira_btc_businesses_20250511_172142.json?url'; // Updated to actual filename
+import curatedDataUrl from '/packages/MadeiraBusinessDetails.json?url'; // Corrected path and filename for public asset
 
 // Optional: Configure Leaflet icon (if default icons don't show up)
 // import markerIcon2x from 'leaflet/dist/images/marker-icon-2x.png';

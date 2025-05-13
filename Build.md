@@ -106,10 +106,10 @@ Next Steps:
 - **Deprecated or unwanted entries** (e.g., Sweet Merenda, Sunshine Pub & Grill) are removed from the markdown and not included in the JSON.
 - **Sync to JSON:**
   - After curation, the `scripts/update-business-data.cjs` script is run (`node scripts/update-business-data.cjs`) from the project root.
-  - This script parses the "Pending Updates & Additions" section of `madbiz.md` and adds/updates entries in `public/packages/madeira_btc_businesses_20250511_172142.json`.
+  - This script parses the "Pending Updates & Additions" section of `madbiz.md` and adds/updates entries in `public/packages/BusinessDetails.json`.
   - The script handles creating new categories and updating existing entries.
   - (Optional/Previous Step) A script (`remove_tags.js`) was previously mentioned to remove `tags` and `bitcoin_payment` fields - review if this is still needed after the primary update script runs.
-- **App/service integration** uses only the updated `madeira_btc_businesses_20250511_172142.json`; direct edits to the JSON are discouraged.
+- **App/service integration** uses only the updated `BusinessDetails.json`; direct edits to the JSON are discouraged.
 
 ## Notes
 - All business type clarifications and new entries should be made in the `madbiz.md` "Pending Updates & Additions" section first.
@@ -147,12 +147,17 @@ Key Updates:
   - [x] `CustomPackageBuilder` component (`src/components/packages/CustomPackageBuilder.tsx`) implemented with interactive UI.
   - [x] Dedicated page `src/pages/CustomPackagePage.tsx` created.
   - [x] Styling for the `CustomPackageBuilder` and `CustomPackagePage` refined.
-- [x] **`PackagesPage.tsx` Restructuring**:
+- [x] **`PackagesPage.tsx` Restructuring & Data Display**:
   - [x] Added a main page title.
   - [x] Removed the integrated `CustomPackageBuilder`.
   - [x] Created `src/components/BusinessCard.tsx`.
   - [x] Created `src/components/KidFriendlyCard.tsx`.
   - [x] Repurposed space to feature new sections ("Bitcoin Essentials & Family Fun", "Honorable Mentions").
+  - [x] **Implemented dynamic loading of "Honorable Mentions" from `public/packages/MadeiraBusinessDetails.json`.**
+- [x] **`BusinessCard.tsx` Enhancements**: 
+    - [x] **Removed city display** from primary view; `city` prop is optional.
+    - [x] **Added flip-on-click** to reveal details (`phone`, `website`, `openingHours`).
+    - [x] Requires corresponding data fields in JSON/`madbiz.md` and updated parsing script.
 - [x] **`madbiz.md` (Business Listings Curation)**: (Process, not a checkable item)
   - [x] Added new sections and updated listings.
 - [x] **Brand Colors & Tailwind**: 
@@ -164,6 +169,7 @@ Key Updates:
 Next Steps:
 - [ ] Populate "Honorable Mentions" section with data in `PackagesPage.tsx`.
 - [x] Consider dynamic data fetching for business listings in `PackagesPage.tsx` from `madbiz.md` (or its JSON counterpart) instead of manual arrays. (Partially addressed by map component, ongoing for PackagesPage)
+- [x] **Implemented dynamic fetching for "Honorable Mentions" on `PackagesPage.tsx`.**
 - [ ] Continue with Nostr integration for comments and business "claiming" features as per LLD 5 in `Planning.md`.
 
 ## LLD 6: (Current Date) — Native Map Implementation (`FunchalMap.tsx` Refactor)
@@ -172,7 +178,7 @@ Key Updates:
 - [x] **Technology**: Replaced the previous `iframe`-based map with `react-leaflet`.
 - [x] **Data Sources**:
     - [x] `docs/map/export(1).geojson`: Primary source.
-    - [x] `public/packages/madeira_btc_businesses_20250511_172142.json`: Secondary source (corrected filename).
+    - [x] `public/packages/MadeiraBusinessDetails.json`: Secondary source (corrected filename **and import path**).
 - [x] **Data Fetching & Handling**:
     - [x] Uses Vite's `?url` import suffix.
     - [x] Employs `useEffect` and `fetch`.

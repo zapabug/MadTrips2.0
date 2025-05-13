@@ -1,7 +1,7 @@
 // remove_tags_and_bitcoin_payment.js (ESM version)
 import fs from 'fs';
 
-const path = 'public/pacages/madeira_btc_businesses_20250511_172142.json';
+const path = 'public/pacages/BusinessDetails.json';
 
 // Read the JSON file
 const data = JSON.parse(fs.readFileSync(path, 'utf8'));

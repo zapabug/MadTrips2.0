@@ -1,8 +1,9 @@
 import React from 'react';
 import PackageCard from '../components/PackageCard';
 import type { Package as PackageType } from '../components/PackageCard';
-// import BusinessCard from '../components/BusinessCard'; // No longer directly used on this page
+import BusinessCard from '../components/BusinessCard';
 import KidFriendlyCard from '../components/KidFriendlyCard';
+import businessData from '../../public/packages/MadeiraBusinessDetails.json';
 
 // --- Mock Data (Reuse or fetch your actual data) ---
 const allPackagesData: PackageType[] = [
@@ -27,11 +28,26 @@ const bitcoinEssentialsAndFamilyFun = [
 // const bitcoinServices = []; 
 
 // Placeholder for Honorable Mentions
-const honorableMentionsData = [];
+// const honorableMentionsData = []; // Remove old placeholder
 // --- End Business Data ---
+
+// Define a type for Honorable Mention items based on MadeiraBusinessDetails.json structure
+interface HonorableMentionItem {
+  name: string;
+  type?: string;
+  city?: string;
+  description?: string; // Include description as it might be used as a fallback for type
+  phone?: string;       // Add phone
+  website?: string;     // Add website
+  openingHours?: string; // Add openingHours
+  // Add other properties if they exist and are needed by BusinessCard
+}
 
 const PackagesPage: React.FC = () => {
   const featuredPackages = allPackagesData.filter(pkg => pkg.featured);
+
+  // Extract Honorable Mentions data
+  const honorableMentions: HonorableMentionItem[] = businessData["Honorable Mentions"] || [];
 
   const mainPageTitleStyle = "text-4xl font-bold text-bitcoin dark:text-bitcoin mb-10 text-center";
   const sectionTitleStyle = "text-2xl font-bold text-bitcoin dark:text-bitcoin my-8 text-center";
@@ -92,12 +108,19 @@ const PackagesPage: React.FC = () => {
         <p className="text-center text-warm-sand dark:text-warm-sand mb-6 max-w-2xl mx-auto">
           These are businesses I believe will benefit or have great offers that Bitcoiners will love if they start taking Bitcoin directly.
         </p>
-        {honorableMentionsData.length > 0 ? (
+        {honorableMentions.length > 0 ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-8">
-            {/* Map over honorableMentionsData when data is available, e.g., using KidFriendlyCard or BusinessCard */}
-            {/* {honorableMentionsData.map(biz => (
-              <KidFriendlyCard key={biz.name} name={biz.name} type={biz.type} />
-            ))} */}
+            {honorableMentions.map(biz => (
+              <BusinessCard 
+                key={biz.name} 
+                name={biz.name} 
+                type={biz.type} 
+                description={biz.description} // Pass description separately
+                phone={biz.phone} 
+                website={biz.website} 
+                openingHours={biz.openingHours} 
+              />
+            ))}
           </div>
         ) : (
           <p className="text-center text-warm-peach dark:text-warm-peach">Suggestions coming soon...</p>

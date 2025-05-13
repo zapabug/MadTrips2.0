@@ -199,7 +199,7 @@
 
 ### 📝 Pending Updates & Additions
 
-**Instructions:** Use this section to propose new businesses or locations to be added/updated in the `madeira_btc_businesses_20250511_172142.json` file. Provide as much detail as possible using the format below.
+**Instructions:** Use this section to propose new businesses or locations to be added/updated in the `BusinessDetails.json` file. Provide as much detail as possible using the format below.
 
 **To apply these updates:**
 1. Ensure all entries below are correctly formatted.

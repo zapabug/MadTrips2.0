@@ -206,7 +206,7 @@ Next Steps:
 
 ## Data Workflow
 - Curated edits are made in `madbiz.md` (markdown, human-readable, with comments and sections).
-- These edits are then used to update the structured JSON (`madeira_btc_businesses_20250511_172142.json`) for app/service integration.
+- These edits are then used to update the structured JSON (`BusinessDetails.json`) for app/service integration.
 - A script is used to remove 'tags' and 'bitcoin_payment' fields from the JSON for a cleaner dataset.
 
 ## Next Steps
@@ -218,20 +218,20 @@ Next Steps:
 ## Interaction 8: (Current Date) — Data Management Workflow & Scripting
 
 User Input & Context:
-Following the setup of the map and business data sources, a more robust method was needed to manage and update the `madeira_btc_businesses_20250511_172142.json` file. The `public/packages/madbiz.md` file was designated as the human-readable source of truth for these updates. Additionally, minor issues with map data import paths and display (z-index) needed resolution.
+Following the setup of the map and business data sources, a more robust method was needed to manage and update the `BusinessDetails.json` file. The `public/packages/madbiz.md` file was designated as the human-readable source of truth for these updates. Additionally, minor issues with map data import paths and display (z-index) needed resolution.
 
 Decisions Made & Steps Taken:
 - **Map Data Path & Display Fixes**:
     - Resolved several Vite errors in `FunchalMap.tsx` by correcting relative import paths for GeoJSON and business data files.
     - Identified and corrected a typo in the `public/packages/` directory name within an import statement.
-    - Updated the import to use the correct filename `madeira_btc_businesses_20250511_172142.json` instead of the previously assumed `MadeiraBusiness.json`.
+    - Updated the import to use the correct filename `BusinessDetails.json` instead of the previously assumed `MadeiraBusiness.json`.
     - Fixed a z-index issue where the map was displaying over the navigation bar by applying `z-10` to the map container in `FunchalMap.tsx`.
 - **`madbiz.md` as Curation Hub**:
     - A new section "📝 Pending Updates & Additions" was added to `madbiz.md`.
     - A specific markdown format was defined for adding or updating business entries within this section.
     - The "Audax" business was added as the first entry to be processed, categorized under "Honorable Mentions".
 - **JSON Update Script (`scripts/update-business-data.cjs`)**:
-    - A Node.js script was created to automate the transfer of data from `madbiz.md` to `madeira_btc_businesses_20250511_172142.json`.
+    - A Node.js script was created to automate the transfer of data from `madbiz.md` to `BusinessDetails.json`.
     - The script parses the "Pending Updates & Additions" section, extracts business details, and then adds or updates corresponding entries in the JSON file.
     - Logic was included to create new categories in the JSON if they don't already exist.
     - The script was enhanced to update existing entries (matching on name and city within a category) rather than just skipping duplicates.
@@ -249,3 +249,30 @@ Rationale:
 Next Steps:
 - Utilize the new script for ongoing updates to business listings.
 - Ensure data consistency between `madbiz.md` and the JSON file through regular script execution.
+
+---
+
+## Interaction 9: (Current Date) — Packages Page UI & Business Card Enhancements
+
+User Input & Context:
+Following the setup of the data update workflow, focus shifted to displaying curated data (`Honorable Mentions`) on the `/packages` page and enhancing the `BusinessCard` component.
+
+Decisions Made & Steps Taken:
+- **Display Honorable Mentions**: 
+    - Modified `src/pages/PackagesPage.tsx` to import data from `public/packages/MadeiraBusinessDetails.json`.
+    - Added logic to extract the "Honorable Mentions" array from the imported data.
+    - Rendered the extracted businesses using the `BusinessCard` component in the designated section.
+- **`BusinessCard` Enhancements**:
+    - **City Removal**: Removed the display of the `city` from the card's primary view, as requested by the user (city info intended for map context). Made the `city` prop optional in `src/components/BusinessCard.tsx`.
+    - **Flip Details**: Implemented a click-to-flip interaction. The back of the card reveals `phone`, `website`, and `openingHours`. Added relevant props and state management to `BusinessCard.tsx`.
+    - **Data Dependency**: Updated `PackagesPage.tsx` to pass the new props (`phone`, `website`, `openingHours`, `description`) to `BusinessCard`. *Note: This requires the corresponding data fields to be present in `MadeiraBusinessDetails.json`, which necessitates updating `madbiz.md` entries and the `scripts/update-business-data.cjs` script to parse these fields.*
+- **Vite Import Fix**: Resolved an import error in `src/components/home/FunchalMap.tsx` by correcting the path and filename for `MadeiraBusinessDetails.json` (`/packages/MadeiraBusinessDetails.json?url`).
+
+Rationale:
+- Makes curated business data visible within the application UI.
+- Enhances user interaction by providing more detailed business information on demand via the card flip.
+- Improves application stability by fixing the map data import error.
+
+Next Steps:
+- Update `madbiz.md` entries and the associated Node.js script (`update-business-data.cjs`) to include and process `phone`, `website`, and `hours` fields.
+- Continue development of map page interactions and Nostr features.
